@@ -17,7 +17,6 @@ on:
 permissions:
   contents: write
   issues: write
-  models: read
   pages: write
   id-token: write
 
@@ -84,7 +83,7 @@ jobs:
       - name: Run daily digest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github-copilot' }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'qwen' }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
