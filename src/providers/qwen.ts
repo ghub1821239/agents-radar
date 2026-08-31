@@ -4,8 +4,8 @@
  *
  * Env vars:
  *   DASHSCOPE_API_KEY   - API key
- *   DASHSCOPE_BASE_URL  - endpoint override (default: the dedicated
- *                         cn-beijing MaaS endpoint below)
+ *   DASHSCOPE_BASE_URL  - endpoint override (default: the public
+ *                         DashScope OpenAI-compatible endpoint below)
  *   QWEN_MODEL          - model name (default: qwen-flash)
  *
  * qwen-flash is tier-priced by the *input length of a single request*; every
@@ -15,7 +15,7 @@
 
 import { OpenAICompatibleProvider } from "./openai-compatible.ts";
 
-const QWEN_BASE_URL = "https://ws-lp67r4thsmcegm03.cn-beijing.maas.aliyuncs.com/compatible-mode/v1";
+const QWEN_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1";
 
 export class QwenProvider extends OpenAICompatibleProvider {
   readonly name = "qwen";

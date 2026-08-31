@@ -151,6 +151,8 @@ jobs:
     steps:
       - name: Checkout generated reports
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Assemble static site
         run: |
