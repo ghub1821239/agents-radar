@@ -1,4 +1,134 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-cli": [
+      "Claude Code v1.5：会话稳定性增强",
+      "OpenAI Codex Alpha 6：工具调用修复",
+      "Gemini CLI 夜间版：实时调试支持",
+      "GitHub Copilot CLI：代理编排稳定",
+      "Qwen Code：48小时超2万星",
+      "Pi CLI：轻量本地优先编码"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1：修复执行挂起漏洞",
+      "代理选择错误频发更新后",
+      "Telegram游客机器人现已支持",
+      "关键配置迁移失败风险",
+      "密钥脱敏异常报告",
+      "v2026.8.1高危升级失败"
+    ],
+    "ai-infra": [
+      "vLLM：Blackwell SM120稳定性问题",
+      "SGLang CI不稳定趋势上升",
+      "llama.cpp b10713–b10720：频繁更新",
+      "Ollama：RTX 5060 Ti崩溃报告",
+      "LiteLLM：Rust迁移进行中",
+      "Unsloth：安全修复优先"
+    ],
+    "ai-trending": [
+      "Minimind：2小时内训练64M LLM",
+      "Scientific-agent-skills：病毒式项目",
+      "ECC：高性能代理技能",
+      "Osmantic/ODS：本地AI服务器工具",
+      "AnythingLLM：自托管RAG栈",
+      "Firecrawl：免费网页抓取API"
+    ],
+    "ai-hn": [
+      "Claude Code Opus 5自动模式：Hacker News榜首",
+      "扩散语言模型：研究热潮",
+      "连续DLMS：实时推理突破",
+      "自主数学发现：开放世界代理",
+      "欧盟针对订阅争议起诉ChatGPT",
+      "Anthropic因AI透明度被诉"
+    ],
+    "ai-ph": [
+      "1752vc Pitch Deck Analyzer：AI投资人反馈",
+      "Tencent Hy4预览（770B）：开源模型",
+      "Cohere Parse 5：提取表格与图像",
+      "Staats：AI站点健康监控",
+      "Democruit：AI职业教练",
+      "God’s Eye View：卫星数据模拟"
+    ],
+    "ai-hf": [
+      "Qwen3.8-Flash-Next：15.8万下载",
+      "DeepSeek-V4-Flash：450万下载",
+      "GLM-5.3-Flash：37.9万下载",
+      "MiniMax-H3：530万视频生成下载",
+      "GGUF量化：趋势增长",
+      "非审查模型渐受青睐"
+    ],
+    "ai-community": [
+      "9种沉默的AI代理故障暴露",
+      "RAG质疑：需可验证系统",
+      "AI伦理：心理影响讨论",
+      "Dev.to：学意图而非语法",
+      "Needflare：灾难物流代理演示",
+      "社区价值＞单纯内容"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v1.5: enhanced session resilience",
+      "OpenAI Codex Alpha 6: new tool calling fixes",
+      "Gemini CLI Nightly: real-time debugging support",
+      "GitHub Copilot CLI: agent orchestration now stable",
+      "Qwen Code: 20K+ stars in 48 hours",
+      "Pi CLI: lightweight, local-first coding"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1: fixed exec hang bug",
+      "Agent selection errors flooding post-update",
+      "Telegram guest bots now supported",
+      "Critical config migration failure risk",
+      "Secrets redaction misbehavior reported",
+      "High-risk upgrade failures in v2026.8.1"
+    ],
+    "ai-infra": [
+      "vLLM: stability issues on Blackwell SM120",
+      "SGLang CI instability concerns rising",
+      "llama.cpp b10713–b10720: frequent updates",
+      "Ollama: RTX 5060 Ti crashes reported",
+      "LiteLLM: Rust migration underway",
+      "Unsloth: security fixes prioritized"
+    ],
+    "ai-trending": [
+      "Minimind: train 64M LLM in 2 hours",
+      "Scientific-agent-skills: viral project",
+      "ECC: high-performance agent skills",
+      "Osmantic/ODS: local AI server tool",
+      "AnythingLLM: self-hosted RAG stack",
+      "Firecrawl: free web scraping API"
+    ],
+    "ai-hn": [
+      "Claude Code Opus 5 Auto Mode: #1 HN story",
+      "Diffusion language models: research surge",
+      "Continuous DLMS: real-time inference breakthrough",
+      "Autonomous math discovery: open-world agents",
+      "EU targets ChatGPT over subscription claims",
+      "Anthropic sued over AI transparency"
+    ],
+    "ai-ph": [
+      "1752vc Pitch Deck Analyzer: AI investor feedback",
+      "Tencent Hy4 preview (770B): open-source model",
+      "Cohere Parse 5: extract tables & images",
+      "Staats: AI site health monitor",
+      "Democruit: AI career coach",
+      "God’s Eye View: satellite data sim"
+    ],
+    "ai-hf": [
+      "Qwen3.8-Flash-Next: 158K downloads",
+      "DeepSeek-V4-Flash: 4.5M downloads",
+      "GLM-5.3-Flash: 379K downloads",
+      "MiniMax-H3: 5.3M video gen downloads",
+      "GGUF quantization: growing trend",
+      "Uncensored models gaining traction"
+    ],
+    "ai-community": [
+      "9 silent AI agent failure modes exposed",
+      "RAG skepticism: demand for testable systems",
+      "AI ethics: psychological impact discussion",
+      "Dev.to: learn coding for intent, not syntax",
+      "Needflare: disaster logistics agent demo",
+      "Community value > content alone"
+    ]
+  }
 }

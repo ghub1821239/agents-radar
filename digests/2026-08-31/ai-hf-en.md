@@ -1,13 +1,14 @@
 # Hugging Face Trending Models Weekly 2026-08-31
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-08-31 00:48 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-08-31 15:48 UTC
 
 ---
 
 ---
 
-### **Today's Highlights**  
-The Hugging Face ecosystem in August 2026 is dominated by ultra-efficient, quantized variants of large multimodal models—especially Qwen3.8 and MiniMax-H3. The **Qwen3.8-27B** series leads with over 4.5 million downloads, underscoring massive demand for high-capacity, open-weight models. Notably, community-driven GGUF quantizations (e.g., *unsloth/Qwen3.8-27B-GGUF*) have surged past 8.8M downloads, indicating strong adoption for local inference. Meanwhile, **MiniMax-H3** continues to dominate video generation, with its fine-tunes and Controlnet extensions gaining traction across creative workflows.
+### **Today's Highlights**
+
+Qwen and GLM continue to dominate Hugging Face’s trending models, with Qwen3.8-27B leading in downloads (4.7M) and Kimi-K3 surging in popularity with 11K likes. The rise of quantized GGUF versions—especially for large models like Qwen3.8-27B and GLM-5.3—signals strong community-driven optimization for local inference. Notably, uncensored and abliterated variants are gaining traction, reflecting demand for more permissive, high-performance models. Meanwhile, MiniMax-H3 emerges as a top performer in video generation, with over 5.3M downloads.
 
 ---
 
@@ -17,49 +18,51 @@ The Hugging Face ecosystem in August 2026 is dominated by ultra-efficient, quant
 
 | Model | Author | Likes | Downloads | Summary |
 | :--- | :--- | ---: | ---: | :--- |
-| [Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | Qwen | 4,389 | 121,976 | A lightweight, fast inference variant of Qwen3.8, optimized for real-time conversational use. Its popularity reflects growing demand for low-latency LLMs in edge applications. |
-| [zai-org/GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | zai-org | 1,714 | 346,516 | A high-speed GLM-5.3 variant targeting text generation with improved throughput. Its widespread download count signals strong enterprise interest in Chinese-language LLMs. |
-| [deepseek-ai/DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | deepseek-ai | 3,824 | 4,575,518 | One of the most downloaded models this week, combining speed and performance for long-context reasoning. Its Flash architecture enables efficient inference at scale. |
-| [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | moonshotai | 11,100 | 2,794,721 | A highly efficient multimodal model with compressed tensors; its 11K likes reflect user enthusiasm for compact yet powerful models. |
+| [Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | Qwen | 4,481 | 158,598 | A fast, lightweight variant of Qwen3.8 optimized for real-time conversational use; part of the growing Flash series focused on low-latency inference. |
+| [zai-org/GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | zai-org | 1,782 | 379,271 | A high-speed GLM-5.3 model tailored for efficient text generation, leveraging optimizations from the "Flash" lineage. |
+| [deepseek-ai/DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | deepseek-ai | 3,837 | 4,561,861 | A streamlined version of DeepSeek-V4 optimized for speed and scalability, widely adopted across developers and researchers. |
+| [thomsonreuters/Thomson-1.0-Small](https://huggingface.co/thomsonreuters/Thomson-1.0-Small) | thomsonreuters | 170 | 1,045 | A compact, domain-specific LLM trained on financial data; notable for its niche application despite modest metrics. |
 
 #### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
 
 | Model | Author | Likes | Downloads | Summary |
 | :--- | :--- | ---: | ---: | :--- |
-| [Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) | Lightricks | 2,267 | 1,137,181 | A cutting-edge image-to-video model leveraging diffusion single-file architecture. Its rapid adoption highlights the rise of AI-powered visual storytelling tools. |
-| [MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMaxAI | 4,660 | 5,263,381 | The leading open-source model for image-to-video and text-to-video generation. Its high download volume confirms dominance in generative video workflows. |
-| [alibaba-pai/MiniMax-H3-Fun-Controlnet-Union](https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union) | alibaba-pai | 163 | 5,538 | A Controlnet-enhanced fine-tune enabling precise motion control in video generation. Represents a shift toward modular, controllable video synthesis. |
-| [FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree](https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree) | FastVideo | 193 | 0 | A preview version of a fast video generator using minimal data. Though not yet downloaded, its release signals innovation in lightweight, data-efficient video modeling. |
+| [MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMaxAI | 4,693 | 5,362,365 | A powerful multimodal video generation model supporting image-to-video and text-to-video; one of the most downloaded models in the ecosystem. |
+| [Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) | Lightricks | 2,329 | 1,182,585 | A cutting-edge image-to-video diffusion model enabling high-fidelity video synthesis from static images; popular for creative applications. |
+| [FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree](https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree) | FastVideo | 213 | 0 | An experimental fast video generator using a 4-step inference pipeline; designed for rapid prototyping without training data. |
+| [orcarouter/Qwen3.8-27B-Uncensored-GGUF](https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF) | orcarouter | 595 | 246,445 | A GGUF-quantized, uncensored version of Qwen3.8-27B tailored for local deployment; highlights the trend toward accessible, unrestricted models. |
 
 #### 🔧 Specialized Models (code, math, medical, embeddings)
 
 | Model | Author | Likes | Downloads | Summary |
 | :--- | :--- | ---: | ---: | :--- |
-| [peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF](https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF) | peculiar-ragdoll | 141 | 87,848 | A specialized code-generation model based on Qwen3.5 MoE, quantized via GGUF for local execution. Appeals to developers seeking high-performance coding assistants. |
-| [ornith-ai/Ornith-1.5-35B-A3B](https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B) | ornith-ai | 505 | 147,038 | A 35B MoE model tuned for both text and multimodal tasks. Its dual capability suggests growing interest in versatile, scalable foundation models. |
+| [peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF](https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF) | peculiar-ragdoll | 158 | 105,974 | A specialized code-generation model based on Qwen3.5-MoE, fine-tuned for programming tasks and optimized via GGUF for local execution. |
+| [pipecat-ai/phonellm-alpha-1](https://huggingface.co/pipecat-ai/phonellm-alpha-1) | pipecat-ai | 166 | 4,721 | A lightweight voice-focused LLM designed for speech synthesis and phoneme-level control; part of an emerging trend in audio-centric AI. |
 
 #### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
 
 | Model | Author | Likes | Downloads | Summary |
 | :--- | :--- | ---: | ---: | :--- |
-| [unsloth/Qwen3.8-27B-GGUF](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF) | unsloth | 3,240 | 8,839,153 | The most downloaded model this week, a GGUF quantization of Qwen3.8-27B. Its massive adoption proves the dominance of community-driven quantization for local inference. |
-| [orcarouter/Qwen3.8-27B-Uncensored-GGUF](https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF) | orcarouter | 578 | 238,397 | An uncensored, GGUF-quantized version of Qwen3.8-27B. Reflects rising demand for unrestricted access to large models in niche and experimental use cases. |
-| [JonathanColetti/Qwen3.8-27B-Uncensored-GGUF](https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF) | JonathanColetti | 850 | 1,991,437 | Another major uncensored GGUF release with high download volume. Demonstrates how community fine-tunes are shaping model accessibility beyond official releases. |
-| [huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF](https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF) | huihui-ai | 457 | 1,622,056 | A heavily modified, abliterated GGUF version showing the trend toward aggressive model personalization and bypassing safety filters. |
+| [unsloth/Qwen3.8-27B-GGUF](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF) | unsloth | 3,271 | 9,059,937 | The most-downloaded GGUF quantization of Qwen3.8-27B, enabling efficient CPU/GPU inference on consumer hardware. |
+| [HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF](https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF) | HauhauCS | 808 | 1,202,914 | Aggressively optimized GGUF version with uncensored behavior and MTP (multi-token prediction) support—ideal for open-ended reasoning. |
+| [JonathanColetti/Qwen3.8-27B-Uncensored-GGUF](https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF) | JonathanColetti | 866 | 2,055,081 | One of the highest-download uncensored GGUF models, demonstrating strong demand for locally deployable, unrestricted AI. |
+| [orcarouter/Qwen3.8-27B-Uncensored-FP8](https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8) | orcarouter | 1,314 | 307,496 | A rare FP8-quantized version of Qwen3.8-27B offering extreme compression while preserving performance—key for edge deployment. |
 
 ---
 
-### **Ecosystem Signal**  
-As of August 2026, the Hugging Face ecosystem is witnessing a clear bifurcation between **open-weight foundation models** and **community-driven optimization layers**. Qwen3.8 and MiniMax-H3 are the dominant families, with Qwen’s 27B series alone accounting for nearly 10% of all model downloads. This reflects strong momentum for **large-scale, open-access models** from Chinese tech firms—Qwen, GLM, Kimi—now competing globally.  
+### **Ecosystem Signal**
 
-Quantization formats like **GGUF** have become the de facto standard for local deployment, with over 15 million total downloads across Qwen and GLM variants. The surge in “uncensored” and “abliterated” versions (e.g., *OBLITERATUS*, *orcarouter*) signals a growing underground demand for unrestricted model access, often bypassing safety constraints. Meanwhile, fine-tuning ecosystems around MiniMax-H3 and LTX-2.5 show increasing specialization in **video generation**, particularly through Controlnets and lightweight diffusion models. Open-weight models are no longer just research tools—they’re becoming infrastructure for consumer-grade AI creation.
-
----
-
-### **Worth Exploring**  
-1. **[unsloth/Qwen3.8-27B-GGUF](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF)** – With over 8.8M downloads, it’s the most popular model on HF today. Ideal for developers seeking high-performance, locally runnable LLMs without cloud dependency.  
-2. **[MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3)** – The top-performing open-source video generation model. Worth studying for creators exploring AI-driven animation and content production.  
-3. **[peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF](https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF)** – A rare example of a 35B MoE model available in GGUF format. Perfect for advanced users building custom coding assistants.
+The Hugging Face ecosystem in August 2026 is defined by **Qwen and GLM dominance**, particularly through their Flash and 27B variants. Qwen3.8-27B stands out not just for its raw size but for being the most heavily quantized and fine-tuned model in the space—over 10 million downloads across community GGUF and uncensored versions. This reflects a clear shift toward **open-weight, community-optimized models** that bypass proprietary constraints. The surge in **GGUF-based deployments** (e.g., unsloth, orcarouter, huihui-ai) indicates strong demand for local inference, especially on consumer-grade hardware. Uncensored and abliterated variants are proliferating rapidly, suggesting users prioritize freedom and performance over safety guardrails. Meanwhile, **multimodal video generation** is accelerating, led by MiniMax-H3 and Lightricks’ LTX-2.5, signaling a maturing frontier in generative media. The absence of commercial model releases from major players (like Meta or Google) further cements Hugging Face as the epicenter of open, community-driven AI innovation.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+
+### **Worth Exploring**
+
+1. **[unsloth/Qwen3.8-27B-GGUF](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF)** – With over 9 million downloads, this is the de facto standard for running Qwen3.8-27B locally. Its widespread adoption makes it ideal for benchmarking, fine-tuning, and deploying on edge devices.
+
+2. **[MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3)** – Boasting over 5.3 million downloads, it’s the most popular multimodal video model. Worth studying for its architecture and performance in image-to-video and text-to-video workflows.
+
+3. **[orcarouter/Qwen3.8-27B-Uncensored-FP8](https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8)** – A pioneering FP8 quantization of a 27B model. It represents the cutting edge of compression efficiency and is essential for understanding next-gen model deployment strategies.
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/ghub1821239/agents-radar).*
