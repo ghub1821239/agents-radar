@@ -1,6 +1,7 @@
 import { describe, it, expect, afterEach } from "vitest";
-import { buildFeishuMessage } from "../feishu.ts";
+import { buildFeishuLearningMessage, buildFeishuMessage } from "../feishu.ts";
 import type { Highlights } from "../notify.ts";
+import type { LearningPlan } from "../learning.ts";
 
 const BASE_URL = "https://example.com/radar";
 
@@ -74,5 +75,48 @@ describe("buildFeishuMessage", () => {
     const msg = buildFeishuMessage("2026-03-09", ["ai-cli", "ai-cli-en"], BASE_URL, null);
     expect(msg).toContain("AI CLI 工具");
     expect(msg).not.toContain("◦");
+  });
+
+  it("renders a focused learning card instead of the macro report list", () => {
+    const plan: LearningPlan = {
+      date: "2026-09-01",
+      profileUser: "ghub1821239",
+      starCount: 9,
+      profileTopics: ["skills", "ai-agents", "mcp"],
+      profileLanguages: ["typescript", "python"],
+      main: {
+        id: "audit",
+        name: "self-audit skill",
+        description: "Agent 交付前的两阶段检查门",
+        url: "https://github.com/example/audit",
+        kind: "skill",
+        source: "anthropics/skills PR",
+        whyForYou: "匹配你 Star 中的 Agent 与 Skills 兴趣",
+        whyNow: "适合今天做一个小实验",
+        learn: ["机械验证与语义审查分层"],
+        exercise: ["为自己的 Agent 写三项交付检查", "故意漏一项要求并验证能否拦截"],
+        duration: "25 分钟",
+        difficulty: "入门",
+      },
+      alternatives: ["browser", "memory", "slides"].map((id) => ({
+        id,
+        name: `${id} skill`,
+        description: `${id} description`,
+        url: `https://github.com/example/${id}`,
+        kind: "skill" as const,
+        source: "test",
+        whyForYou: `${id} 推荐原因`,
+      })),
+    };
+
+    const msg = buildFeishuLearningMessage(plan, BASE_URL);
+
+    expect(msg).toContain("今日主学");
+    expect(msg).toContain("self-audit skill");
+    expect(msg).toContain("25 分钟");
+    expect(msg).toContain("为自己的 Agent 写三项交付检查");
+    expect(msg).toContain("browser skill");
+    expect(msg).toContain(`${BASE_URL}/#2026-09-01/ai-learning`);
+    expect(msg).not.toContain("AI CLI 工具");
   });
 });

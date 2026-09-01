@@ -91,6 +91,7 @@ jobs:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
+          PROFILE_GITHUB_USER: ${{ vars.PROFILE_GITHUB_USER || github.repository_owner }}
         run: pnpm start
 
       - name: Commit digest files

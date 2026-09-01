@@ -151,6 +151,7 @@ export const FOOTER = {
 // ---------------------------------------------------------------------------
 
 export const REPORT_LABELS: Record<string, string> = {
+  "ai-learning": "个性化 AI 小技术学习卡",
   "ai-cli": "AI CLI 工具社区动态日报",
   "ai-cli-en": "AI CLI Tools Digest",
   "ai-agents": "AI Agents 生态日报",
@@ -180,6 +181,7 @@ export const REPORT_LABELS: Record<string, string> = {
 };
 
 export const NOTIFY_LABELS: Record<string, Record<Lang, string>> = {
+  "ai-learning": t("今日 AI 小技术", "Today's AI Technique"),
   "ai-cli": t("AI CLI 工具", "AI CLI Tools"),
   "ai-agents": t("AI Agents 生态", "AI Agents Ecosystem"),
   "ai-infra": t("AI 基础设施", "AI Infrastructure"),

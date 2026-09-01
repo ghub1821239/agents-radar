@@ -66,6 +66,7 @@ import { fetchDevtoData, type DevtoData } from "./devto.ts";
 import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr, weekdayOf } from "./date.ts";
+import { generatePersonalizedLearning } from "./learning-generator.ts";
 import {
   type Lang,
   MSG,
@@ -396,6 +397,7 @@ async function main(): Promise<void> {
   const dateStr = toCstDateStr(now);
   const utcStr = toUtcStr(now);
   const digestRepo = process.env["DIGEST_REPO"] ?? "";
+  const profileUser = process.env["PROFILE_GITHUB_USER"] || digestRepo.split("/")[0] || "";
 
   const providerName = process.env["LLM_PROVIDER"] ?? "anthropic";
   const isHfWeek = weekdayOf(dateStr) === HF_REPORT_WEEKDAY;
@@ -559,6 +561,15 @@ async function main(): Promise<void> {
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo),
     ...(isHfWeek ? [saveHfReport(hfData, utcStr, dateStr, digestRepo)] : []),
   ]);
+
+  await generatePersonalizedLearning({
+    now,
+    dateStr,
+    profileUser,
+    skillsRepo: CLAUDE_SKILLS_REPO,
+    skillsData,
+    trendingData,
+  });
 
   // 5. Generate highlights for Telegram notification
   const readReport = (name: string): string | undefined => {

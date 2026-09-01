@@ -246,6 +246,7 @@ Go to **Settings → Secrets and variables → Actions** and add:
 | `OPENROUTER_API_KEY` | if OpenRouter | OpenRouter API key |
 | `DEEPSEEK_API_KEY` | if DeepSeek | DeepSeek API key |
 | `DASHSCOPE_API_KEY` | if Qwen | Alibaba Model Studio API key |
+| `PROFILE_GITHUB_USER` | optional | GitHub username whose public Stars personalize the daily AI learning card; defaults to the repository owner |
 | `TELEGRAM_BOT_TOKEN` | optional | Telegram bot token from [@BotFather](https://t.me/BotFather). If set, a message is sent after each digest run |
 | `TELEGRAM_CHAT_ID` | optional | Telegram chat/channel/group ID to send notifications to |
 | `FEISHU_WEBHOOK_URLS` | optional | Comma-separated Feishu custom bot webhook URLs. If set, a card message is sent to each group after each digest run |
@@ -259,6 +260,12 @@ Go to **Settings → Secrets and variables → Actions** and add:
 4. Add `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as repository secrets
 
 > If neither secret is set, the notification step is silently skipped.
+
+### Personalized AI learning card
+
+Each run also creates `ai-learning.md`: one 20–30 minute hands-on topic plus three optional candidates. Candidates come from recent official Skill PRs, the curated `ai-skill` feed, GitHub Trending, and AI repository search. They are ranked against the selected user's public Stars (topics, languages, and repository descriptions); repositories already starred are not recommended again. GitHub Explore's private recommendation result is not scraped and no personal access token is required.
+
+Feishu sends this focused learning card when available and falls back to the full report list otherwise. To regenerate only the learning card without rerunning the macro digests, use **Actions → Refresh Personalized Learning → Run workflow**.
 
 ### 3. Enable the workflow
 

@@ -144,6 +144,10 @@ describe("REPORT_LABELS", () => {
     expect(REPORT_LABELS["ai-infra"]).toBe("AI 基础设施日报");
     expect(REPORT_LABELS["ai-infra-en"]).toBe("AI Infrastructure Digest");
   });
+
+  it("labels the personalized learning report", () => {
+    expect(REPORT_LABELS["ai-learning"]).toBe("个性化 AI 小技术学习卡");
+  });
 });
 
 // ---------------------------------------------------------------------------

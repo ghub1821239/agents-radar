@@ -37,6 +37,10 @@ export interface TrendingData {
 // ---------------------------------------------------------------------------
 
 const SEARCH_QUERIES = [
+  { q: "topic:agent-skills", label: "agent-skills" },
+  { q: "topic:mcp", label: "mcp" },
+  { q: "topic:claude-code", label: "claude-code" },
+  { q: "topic:codex", label: "codex" },
   { q: "topic:llm", label: "llm" },
   { q: "topic:ai-agent", label: "ai-agent" },
   { q: "topic:rag", label: "rag" },

@@ -14,6 +14,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { NOTIFY_LABELS } from "./i18n.ts";
 import type { Highlights } from "./notify.ts";
+import type { LearningPlan } from "./learning.ts";
 
 const PAGES_URL_DEFAULT = "https://duanyytop.github.io/agents-radar";
 
@@ -98,6 +99,39 @@ export function buildFeishuMessage(
   return lines.join("\n");
 }
 
+export function buildFeishuLearningMessage(plan: LearningPlan, pagesUrl?: string): string {
+  const pageBase = (pagesUrl ?? process.env["PAGES_URL"] ?? PAGES_URL_DEFAULT).replace(/\/$/, "");
+  const main = plan.main;
+  const lines = [
+    `📚 **agents-radar · 今日 AI 小技术 · ${plan.date}**`,
+    "",
+    `### 今日主学：[${main.name}](${main.url})`,
+    `⏱ ${main.duration ?? "20–30 分钟"} · 难度：${main.difficulty ?? "入门"}`,
+    "",
+    main.whyForYou ?? main.description,
+    "",
+    "**今天掌握**",
+    ...(main.learn ?? []).slice(0, 3).map((item) => `• ${item}`),
+    "",
+    "**动手任务**",
+    ...(main.exercise ?? []).slice(0, 4).map((item, index) => `${index + 1}. ${item}`),
+  ];
+
+  if (plan.alternatives.length) {
+    lines.push("", "**顺手看看（不要求今天全学）**");
+    for (const item of plan.alternatives.slice(0, 3)) {
+      lines.push(`• [${item.name}](${item.url}) — ${item.whyForYou ?? item.description}`);
+    }
+  }
+
+  lines.push(
+    "",
+    `兴趣依据：@${plan.profileUser} 的 ${plan.starCount} 个公开 Stars`,
+    `[📖 完整学习卡](${pageBase}/#${plan.date}/ai-learning)  ·  [🌐 行业雷达](${pageBase})`,
+  );
+  return lines.join("\n");
+}
+
 async function main(): Promise<void> {
   const urls = getWebhookUrls();
   if (!urls.length) {
@@ -131,11 +165,23 @@ async function main(): Promise<void> {
     }
   }
 
-  const title = `📡 agents-radar · ${date}`;
+  let learningPlan: LearningPlan | null = null;
+  const learningPath = path.join("digests", date, "learning.json");
+  if (fs.existsSync(learningPath)) {
+    try {
+      learningPlan = JSON.parse(fs.readFileSync(learningPath, "utf-8")) as LearningPlan;
+    } catch {
+      console.log("[feishu] Failed to parse learning.json — falling back to the report list.");
+    }
+  }
 
-  const content = buildFeishuMessage(date, reports, undefined, highlights);
+  const title = learningPlan ? `📚 agents-radar 学习卡 · ${date}` : `📡 agents-radar · ${date}`;
+  const content = learningPlan
+    ? buildFeishuLearningMessage(learningPlan)
+    : buildFeishuMessage(date, reports, undefined, highlights);
 
-  console.log(`[feishu] Sending to ${urls.length} webhook(s) for ${date} (${reports.length} reports)…`);
+  const mode = learningPlan ? "personalized learning card" : `${reports.length} reports`;
+  console.log(`[feishu] Sending to ${urls.length} webhook(s) for ${date} (${mode})…`);
   await sendFeishu(title, content);
   console.log("[feishu] Done!");
 }
