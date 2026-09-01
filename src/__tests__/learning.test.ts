@@ -145,7 +145,12 @@ describe("personalized learning recommendations", () => {
             created_at: "2026-08-30T00:00:00Z",
             updated_at: "2026-08-31T00:00:00Z",
             comments: 5,
-            body: "Adds a two-stage quality gate before an agent delivers work.",
+            body:
+              "## Summary\n\nAdds a two-stage quality gate before an agent delivers work.\n\n" +
+              "## Implementation details\n\n" +
+              "This intentionally long implementation section should not be copied into the learning card. ".repeat(
+                8,
+              ),
             html_url: "https://github.com/anthropics/skills/pull/42",
           },
         ],
@@ -186,6 +191,8 @@ describe("personalized learning recommendations", () => {
       "example/mcp-lab",
     ]);
     expect(candidates[1]?.installCommand).toContain("npx skills add");
+    expect(candidates[0]?.description).not.toContain("##");
+    expect(candidates[0]?.description.length).toBeLessThanOrEqual(360);
   });
 
   it("renders one main lesson and three quick alternatives with a hands-on task", () => {

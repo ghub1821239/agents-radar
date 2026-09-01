@@ -150,6 +150,23 @@ function tokens(text: string): string[] {
     .filter((token) => token.length >= 2 && !STOP_WORDS.has(token));
 }
 
+function compactDescription(value: string | null | undefined, maxLength = 360): string {
+  const compact = (value ?? "")
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/^#{1,6}\s*/gm, "")
+    .replace(/^(summary|overview|changes|implementation details|why|validation)\s*$/gim, " ")
+    .replace(/^[-*+]\s+/gm, "")
+    .replace(/\[([^\]]+)]\([^)]+\)/g, "$1")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (compact.length <= maxLength) return compact;
+  const slice = compact.slice(0, maxLength - 1);
+  const lastSpace = slice.lastIndexOf(" ");
+  return `${slice.slice(0, lastSpace > maxLength * 0.7 ? lastSpace : undefined).trim()}…`;
+}
+
 function addWeight(weights: Map<string, number>, token: string, amount: number): void {
   weights.set(token, (weights.get(token) ?? 0) + amount);
 }
@@ -248,7 +265,7 @@ export function collectLearningCandidates(
     add({
       id: `anthropics/skills#${pr.number}`,
       name: pr.title,
-      description: (pr.body ?? "Official Skill proposal in anthropics/skills").slice(0, 1200),
+      description: compactDescription(pr.body ?? "Official Skill proposal in anthropics/skills"),
       url: pr.html_url,
       kind: "skill",
       source: "anthropics/skills PR",
@@ -262,7 +279,7 @@ export function collectLearningCandidates(
     add({
       id: skill.repo,
       name: skill.name_cn ? `${skill.name_cn} (${skill.name})` : skill.name,
-      description: skill.description_cn,
+      description: compactDescription(skill.description_cn),
       url: `https://github.com/${skill.repo}`,
       kind: "skill",
       source: "ai-skill 精选库",
@@ -276,7 +293,7 @@ export function collectLearningCandidates(
     add({
       id: repo.fullName,
       name: repo.fullName,
-      description: repo.description,
+      description: compactDescription(repo.description),
       url: repo.url,
       kind: "project",
       source: "GitHub Trending",
@@ -290,7 +307,7 @@ export function collectLearningCandidates(
     add({
       id: repo.fullName,
       name: repo.fullName,
-      description: repo.description ?? "",
+      description: compactDescription(repo.description),
       url: repo.url,
       kind: "project",
       source: `GitHub Search: ${repo.searchQuery}`,
@@ -419,10 +436,11 @@ ${JSON.stringify(candidates, null, 2)}
 
 选择原则：
 1. 选 1 个主学和 3 个不同的快速候选，只能使用上面存在的 id。
-2. 主学必须是一个能在 20–30 分钟内理解并动手的小技术、Skill、MCP 用法或 Agent 工作流；不要选宏观行业新闻。
+2. 主学必须优先选择 Skill 或可独立练习的小技术，能在 20–30 分钟内理解并动手；不要选宏观行业新闻或需要完整部署的大型框架。三个候选中至少两个应为 Skill/小技术。
 3. 明确说明它与用户 Stars 的关系，但不能虚构用户兴趣或项目功能。
-4. 动手任务必须具体、低风险、可验证，2–4 步；开放 PR 只建议阅读或在隔离环境实验，不描述为已正式发布。
-5. 不自动安装第三方 Skill，不编造命令、URL、Star 数或发布状态。
+4. 动手任务必须真正应用主学技术，具体、低风险、可验证，共 2–4 步，每步写出动作与预期产物。禁止把“创建空文件”“只复制 frontmatter”或单独运行 git diff --check 当作核心练习。
+5. 开放 PR 只建议阅读或在隔离环境实验，不描述为已正式发布。
+6. 不自动安装第三方 Skill，不编造命令、URL、Star 数或发布状态。
 
 只返回严格 JSON，不要 Markdown，不要额外文字：
 {
@@ -477,7 +495,11 @@ function materializePlanItem(
       : [`理解 ${candidate.name} 解决的问题`, "识别其中可以迁移到自己 Agent 工作流的实现模式"],
     exercise: selectedExercise.length
       ? selectedExercise
-      : ["阅读 README 或 SKILL.md，找到最小可运行示例", "运行或复现示例，并记录一个可复用做法"],
+      : [
+          "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+          "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+          "保存执行前后结果，并记录一个成功信号和一个局限",
+        ],
     duration: selectedText(selection?.duration) ?? "20–30 分钟",
     difficulty: selectedText(selection?.difficulty) ?? "入门",
   };
