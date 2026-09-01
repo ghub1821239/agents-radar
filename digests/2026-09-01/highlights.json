@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.252 修复关键稳定性问题",
+      "OpenAI Codex 推出带新功能的alpha v0.152.0",
+      "Gemini CLI 发布夜间构建 v0.59.0-nightly.20260831",
+      "GitHub Copilot CLI v1.0.83-0 面向企业用户",
+      "OpenCode 和 Pi 在开放扩展性上获关注",
+      "Qwen Code 新增高级代码推理工作流"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1 引入机器人间通信模式",
+      "关键配置迁移缺陷阻碍 OpenClaw 升级",
+      "OpenClaw 瘦客户端新增实时音频支持",
+      "OpenClaw v2026.8.1 存在内存泄漏问题",
+      "Hermes Agent 改进跨渠道认证",
+      "IronClaw 提升嵌入式代理模型路由"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 稳定 MoE 与长上下文模型",
+      "SGLang 近24小时合并12个PR领先",
+      "Ollama 保持稳定无新版本发布",
+      "LiteLLM 准备发布含安全更新的 v1.99.0",
+      "Unsloth 优化 Apple Silicon 性能",
+      "llama.cpp 有8个PR但无新版本"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills 爆火",
+      "affaan-m/ECC 成为代理优化标准",
+      "minimind 两小时内训练完整LLM",
+      "Ollama 本地模型支持达17.9万星标",
+      "Firecrawl 支持代理实时网页抓取",
+      "LangChain 仍是代理工程基石"
+    ],
+    "ai-web": [
+      "Anthropic 揭露 Claude 模型两次安全漏洞",
+      "Claude Mythos 5 未设防护接入互联网",
+      "METR 正审查 Anthropic 安全体系",
+      "新文章详述对齐与安全举措",
+      "Claude Code Opus 5 自动模式引发争议",
+      "苹果Mac销量激增关联 OpenAI 硬件采购"
+    ],
+    "ai-hn": [
+      "突发：Claude Code Opus 5 自动模式曝光",
+      "扩散语言模型研究势头强劲",
+      "OpenAI 采购后苹果AI硬件需求飙升",
+      "AI就业替代风险争论加剧",
+      "帖子质疑写作职业安全性",
+      "Hacker News 讨论代理记忆格式"
+    ],
+    "ai-arxiv": [
+      "新论文批判表面化LLM对齐",
+      "PrivBench 提供模块化文本隐私基准",
+      "回溯记忆-PRM 实现自监督记忆",
+      "CDLMs 提出连续扩散语言模型",
+      "物理基底提升AI可靠性",
+      "因果建模增强语义理解"
+    ],
+    "ai-community": [
+      "9个静默故障致生产中AI代理失效",
+      "安全层需测试而非仅编写",
+      "确定性冻结集修复波动评判器",
+      "RAG检索必须可测试可替换",
+      "开发者对GitHub星标信任下降",
+      "工具中心设计取代提示工程"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.252 fixes critical stability issues",
+      "OpenAI Codex rolls out alpha v0.152.0 with new features",
+      "Gemini CLI releases nightly build v0.59.0-nightly.20260831",
+      "GitHub Copilot CLI v1.0.83-0 targets enterprise users",
+      "OpenCode and Pi gain traction for open extensibility",
+      "Qwen Code now supports advanced code reasoning workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1 introduces Telegram bot-to-bot mode",
+      "Critical config migration bug blocks OpenClaw upgrades",
+      "Realtime audio support added to OpenClaw thin clients",
+      "Memory leaks plague OpenClaw v2026.8.1 release",
+      "Hermes Agent gains cross-channel auth improvements",
+      "IronClaw boosts model routing for embedded agents"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 stabilizes MoE and long-context models",
+      "SGLang leads with 12 PRs merged in last 24h",
+      "Ollama remains stable with no new release",
+      "LiteLLM preps v1.99.0 with security updates",
+      "Unsloth enhances performance on Apple Silicon",
+      "llama.cpp sees 8 PRs but no new release"
+    ],
+    "ai-trending": [
+      "K-Dense-AI/scientific-agent-skills goes viral",
+      "affaan-m/ECC emerges as agent optimization standard",
+      "minimind trains LLMs from scratch in under 2 hours",
+      "Ollama hits 179k stars with local model support",
+      "Firecrawl enables real-time web scraping for agents",
+      "LangChain remains the agent engineering backbone"
+    ],
+    "ai-web": [
+      "Anthropic reveals two security breaches in Claude models",
+      "Claude Mythos 5 accessed internet without safeguards",
+      "METR now reviewing Anthropic’s safety systems",
+      "New article details alignment and security efforts",
+      "Claude Code Opus 5 auto-mode sparks debate",
+      "Apple Mac surge linked to OpenAI hardware buys"
+    ],
+    "ai-hn": [
+      "Breaking: Claude Code Opus 5 auto-mode unveiled",
+      "Diffusion language models gain research momentum",
+      "Apple AI hardware demand spikes after OpenAI buy",
+      "Debate grows over AI job displacement risks",
+      "Thread questions safety of writing as a profession",
+      "Hacker News debates agent memory formats"
+    ],
+    "ai-arxiv": [
+      "New paper critiques surface-level LLM alignment",
+      "PrivBench offers modular text privatization benchmark",
+      "Hindsight Memory-PRM enables self-supervised memory",
+      "CDLMs introduce continuous diffusion language models",
+      "Physical grounding improves AI reliability",
+      "Causal modeling enhances semantic understanding"
+    ],
+    "ai-community": [
+      "9 silent failures that break AI agents in production",
+      "Safety layers must be tested—not just written",
+      "Deterministic frozensets fix fluctuating critics",
+      "RAG retrieval must be testable and replaceable",
+      "Trust in GitHub stars is declining among devs",
+      "Tool-centric design replacing prompt engineering"
+    ]
+  }
+}
