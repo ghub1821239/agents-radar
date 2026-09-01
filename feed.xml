@@ -6,105 +6,62 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://ghub1821239.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 01 Sep 2026 01:47:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 02:13:00 +0000</lastBuildDate>
     <item>
       <title>个性化 AI 小技术学习卡 2026-09-01</title>
       <link>https://ghub1821239.github.io/agents-radar/#2026-09-01/ai-learning</link>
       <guid isPermaLink="true">https://ghub1821239.github.io/agents-radar/#2026-09-01/ai-learning</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description>个性化 AI 小技术学习卡 2026-09-01 基于 @ghub1821239 的公开 GitHub Stars 生成：共 8 个 Star；主要兴趣为 ai-agents、skills、agent、ai、ai-agent、claude-code、codex、cordis。 今日主学：Add pr-reviewer skill for systematic 7-dimension code review 预计用时：20–30 分钟 · 难度：入门 Summary Adds pr-reviewer, a skill that turns code review from a superficial read into a systematic seven-dimension sweep — correctness, security, performance, contracts, error handling, tests, maintainability — with every finding classified as blocker / should-fix / nit, a...</description>
+      <description>个性化 AI 小技术学习卡 2026-09-01 基于 @ghub1821239 的公开 GitHub Stars 生成：共 8 个 Star；主要兴趣为 ai-agents、skills、agent、ai、ai-agent、claude-code、codex、cordis。 今日主学：feat: add red-green-proof debugging skill 预计用时：20–30 分钟 · 难度：入门 Add the red-green-proof Agent Skill under skills/red-green-proof/SKILL.md. Require cause verification before test authoring. Require a focused red test, smallest fix, deliberate revert-to-red check, and final full-suite validation. Document honest alternatives for inaccessible code paths: ex...</description>
       <content:encoded><![CDATA[<h1>个性化 AI 小技术学习卡 2026-09-01</h1>
 <blockquote>
 <p>基于 @ghub1821239 的公开 GitHub Stars 生成：共 8 个 Star；主要兴趣为 ai-agents、skills、agent、ai、ai-agent、claude-code、codex、cordis。</p>
 </blockquote>
-<h2>今日主学：Add pr-reviewer skill for systematic 7-dimension code review</h2>
+<h2>今日主学：feat: add red-green-proof debugging skill</h2>
 <blockquote>
 <p>预计用时：20–30 分钟 · 难度：入门</p>
 </blockquote>
-<h2>Summary</h2>
-<p>Adds <code>pr-reviewer</code>, a skill that turns code review from a superficial read into a systematic seven-dimension sweep — correctness, security, performance, contracts, error handling, tests, maintainability — with every finding classified as <code>blocker</code> / <code>should-fix</code> / <code>nit</code>, anchored to <code>file:line</code>, and paired with a minimal suggested fix.</p>
-<ul>
-<li><strong><code>skills/pr-reviewer/SKILL.md</code></strong> — input detection (<code>gh pr diff</code>, branch diff, staged diff), the dimension checklist, output format (verdict + classified findings + questions for the author), and anti-patterns (no style comments when a linter exists, no rewrites when a 3-line fix works, no approving because tests pass).</li>
-<li><strong><code>skills/pr-reviewer/LICENSE.txt</code></strong> — Apache 2.0.</li>
-<li><strong><code>.claude-plugin/marketplace.json</code></strong> — registers the skill as its own plugin entry.</li>
-</ul>
-<p>The engineering-workflow gap: current skills here cover documents, design, and API guidance well, but there is no review skill. This one is deliberately opinionated — it instructs the agent to read tests before implementation, verify suspicions in surrounding code before reporting, and discard any finding it cannot ground in a specific line.</p>
-<p>I maintain a larger pack of engineerin</p>
+<p>Add the <code>red-green-proof</code> Agent Skill under <code>skills/red-green-proof/SKILL.md</code>. Require cause verification before test authoring. Require a focused red test, smallest fix, deliberate revert-to-red check, and final full-suite validation. Document honest alternatives for inaccessible code paths: extraction, structural, model, and characterization tests. This…</p>
 <h3>为什么适合你</h3>
-<p>你 Star 了 skills、agent、ai，该 PR 提供了一个系统化七维代码审查技能，与你关注的 AI Agent 工作流和开发效率提升高度契合。</p>
+<p>与你 Star 中的 &#39;skills&#39;、&#39;agent&#39; 和 &#39;ai&#39; 兴趣高度匹配，且该 PR 提出的 &#39;red-green-proof&#39; 调试技能是可独立拆解、动手实践的小型 AI Agent 技能，符合你对 skill 技术的关注。</p>
 <h3>为什么现在学</h3>
-<p>当前 AI Agent 在代码审查中仍依赖人工判断，此技能提供可落地的结构化检查框架，是提升 Agent 可靠性的关键实践。</p>
+<p>当前 AI Agent 开发中调试可靠性问题突出，此技能提供一种结构化、可验证的测试驱动开发模式，适合在 20–30 分钟内快速掌握并应用于本地实验。</p>
 <h3>今天掌握</h3>
 <ul>
-<li>理解七维代码审查维度：正确性、安全性、性能、契约、错误处理、测试、可维护性</li>
-<li>掌握技能输出格式：包含分类标记（blocker/should-fix/nit）、文件行定位和最小修复建议</li>
+<li>理解 red-green-proof 调试流程：先写一个聚焦的失败测试（red），再最小化修复（green），最后回退到 red 验证稳定性。</li>
+<li>掌握该技能如何通过文档约束和自动验证机制提升 Agent 的行为一致性，避免无意识漂移。</li>
 </ul>
 <h3>动手任务</h3>
 <ul>
-<li>在本地创建一个空的 <code>skills/pr-reviewer/SKILL.md</code> 文件，按模板填写 name 和 description</li>
-<li>使用 <code>git diff --check</code> 验证其 YAML frontmatter 格式是否符合规范</li>
+<li>创建一个名为 <code>test_red_green.py</code> 的 Python 文件，模拟一个简单的函数（如 <code>add(a, b)</code>）并编写一个故意失败的断言（例如 <code>assert add(1, 1) == 5</code>）。</li>
+<li>手动修改函数实现使测试通过（如改为 <code>return 5</code>），然后重新运行测试并确认其仍为通过；接着恢复原逻辑并再次运行，观察是否再次失败——完成一次完整的 red → green → revert-to-red 验证循环。</li>
 </ul>
 <h3>原始资料</h3>
 <ul>
-<li><a href="https://github.com/anthropics/skills/pull/1696">Add pr-reviewer skill for systematic 7-dimension code review</a></li>
+<li><a href="https://github.com/anthropics/skills/pull/1701">feat: add red-green-proof debugging skill</a></li>
 <li>来源：anthropics/skills PR</li>
 <li>状态：开放 PR，仅建议阅读与实验</li>
 </ul>
 <h2>三个快速候选</h2>
-<h3>1. <a href="https://github.com/zhayujie/CowAgent">zhayujie/CowAgent</a></h3>
-<p>Open-source super AI assistant &amp; Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)</p>
+<h3>1. <a href="https://github.com/anthropics/skills/pull/1677">fix(mcp-builder): support streamable_http_client in MCP SDK 2.x (#1668)</a></h3>
+<p>Fixes #1668 In <code>skills/mcp-builder/scripts/connections.py</code>: - Support importing <code>streamable_http_client</code> (MCP SDK 2.x) while maintaining backwards compatibility with <code>streamablehttp_client</code> (MCP SDK 1.x). - In MCP Python SDK 2.x, <code>streamablehttp_client</code> was renamed to <code>streamable_http_client</code>, causing module import failures when using <code>mcp&gt;=2</code>.</p>
 <ul>
-<li>推荐原因：作为开源超级 AI 助手框架，它融合多模型、多通道与自进化能力，适合探索 AI Agent 综合工作流。</li>
-<li>来源：GitHub Search: codex</li>
-</ul>
-<h3>2. <a href="https://github.com/anthropics/skills/pull/1684">fix(claude-api): condense frontmatter description to fit within 1024-char limit</a></h3>
-<p>Closes #1622</p>
-<h2>Summary</h2>
-<p>The <code>description</code> frontmatter field in <code>skills/claude-api/SKILL.md</code> previously exceeded pi.dev&#39;s 1024-character frontmatter cap (1077 characters raw / 1068 characters parsed). This PR condenses and refines the frontmatter description to 950 characters while preserving all essential semantic triggers, SDK keywords (Anthropic TypeScript SDK, Python SDK, Message Batches, Prompt Caching, etc.), and clarity.</p>
-<h2>Changes</h2>
-<ul>
-<li>Refined the frontmatter <code>description</code> in <code>skills/claude-api/SKILL.md</code>:<ul>
-<li>Condensed description from 1068 characters down to 950 characters (parsed length).</li>
-<li>Preserved all SDK keywords (<code>Anthropic TypeScript SDK</code>, <code>Python SDK</code>, <code>Message Batches</code>, <code>Prompt Caching</code>, etc.).</li>
-<li>Retained all model name triggers (<code>Claude</code>, <code>Anthropic</code>, <code>Opus</code>, <code>Sonnet</code>, <code>Haiku</code>, <code>Fable</code>, <code>anthropic</code>, <code>@anthropic-ai</code>, <code>claude-*</code>, <code>us.anthropic.*</code>, <code>[1m]</code>).</li>
-<li>Retained task types (agent, MCP, tool-definition, multi-agent, RAG, LLM-judge, computer-use, Message Batches, text operations, debugging).</li>
-<li>Maintained provider skip conditions (<code>openai</code>, <code>langchain_openai</code>, <code>google.generativeai</code>, <code>genai</code>, <code>mistralai</code>, <code>cohere</code>, <code>ollama</code>).</li>
-</ul>
-</li>
-</ul>
-<h2>Validation</h2>
-<ul>
-<li><p>Verified YAML f</p>
-</li>
-<li><p>推荐原因：该 PR 处理 frontmatter 字符限制问题，体现对 Skill 描述精炼与可读性的工程实践，适合优化你的 Skill 设计。</p>
-</li>
-<li><p>来源：anthropics/skills PR</p>
-</li>
-<li><p>状态：开放 PR，仅建议阅读与实验</p>
-</li>
-</ul>
-<h3>3. <a href="https://github.com/anthropics/skills/pull/1701">feat: add red-green-proof debugging skill</a></h3>
-<h2>Summary</h2>
-<ul>
-<li>Add the <code>red-green-proof</code> Agent Skill under <code>skills/red-green-proof/SKILL.md</code>.</li>
-<li>Require cause verification before test authoring.</li>
-<li>Require a focused red test, smallest fix, deliberate revert-to-red check, and final full-suite validation.</li>
-<li>Document honest alternatives for inaccessible code paths: extraction, structural, model, and characterization tests.</li>
-</ul>
-<h2>Why</h2>
-<p>This provides a disciplined debugging workflow for proving that a regression test is load-bearing rather than merely passing after a fix.</p>
-<h2>Validation</h2>
-<ul>
-<li><code>git diff --check</code></li>
-<li>YAML frontmatter follows this repository&#39;s skill template with only <code>name</code> and <code>description</code>.</li>
-<li>The contribution is a self-contained Markdown skill with no runtime dependencies.</li>
-</ul>
-<h2>Provenance and attribution</h2>
-<p>This skill is contributed by RooAGI and developed in the open at <a href="https://github.com/RooAGI/red-green-proof">https://github.com/RooAGI/red-green-proof</a>. The source project uses the RooAGI brand and MIT licensing; this upstream contribution intentionally contains only the skill payload so it fits the repository&#39;s existing self-contained skill convention.</p>
-<ul>
-<li>推荐原因：引入红绿证明调试技能，提供严谨的回归测试验证流程，契合你对 Agent 可靠性和调试能力的关注。</li>
+<li>推荐原因：与你关注的 skills 与 python 兴趣相关，涉及 MCP SDK 2.x 的兼容性修复，适合快速阅读并理解模块导入变化。</li>
 <li>来源：anthropics/skills PR</li>
 <li>状态：开放 PR，仅建议阅读与实验</li>
+</ul>
+<h3>2. <a href="https://github.com/anthropics/skills/pull/1681">fix(skill-creator): support direct execution of package_skill.py and update usage paths</a></h3>
+<p>Problem Running \package_skill.py\ directly as a standalone script (e.g., \python skills/skill-creator/scripts/package_skill.py ) fails with \ModuleNotFoundError: No module named &#39;scripts.quick_validate&#39;. Additionally, the docstrings and CLI help messages contain outdated references to \utils/package_skill.py\ and \skills/public/.... Root Cause When…</p>
+<ul>
+<li>推荐原因：与你对 skill 构建工具链的兴趣匹配，可作为小规模动手练习，了解如何修复脚本执行路径问题。</li>
+<li>来源：anthropics/skills PR</li>
+<li>状态：开放 PR，仅建议阅读与实验</li>
+</ul>
+<h3>3. <a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></h3>
+<p>Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More</p>
+<ul>
+<li>推荐原因：与你 Star 中的 claude-code 与 agent 兴趣相关，提供了持久上下文能力的轻量级实现，适合作为快速技术预览。</li>
+<li>来源：GitHub Search: claude-code</li>
 </ul>
 <h2>你的推荐画像</h2>
 <ul>
