@@ -6,7 +6,119 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://ghub1821239.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 01 Sep 2026 01:29:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 01:47:17 +0000</lastBuildDate>
+    <item>
+      <title>个性化 AI 小技术学习卡 2026-09-01</title>
+      <link>https://ghub1821239.github.io/agents-radar/#2026-09-01/ai-learning</link>
+      <guid isPermaLink="true">https://ghub1821239.github.io/agents-radar/#2026-09-01/ai-learning</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <description>个性化 AI 小技术学习卡 2026-09-01 基于 @ghub1821239 的公开 GitHub Stars 生成：共 8 个 Star；主要兴趣为 ai-agents、skills、agent、ai、ai-agent、claude-code、codex、cordis。 今日主学：Add pr-reviewer skill for systematic 7-dimension code review 预计用时：20–30 分钟 · 难度：入门 Summary Adds pr-reviewer, a skill that turns code review from a superficial read into a systematic seven-dimension sweep — correctness, security, performance, contracts, error handling, tests, maintainability — with every finding classified as blocker / should-fix / nit, a...</description>
+      <content:encoded><![CDATA[<h1>个性化 AI 小技术学习卡 2026-09-01</h1>
+<blockquote>
+<p>基于 @ghub1821239 的公开 GitHub Stars 生成：共 8 个 Star；主要兴趣为 ai-agents、skills、agent、ai、ai-agent、claude-code、codex、cordis。</p>
+</blockquote>
+<h2>今日主学：Add pr-reviewer skill for systematic 7-dimension code review</h2>
+<blockquote>
+<p>预计用时：20–30 分钟 · 难度：入门</p>
+</blockquote>
+<h2>Summary</h2>
+<p>Adds <code>pr-reviewer</code>, a skill that turns code review from a superficial read into a systematic seven-dimension sweep — correctness, security, performance, contracts, error handling, tests, maintainability — with every finding classified as <code>blocker</code> / <code>should-fix</code> / <code>nit</code>, anchored to <code>file:line</code>, and paired with a minimal suggested fix.</p>
+<ul>
+<li><strong><code>skills/pr-reviewer/SKILL.md</code></strong> — input detection (<code>gh pr diff</code>, branch diff, staged diff), the dimension checklist, output format (verdict + classified findings + questions for the author), and anti-patterns (no style comments when a linter exists, no rewrites when a 3-line fix works, no approving because tests pass).</li>
+<li><strong><code>skills/pr-reviewer/LICENSE.txt</code></strong> — Apache 2.0.</li>
+<li><strong><code>.claude-plugin/marketplace.json</code></strong> — registers the skill as its own plugin entry.</li>
+</ul>
+<p>The engineering-workflow gap: current skills here cover documents, design, and API guidance well, but there is no review skill. This one is deliberately opinionated — it instructs the agent to read tests before implementation, verify suspicions in surrounding code before reporting, and discard any finding it cannot ground in a specific line.</p>
+<p>I maintain a larger pack of engineerin</p>
+<h3>为什么适合你</h3>
+<p>你 Star 了 skills、agent、ai，该 PR 提供了一个系统化七维代码审查技能，与你关注的 AI Agent 工作流和开发效率提升高度契合。</p>
+<h3>为什么现在学</h3>
+<p>当前 AI Agent 在代码审查中仍依赖人工判断，此技能提供可落地的结构化检查框架，是提升 Agent 可靠性的关键实践。</p>
+<h3>今天掌握</h3>
+<ul>
+<li>理解七维代码审查维度：正确性、安全性、性能、契约、错误处理、测试、可维护性</li>
+<li>掌握技能输出格式：包含分类标记（blocker/should-fix/nit）、文件行定位和最小修复建议</li>
+</ul>
+<h3>动手任务</h3>
+<ul>
+<li>在本地创建一个空的 <code>skills/pr-reviewer/SKILL.md</code> 文件，按模板填写 name 和 description</li>
+<li>使用 <code>git diff --check</code> 验证其 YAML frontmatter 格式是否符合规范</li>
+</ul>
+<h3>原始资料</h3>
+<ul>
+<li><a href="https://github.com/anthropics/skills/pull/1696">Add pr-reviewer skill for systematic 7-dimension code review</a></li>
+<li>来源：anthropics/skills PR</li>
+<li>状态：开放 PR，仅建议阅读与实验</li>
+</ul>
+<h2>三个快速候选</h2>
+<h3>1. <a href="https://github.com/zhayujie/CowAgent">zhayujie/CowAgent</a></h3>
+<p>Open-source super AI assistant &amp; Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)</p>
+<ul>
+<li>推荐原因：作为开源超级 AI 助手框架，它融合多模型、多通道与自进化能力，适合探索 AI Agent 综合工作流。</li>
+<li>来源：GitHub Search: codex</li>
+</ul>
+<h3>2. <a href="https://github.com/anthropics/skills/pull/1684">fix(claude-api): condense frontmatter description to fit within 1024-char limit</a></h3>
+<p>Closes #1622</p>
+<h2>Summary</h2>
+<p>The <code>description</code> frontmatter field in <code>skills/claude-api/SKILL.md</code> previously exceeded pi.dev&#39;s 1024-character frontmatter cap (1077 characters raw / 1068 characters parsed). This PR condenses and refines the frontmatter description to 950 characters while preserving all essential semantic triggers, SDK keywords (Anthropic TypeScript SDK, Python SDK, Message Batches, Prompt Caching, etc.), and clarity.</p>
+<h2>Changes</h2>
+<ul>
+<li>Refined the frontmatter <code>description</code> in <code>skills/claude-api/SKILL.md</code>:<ul>
+<li>Condensed description from 1068 characters down to 950 characters (parsed length).</li>
+<li>Preserved all SDK keywords (<code>Anthropic TypeScript SDK</code>, <code>Python SDK</code>, <code>Message Batches</code>, <code>Prompt Caching</code>, etc.).</li>
+<li>Retained all model name triggers (<code>Claude</code>, <code>Anthropic</code>, <code>Opus</code>, <code>Sonnet</code>, <code>Haiku</code>, <code>Fable</code>, <code>anthropic</code>, <code>@anthropic-ai</code>, <code>claude-*</code>, <code>us.anthropic.*</code>, <code>[1m]</code>).</li>
+<li>Retained task types (agent, MCP, tool-definition, multi-agent, RAG, LLM-judge, computer-use, Message Batches, text operations, debugging).</li>
+<li>Maintained provider skip conditions (<code>openai</code>, <code>langchain_openai</code>, <code>google.generativeai</code>, <code>genai</code>, <code>mistralai</code>, <code>cohere</code>, <code>ollama</code>).</li>
+</ul>
+</li>
+</ul>
+<h2>Validation</h2>
+<ul>
+<li><p>Verified YAML f</p>
+</li>
+<li><p>推荐原因：该 PR 处理 frontmatter 字符限制问题，体现对 Skill 描述精炼与可读性的工程实践，适合优化你的 Skill 设计。</p>
+</li>
+<li><p>来源：anthropics/skills PR</p>
+</li>
+<li><p>状态：开放 PR，仅建议阅读与实验</p>
+</li>
+</ul>
+<h3>3. <a href="https://github.com/anthropics/skills/pull/1701">feat: add red-green-proof debugging skill</a></h3>
+<h2>Summary</h2>
+<ul>
+<li>Add the <code>red-green-proof</code> Agent Skill under <code>skills/red-green-proof/SKILL.md</code>.</li>
+<li>Require cause verification before test authoring.</li>
+<li>Require a focused red test, smallest fix, deliberate revert-to-red check, and final full-suite validation.</li>
+<li>Document honest alternatives for inaccessible code paths: extraction, structural, model, and characterization tests.</li>
+</ul>
+<h2>Why</h2>
+<p>This provides a disciplined debugging workflow for proving that a regression test is load-bearing rather than merely passing after a fix.</p>
+<h2>Validation</h2>
+<ul>
+<li><code>git diff --check</code></li>
+<li>YAML frontmatter follows this repository&#39;s skill template with only <code>name</code> and <code>description</code>.</li>
+<li>The contribution is a self-contained Markdown skill with no runtime dependencies.</li>
+</ul>
+<h2>Provenance and attribution</h2>
+<p>This skill is contributed by RooAGI and developed in the open at <a href="https://github.com/RooAGI/red-green-proof">https://github.com/RooAGI/red-green-proof</a>. The source project uses the RooAGI brand and MIT licensing; this upstream contribution intentionally contains only the skill payload so it fits the repository&#39;s existing self-contained skill convention.</p>
+<ul>
+<li>推荐原因：引入红绿证明调试技能，提供严谨的回归测试验证流程，契合你对 Agent 可靠性和调试能力的关注。</li>
+<li>来源：anthropics/skills PR</li>
+<li>状态：开放 PR，仅建议阅读与实验</li>
+</ul>
+<h2>你的推荐画像</h2>
+<ul>
+<li>公开 Stars：8</li>
+<li>主要 Topic：ai-agents、skills、agent、ai、ai-agent、claude-code、codex、cordis</li>
+<li>常见语言：html、javascript、python、rust、typescript</li>
+</ul>
+<blockquote>
+<p>GitHub Explore 的私有个性化结果没有官方 API。本报告使用你的公开 Stars、当天 GitHub/Skill 候选及可解释评分生成，不读取浏览器 Cookie 或个人访问令牌。</p>
+</blockquote>
+<hr>
+<p><em>本日报由 <a href="https://github.com/ghub1821239/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-09-01</title>
       <link>https://ghub1821239.github.io/agents-radar/#2026-09-01/ai-cli</link>
@@ -15228,185 +15340,6 @@
 </ol>
 <hr>
 <p><em>本日报由 <a href="https://github.com/ghub1821239/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Weekly 2026-08-31</title>
-      <link>https://ghub1821239.github.io/agents-radar/#2026-08-31/ai-hf-en</link>
-      <guid isPermaLink="true">https://ghub1821239.github.io/agents-radar/#2026-08-31/ai-hf-en</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Weekly 2026-08-31 Source: Hugging Face Hub | 30 models | Generated: 2026-08-31 15:48 UTC Today&amp;#39;s Highlights Qwen and GLM continue to dominate Hugging Face’s trending models, with Qwen3.8-27B leading in downloads (4.7M) and Kimi-K3 surging in popularity with 11K likes. The rise of quantized GGUF versions—especially for large models like Qwen3.8-27B and GLM-5.3—signals strong community-driven optimization for local inference. Notably, uncensored and abliterated var...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Weekly 2026-08-31</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 30 models | Generated: 2026-08-31 15:48 UTC</p>
-</blockquote>
-<hr>
-<hr>
-<h3><strong>Today&#39;s Highlights</strong></h3>
-<p>Qwen and GLM continue to dominate Hugging Face’s trending models, with Qwen3.8-27B leading in downloads (4.7M) and Kimi-K3 surging in popularity with 11K likes. The rise of quantized GGUF versions—especially for large models like Qwen3.8-27B and GLM-5.3—signals strong community-driven optimization for local inference. Notably, uncensored and abliterated variants are gaining traction, reflecting demand for more permissive, high-performance models. Meanwhile, MiniMax-H3 emerges as a top performer in video generation, with over 5.3M downloads.</p>
-<hr>
-<h3><strong>Trending Models</strong></h3>
-<h4>🧠 Language Models (LLMs, chat models, instruction-tuned)</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/Qwen/Qwen3.8-Flash-Next">Qwen/Qwen3.8-Flash-Next</a></td>
-<td align="left">Qwen</td>
-<td align="right">4,481</td>
-<td align="right">158,598</td>
-<td align="left">A fast, lightweight variant of Qwen3.8 optimized for real-time conversational use; part of the growing Flash series focused on low-latency inference.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/zai-org/GLM-5.3-Flash">zai-org/GLM-5.3-Flash</a></td>
-<td align="left">zai-org</td>
-<td align="right">1,782</td>
-<td align="right">379,271</td>
-<td align="left">A high-speed GLM-5.3 model tailored for efficient text generation, leveraging optimizations from the &quot;Flash&quot; lineage.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">deepseek-ai/DeepSeek-V4-Flash-0731</a></td>
-<td align="left">deepseek-ai</td>
-<td align="right">3,837</td>
-<td align="right">4,561,861</td>
-<td align="left">A streamlined version of DeepSeek-V4 optimized for speed and scalability, widely adopted across developers and researchers.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/thomsonreuters/Thomson-1.0-Small">thomsonreuters/Thomson-1.0-Small</a></td>
-<td align="left">thomsonreuters</td>
-<td align="right">170</td>
-<td align="right">1,045</td>
-<td align="left">A compact, domain-specific LLM trained on financial data; notable for its niche application despite modest metrics.</td>
-</tr>
-</tbody></table>
-<h4>🎨 Multimodal &amp; Generation (image, video, audio, text-to-X)</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/MiniMax-H3</a></td>
-<td align="left">MiniMaxAI</td>
-<td align="right">4,693</td>
-<td align="right">5,362,365</td>
-<td align="left">A powerful multimodal video generation model supporting image-to-video and text-to-video; one of the most downloaded models in the ecosystem.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Lightricks/LTX-2.5">Lightricks/LTX-2.5</a></td>
-<td align="left">Lightricks</td>
-<td align="right">2,329</td>
-<td align="right">1,182,585</td>
-<td align="left">A cutting-edge image-to-video diffusion model enabling high-fidelity video synthesis from static images; popular for creative applications.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree">FastVideo/FastVideo-FastH3-4-step-Preview-v1-VSA-DataFree</a></td>
-<td align="left">FastVideo</td>
-<td align="right">213</td>
-<td align="right">0</td>
-<td align="left">An experimental fast video generator using a 4-step inference pipeline; designed for rapid prototyping without training data.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF">orcarouter/Qwen3.8-27B-Uncensored-GGUF</a></td>
-<td align="left">orcarouter</td>
-<td align="right">595</td>
-<td align="right">246,445</td>
-<td align="left">A GGUF-quantized, uncensored version of Qwen3.8-27B tailored for local deployment; highlights the trend toward accessible, unrestricted models.</td>
-</tr>
-</tbody></table>
-<h4>🔧 Specialized Models (code, math, medical, embeddings)</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF">peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF</a></td>
-<td align="left">peculiar-ragdoll</td>
-<td align="right">158</td>
-<td align="right">105,974</td>
-<td align="left">A specialized code-generation model based on Qwen3.5-MoE, fine-tuned for programming tasks and optimized via GGUF for local execution.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/pipecat-ai/phonellm-alpha-1">pipecat-ai/phonellm-alpha-1</a></td>
-<td align="left">pipecat-ai</td>
-<td align="right">166</td>
-<td align="right">4,721</td>
-<td align="left">A lightweight voice-focused LLM designed for speech synthesis and phoneme-level control; part of an emerging trend in audio-centric AI.</td>
-</tr>
-</tbody></table>
-<h4>📦 Fine-tunes &amp; Quantizations (community fine-tunes, GGUF, AWQ)</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF">unsloth/Qwen3.8-27B-GGUF</a></td>
-<td align="left">unsloth</td>
-<td align="right">3,271</td>
-<td align="right">9,059,937</td>
-<td align="left">The most-downloaded GGUF quantization of Qwen3.8-27B, enabling efficient CPU/GPU inference on consumer hardware.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF">HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF</a></td>
-<td align="left">HauhauCS</td>
-<td align="right">808</td>
-<td align="right">1,202,914</td>
-<td align="left">Aggressively optimized GGUF version with uncensored behavior and MTP (multi-token prediction) support—ideal for open-ended reasoning.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF">JonathanColetti/Qwen3.8-27B-Uncensored-GGUF</a></td>
-<td align="left">JonathanColetti</td>
-<td align="right">866</td>
-<td align="right">2,055,081</td>
-<td align="left">One of the highest-download uncensored GGUF models, demonstrating strong demand for locally deployable, unrestricted AI.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8">orcarouter/Qwen3.8-27B-Uncensored-FP8</a></td>
-<td align="left">orcarouter</td>
-<td align="right">1,314</td>
-<td align="right">307,496</td>
-<td align="left">A rare FP8-quantized version of Qwen3.8-27B offering extreme compression while preserving performance—key for edge deployment.</td>
-</tr>
-</tbody></table>
-<hr>
-<h3><strong>Ecosystem Signal</strong></h3>
-<p>The Hugging Face ecosystem in August 2026 is defined by <strong>Qwen and GLM dominance</strong>, particularly through their Flash and 27B variants. Qwen3.8-27B stands out not just for its raw size but for being the most heavily quantized and fine-tuned model in the space—over 10 million downloads across community GGUF and uncensored versions. This reflects a clear shift toward <strong>open-weight, community-optimized models</strong> that bypass proprietary constraints. The surge in <strong>GGUF-based deployments</strong> (e.g., unsloth, orcarouter, huihui-ai) indicates strong demand for local inference, especially on consumer-grade hardware. Uncensored and abliterated variants are proliferating rapidly, suggesting users prioritize freedom and performance over safety guardrails. Meanwhile, <strong>multimodal video generation</strong> is accelerating, led by MiniMax-H3 and Lightricks’ LTX-2.5, signaling a maturing frontier in generative media. The absence of commercial model releases from major players (like Meta or Google) further cements Hugging Face as the epicenter of open, community-driven AI innovation.</p>
-<hr>
-<h3><strong>Worth Exploring</strong></h3>
-<ol>
-<li><p><strong><a href="https://huggingface.co/unsloth/Qwen3.8-27B-GGUF">unsloth/Qwen3.8-27B-GGUF</a></strong> – With over 9 million downloads, this is the de facto standard for running Qwen3.8-27B locally. Its widespread adoption makes it ideal for benchmarking, fine-tuning, and deploying on edge devices.</p>
-</li>
-<li><p><strong><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/MiniMax-H3</a></strong> – Boasting over 5.3 million downloads, it’s the most popular multimodal video model. Worth studying for its architecture and performance in image-to-video and text-to-video workflows.</p>
-</li>
-<li><p><strong><a href="https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8">orcarouter/Qwen3.8-27B-Uncensored-FP8</a></strong> – A pioneering FP8 quantization of a 27B model. It represents the cutting edge of compression efficiency and is essential for understanding next-gen model deployment strategies.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/ghub1821239/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
     </item>
   </channel>

@@ -1,9 +1,10 @@
 {
-  "generated": "2026-09-01T01:29:48.969Z",
+  "generated": "2026-09-01T01:47:17.751Z",
   "dates": [
     {
       "date": "2026-09-01",
       "reports": [
+        "ai-learning",
         "ai-cli",
         "ai-cli-en",
         "ai-agents",
