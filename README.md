@@ -201,6 +201,7 @@ New articles are detected by comparing sitemap `lastmod` timestamps against a pe
 - Publishes GitHub Issues for each report type; commits Markdown files to `digests/YYYY-MM-DD/`
 - Generates every report body once in English and translates it to Chinese, instead of running the whole pipeline twice per language
 - Runs on a daily schedule via GitHub Actions; supports manual triggering
+- Optionally runs a Feishu Q&A agent over personalized and historical radar reports with 20 complete recent rounds
 - All tracked repositories are configurable via `config.yml` — no code changes needed
 
 ## Setup
@@ -266,6 +267,20 @@ Go to **Settings → Secrets and variables → Actions** and add:
 Each run also creates `ai-learning.md`: one 20–30 minute hands-on topic plus three optional candidates. Candidates come from recent official Skill PRs, the curated `ai-skill` feed, GitHub Trending, and AI repository search. They are ranked against the selected user's public Stars (topics, languages, and repository descriptions); repositories already starred are not recommended again. GitHub Explore's private recommendation result is not scraped and no personal access token is required.
 
 Feishu sends this focused learning card when available and falls back to the full report list otherwise. To regenerate only the learning card without rerunning the macro digests, use **Actions → Refresh Personalized Learning → Run workflow**.
+
+### Feishu Q&A agent (optional)
+
+The custom webhook only sends daily notifications. Deploy `feishu-agent/` when you also want to ask the bot questions in a DM or by mentioning it in a group. The Cloudflare Worker retrieves personalized and recent radar reports, asks Qwen for a grounded answer, and replies to the original Feishu message. It never installs Skills or executes third-party code.
+
+Conversations are isolated by chat and user. The Worker keeps **20 complete Q&A rounds**, rolls older dialogue into long-term memory, and expires inactive memory after 30 days. Send `清空记忆`, `重置对话`, or `/reset` to clear the current conversation.
+
+1. Create a Feishu custom app, enable its bot capability, grant DM-read, group-mention-read, and send-as-app message permissions, and subscribe to `im.message.receive_v1`.
+2. Keep `Encrypt Key` disabled for this first version. Copy the App ID, App Secret, and event-subscription Verification Token.
+3. Add `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `FEISHU_APP_ID`, `FEISHU_APP_SECRET`, `FEISHU_VERIFICATION_TOKEN`, and `DASHSCOPE_API_KEY` as GitHub Actions secrets.
+4. Run **Actions → Deploy Feishu AI Agent → Run workflow** and copy the deployed Worker URL from its log.
+5. Set the Feishu event callback to `https://your-worker.workers.dev/feishu/events`, verify it, and publish the app version.
+
+Cloudflare Durable Objects provide conversation storage and event deduplication, so no database has to be created manually. To restrict the bot further, configure `FEISHU_ALLOWED_OPEN_IDS` on the Worker as a comma-separated list of Feishu `open_id` values.
 
 ### 3. Enable the workflow
 

@@ -200,6 +200,7 @@ LLM 负责过滤非 AI 项目，将结果按维度分类（AI 基础工具 / AI 
 - 以 GitHub Issues 形式发布报告，同时提交 Markdown 文件至 `digests/YYYY-MM-DD/`
 - 每份报告只用英文生成一次，再翻译成中文，不再对同一份数据跑两遍完整流水线
 - 每日通过 GitHub Actions 定时运行，支持手动触发
+- 可选部署飞书问答 Agent：检索个人学习卡和历史简报，支持 20 轮完整上下文与更早对话记忆
 - 所有追踪仓库均可通过 `config.yml` 配置，无需修改代码
 
 ## 部署配置
@@ -258,6 +259,33 @@ infra_repos:
 4. 在仓库 Secrets 中添加 `TELEGRAM_BOT_TOKEN` 和 `TELEGRAM_CHAT_ID`
 
 > 两个 secret 均未设置时，通知步骤静默跳过，不影响正常运行。
+
+### 飞书问答 Agent（可选）
+
+`FEISHU_WEBHOOK_URLS` 只负责每日主动推送。若要在飞书里直接追问“今天学什么”“这个 Skill 怎么用”“最近有什么 MCP”，可部署 `feishu-agent/` 中的 Cloudflare Worker。机器人会检索本仓库的个性化学习卡与近期简报，再由 Qwen 回答；不会安装 Skill 或执行第三方代码。
+
+对话按“群聊/私聊 + 用户”隔离，保留最近 **20 轮完整问答**，更早内容进入滚动记忆；30 天无活动后过期。发送 `清空记忆`、`重置对话` 或 `/reset` 可随时清除当前会话。
+
+1. 在[飞书开放平台](https://open.feishu.cn/app)创建企业自建应用并启用机器人能力。
+2. 在权限管理中开通“读取用户发给机器人的单聊消息”“接收群聊中 @ 机器人消息”和“以应用的身份发消息”，然后添加 `im.message.receive_v1`（接收消息）事件。
+3. 记录应用的 `App ID`、`App Secret`，以及事件订阅页面的 `Verification Token`。第一版不要启用 `Encrypt Key`。
+4. 在 Cloudflare 创建一个有 Workers 编辑权限的 API Token，并复制 Account ID。
+5. 在 GitHub 仓库 **Settings → Secrets and variables → Actions** 添加：
+
+   | Secret | 说明 |
+   |--------|------|
+   | `CLOUDFLARE_API_TOKEN` | Cloudflare Workers 部署 Token |
+   | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Account ID |
+   | `FEISHU_APP_ID` | 飞书自建应用 App ID |
+   | `FEISHU_APP_SECRET` | 飞书自建应用 App Secret |
+   | `FEISHU_VERIFICATION_TOKEN` | 飞书事件订阅 Verification Token |
+   | `DASHSCOPE_API_KEY` | Qwen 使用的百炼 API Key，可复用日报的同名 Secret |
+
+6. 进入 **Actions → Deploy Feishu AI Agent → Run workflow**。成功后从日志复制 Worker 地址。
+7. 回到飞书“事件与回调”，将请求地址设为 `https://你的-worker.workers.dev/feishu/events`，保存并完成 URL 验证。
+8. 创建并发布应用版本。私聊机器人可直接提问；群聊中只有 `@机器人` 才会响应。
+
+Worker 使用 Cloudflare Durable Objects 保存会话和事件去重状态，不需要手动创建数据库。若只想允许指定用户，可在 Worker 中增加 `FEISHU_ALLOWED_OPEN_IDS`，多个飞书 `open_id` 用英文逗号分隔。
 
 ### 3. 启用工作流
 

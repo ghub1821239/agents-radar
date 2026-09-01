@@ -1,0 +1,18 @@
+name = "agents-radar-feishu-agent"
+main = "src/index.ts"
+compatibility_date = "2026-08-31"
+
+[vars]
+PAGES_URL = "https://ghub1821239.github.io/agents-radar"
+QWEN_MODEL = "qwen-flash"
+
+[[durable_objects.bindings]]
+name = "CONVERSATIONS"
+class_name = "ConversationStore"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ConversationStore"]
+
+[observability]
+enabled = true
