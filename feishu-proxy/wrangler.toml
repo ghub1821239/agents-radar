@@ -1,0 +1,7 @@
+name = "agents-radar-feishu-proxy"
+pages_build_output_dir = "./output"
+compatibility_date = "2026-09-01"
+
+[[services]]
+binding = "AGENT"
+service = "agents-radar-feishu-agent"

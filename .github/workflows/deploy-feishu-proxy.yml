@@ -1,0 +1,33 @@
+name: Deploy Feishu HTTPS Proxy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy Cloudflare Pages proxy
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create Pages project on first deployment
+        continue-on-error: true
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: feishu-proxy
+          wranglerVersion: "4.127.1"
+          command: pages project create agents-radar-feishu-proxy --production-branch master
+
+      - name: Deploy Pages proxy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: feishu-proxy
+          wranglerVersion: "4.127.1"
+          command: pages deploy --project-name agents-radar-feishu-proxy --branch master
