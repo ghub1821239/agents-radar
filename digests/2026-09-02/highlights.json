@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.258 发布补丁修复",
+      "OpenAI Codex 更新：v0.152.0 小版本发布",
+      "Gemini CLI v0.59 稳定版上线，持续开发中",
+      "GitHub Copilot CLI 新增技能支持",
+      "Qwen Code 扩展本地执行选项",
+      "Pi CLI 推出轻量级代理模式"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.2 修复会话损坏问题",
+      "Home Agent 支持右/下侧停靠",
+      "Desktop Companion 上线多任务处理",
+      "v2026.8.1 存在关键升级路径断裂",
+      "多数用户升级后认证迁移失败",
+      "P1 问题虽活跃仍未解决"
+    ],
+    "ai-infra": [
+      "vLLM：1,427 个开放问题，关键修复进行中",
+      "SGLang 内核层新增 8 个问题",
+      "llama.cpp 聚焦 Metal/SYCL 稳定性",
+      "Ollama v0.33.3-rc0 发布，后端更新",
+      "LiteLLM v1.101.0-dev.1 提升安全",
+      "Unsloth 最新更新增加 MTP 支持"
+    ],
+    "ai-trending": [
+      "ECC：Claude Code 与 Codex 的代理框架",
+      "rtk-ai/rtk 减少 60–90% token 消耗",
+      "firecrawl：代理用网页搜索 API",
+      "minimind 2 小时从零训练 LLM",
+      "OpenMAIC：多代理课堂实况",
+      "open-design：本地优先设计代理"
+    ],
+    "ai-web": [
+      "Anthropic 推出 EFS：零数据留存",
+      "EFS 为企事业单位保护 Claude Fable 5.1",
+      "非侵入式水印符合欧盟 AI 法规",
+      "OpenAI 元数据更新暗示 Astra",
+      "Astra 路径或预示新架构",
+      "企业信任成核心竞争优势"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.1 与 Mythos 5.1 引发热议",
+      "小型变压器 1.5 小时胜过 LLM",
+      "Weedout Safari 插件瞄准 AI 标注",
+      "苹果 Mac Mini AI 工作负载需求激增",
+      "Ed Zitron AI 怀疑论获关注",
+      "模型对齐与现实信任之争"
+    ],
+    "ai-arxiv": [
+      "WhisperX 使用交错批处理增强上下文",
+      "BLOOM-WILT 检测隐藏的 LLM 行为",
+      "LLM 在临床笔记中遗漏判断失误",
+      "TimesFM-3：零样本多变量预测",
+      "潜在思维提升符号推理",
+      "通用变换器势头上升"
+    ],
+    "ai-community": [
+      "新指南：无需懂架构构建 AI",
+      "Google：如何设计可信的 AI 评估",
+      "AgentSelfEdit 所有编辑均触发安全门",
+      "RAG 流程安全成首要关切",
+      "AI 自纠正引发可靠性担忧",
+      "多代理系统亟需红队测试"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.258 released with patch fixes",
+      "OpenAI Codex updates: v0.152.0 minor release",
+      "Gemini CLI v0.59 now stable, active dev",
+      "GitHub Copilot CLI gains new skills support",
+      "Qwen Code expands local execution options",
+      "Pi CLI introduces lightweight agent mode"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.2 fixes session corruption issues",
+      "Home Agent now docks right or bottom",
+      "Desktop Companion launches for multitasking",
+      "Critical upgrade path broken in v2026.8.1",
+      "Auth migration fails post-upgrade for many",
+      "P1 bugs remain unresolved despite activity"
+    ],
+    "ai-infra": [
+      "vLLM: 1,427 open issues, critical fixes underway",
+      "SGLang sees +8 issues in kernel layer",
+      "llama.cpp stability focus on Metal/SYCL",
+      "Ollama v0.33.3-rc0 released with backend changes",
+      "LiteLLM v1.101.0-dev.1 boosts security",
+      "Unsloth adds MTP support in latest update"
+    ],
+    "ai-trending": [
+      "ECC: Agent harness for Claude Code & Codex",
+      "rtk-ai/rtk cuts tokens by 60–90%",
+      "firecrawl: Web search API for agents",
+      "minimind trains LLM from scratch in 2h",
+      "OpenMAIC: Multi-agent classroom live",
+      "open-design: Local-first design agent"
+    ],
+    "ai-web": [
+      "Anthropic launches EFS: zero data retention",
+      "EFS secures Claude Fable 5.1 for enterprises",
+      "Non-intrusive watermarking aligns with EU AI Act",
+      "OpenAI’s metadata-only updates hint at Astra",
+      "Path to Astra may signal new architecture",
+      "Enterprise trust now a top competitive edge"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.1 & Mythos 5.1 spark debate",
+      "Small transformer beats LLMs in 1.5hrs",
+      "Weedout Safari extension targets AI labeling",
+      "Apple Mac Mini demand surges for AI workloads",
+      "Ed Zitron’s AI skepticism gains traction",
+      "Model alignment vs. real-world trust discussed"
+    ],
+    "ai-arxiv": [
+      "WhisperX uses interleaved batching for context",
+      "BLOOM-WILT detects hidden LLM behaviors",
+      "LLM judges miss omissions in clinical notes",
+      "TimesFM-3: Zero-shot multivariate forecasting",
+      "Latent thinking improves symbolic reasoning",
+      "Universal transformers gain momentum"
+    ],
+    "ai-community": [
+      "New guide: Building AI without knowing architecture",
+      "Google: How to design trustworthy AI evaluations",
+      "AgentSelfEdit fails safety gate on all edits",
+      "RAG pipeline security now a top concern",
+      "AI self-correction raises reliability fears",
+      "Multi-agent systems need red teaming now"
+    ]
+  }
+}
