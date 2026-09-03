@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.259 稳定性修复版发布",
+      "OpenAI Codex 推出 alpha.6 与 .5 更新",
+      "Gemini CLI 发布夜间构建 v0.59.0",
+      "GitHub Copilot CLI v1.0.83-3 正式上线",
+      "OpenCode 静默期后出现新 PR 活动",
+      "Pi 工具在开发流程中渐受青睐"
+    ],
+    "ai-agents": [
+      "OpenClaw：24 小时内处理 500 个问题与 PR",
+      "无新版本；v2026.8.1 导致崩溃循环",
+      "用户报告关键升级路径问题",
+      "30+ 高优先级 PR 待维护者审核",
+      "会话状态缺陷影响代理可靠性",
+      "生产负载下代理协作失败"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.0 稳定版；无新发布",
+      "SGLang v0.5.18 稳定版；积极开发",
+      "llama.cpp 开发版（b10771, b10767）可用",
+      "Ollama 保持不变；无新版本",
+      "LiteLLM Docker 专用版 v1.99.1 更新",
+      "Unsloth beta v0.1.806 发布且无破坏性变更"
+    ],
+    "ai-trending": [
+      "TimesFM 急升：今日 +343 星标",
+      "Ponytail 为代理效率斩获 1,354 新星标",
+      "ECC 优化新增 516 星标",
+      "VoiceStudio：本地语音 AI 获 832 新星标",
+      "OpenClaude：隐私优先编码获 775 星标",
+      "Atlas：代理版本控制获 888 新星标"
+    ],
+    "ai-web": [
+      "Anthropic 推出企业版前沿防护功能",
+      "EFS 支持云部署零数据留存",
+      "Fable 5.1 现可部署于客户自有基础设施",
+      "EFS 正在推广至 AWS Bedrock、Google、微软",
+      "新元分析支持工人再培训项目",
+      "企业安全的前沿 AI 模型部署现成"
+    ],
+    "ai-hn": [
+      "Gemini 3.8 Flash 成 HN 讨论焦点",
+      "Claude Fable 5.1 因实时性能受赞",
+      "AI 训练数据退出权引发争论",
+      "Meta Muse Spark 1.3 引发兴奋与担忧",
+      "论文揭示神经网络发展符号结构",
+      "Hacker News 热议代理安全与伦理"
+    ],
+    "ai-arxiv": [
+      "LLM 现可自主设计视频编码工具",
+      "CordisBench 挑战深层模式推理",
+      "LatentPress 提升上下文压缩效率",
+      "幂律熵搜索优化超参数",
+      "新论文暴露微调中的对齐脆弱性",
+      "探索神经网络中的涌现符号结构"
+    ],
+    "ai-community": [
+      "代理需设制动——执行保护至关重要",
+      "执行树取代平铺日志用于调试",
+      "AI 网关增加 400ms 延迟——原因在此",
+      "发现 AI 代理工具访问 3 处安全漏洞",
+      "文件锚定上下文提升可靠性",
+      "零信任代理在本地 LLM 中流行"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.259 released with stability fixes",
+      "OpenAI Codex rolls out alpha.6 & .5 updates",
+      "Gemini CLI hits nightly build v0.59.0",
+      "GitHub Copilot CLI v1.0.83-3 now live",
+      "OpenCode sees new PR activity after quiet period",
+      "Pi tool gains traction in developer workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and PRs in 24 hours",
+      "No new releases; v2026.8.1 causes crash loops",
+      "Critical upgrade path issues reported by users",
+      "30+ high-priority PRs await maintainer review",
+      "Session state bugs stress agent reliability",
+      "Agent coordination failures under production load"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.0 stable; no new releases",
+      "SGLang v0.5.18 stable; active development",
+      "llama.cpp dev builds (b10771, b10767) available",
+      "Ollama unchanged; no new release",
+      "LiteLLM Docker-only v1.99.1 update",
+      "Unsloth beta v0.1.806 launched with no breaking changes"
+    ],
+    "ai-trending": [
+      "TimesFM surges: +343 stars today",
+      "Ponytail hits 1,354 new stars for agent efficiency",
+      "ECC gains 516 new stars in optimization",
+      "VoiceStudio: 832 new stars for local voice AI",
+      "OpenClaude: 775 stars for privacy-first coding",
+      "Atlas: 888 new stars for agent version control"
+    ],
+    "ai-web": [
+      "Anthropic launches Enterprise Frontier Safeguards",
+      "EFS enables zero data retention in cloud deployments",
+      "Fable 5.1 now deployable with customer-owned infrastructure",
+      "EFS rolling out across AWS Bedrock, Google, Microsoft",
+      "New meta-analysis supports worker retraining programs",
+      "Enterprise-safe frontier AI model deployment now possible"
+    ],
+    "ai-hn": [
+      "Gemini 3.8 Flash dominates HN discussion",
+      "Claude Fable 5.1 praised for real-time performance",
+      "Debate erupts over AI training data opt-out rights",
+      "Meta's Muse Spark 1.3 sparks excitement and concern",
+      "Paper reveals neural networks develop symbolic structures",
+      "Hacker News buzzes on agent safety and ethics"
+    ],
+    "ai-arxiv": [
+      "LLMs now design video coding tools autonomously",
+      "CordisBench challenges reasoning beyond surface patterns",
+      "LatentPress boosts context compression efficiency",
+      "Power-law entropy search optimizes hyperparameters",
+      "New paper exposes alignment fragility during fine-tuning",
+      "Emergent symbolic structures in neural networks explored"
+    ],
+    "ai-community": [
+      "Agents need brakes—execution guards are critical",
+      "Execution trees replace flat logs for debugging",
+      "AI gateway added 400ms latency—here’s why",
+      "3 security flaws found in AI agent tool access",
+      "Context anchoring via files improves reliability",
+      "Zero-trust proxies gain traction for local LLMs"
+    ]
+  }
+}
