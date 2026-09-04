@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.260 稳定性修复版发布",
+      "OpenAI Codex 更新至 rust-v0.153.2",
+      "Gemini CLI 因延迟24小时待发布",
+      "GitHub Copilot CLI 出现10个热门问题",
+      "OpenCode 在代理扩展性上获关注",
+      "Pi CLI 新增多代理工作流支持"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.1 增加交互式图表",
+      "图表原生支持 iOS、macOS、Android",
+      "简化安装到聊天流程上线",
+      "合并PR修复发布流水线故障",
+      "会话管理仍存高优先级缺陷",
+      "社区对关键问题响应激增"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 稳定版含3项严重修复",
+      "SGLang 24小时内合并6个PR",
+      "llama.cpp 通过 b10793 更新补丁",
+      "Ollama 活跃，合并5个PR",
+      "LiteLLM 优化可观测性功能",
+      "Unsloth 针对 Apple Silicon 优化"
+    ],
+    "ai-trending": [
+      "ECC.js：24.7万星，令牌减少65%",
+      "rtk-ai/rtk 令牌削减60–90%",
+      "DietrichGebert/ponytail 爆红 (+2,128)",
+      "Affaan-m/ECC 实现跨工具技能",
+      "Hermes Agent 因懒惰受追捧",
+      "Claude 与 Copilot 技能仓库激增"
+    ],
+    "ai-web": [
+      "印度位列全球 Claude.ai 使用第二",
+      "Anthropic 发布印度经济指数",
+      "GPT-6 Astra 元数据暗示发布",
+      "OpenAI gpt-6-astra 集群预示部署",
+      "纽约市禁用AI一年（K–8学校）",
+      "GPT-6 Astra 在 HN 得分1,209"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra 登顶 HN 得分1,209",
+      "Claude Fable 5.1 引发性能争议",
+      "Gemini 3.8 Flash 速度获赞",
+      "主流模型同时出现宕机",
+      "AI使用监管审查加剧",
+      "HN 社区分歧于模型透明度"
+    ],
+    "ai-arxiv": [
+      "用户反馈改善大模型行为",
+      "Trace-as-State 显著降低内存",
+      "大模型可自主控制注意力",
+      "稀疏解码缓解幻觉",
+      "早期结果预测提升评估效率",
+      "鲁棒检索增强推理进展"
+    ],
+    "ai-community": [
+      "20个代理AI术语通俗解析",
+      "自进化代理因搜索缺陷失败",
+      "记忆是负担——应追踪状态",
+      "调试AI应用仍具挑战",
+      "需为LLM工具安全设防护",
+      "低成本ARC-AGI性能突破"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.260 released with stability fixes",
+      "OpenAI Codex updates to rust-v0.153.2",
+      "Gemini CLI pending release after 24h delay",
+      "GitHub Copilot CLI hits 10 hot issues",
+      "OpenCode gains traction in agent extensibility",
+      "Pi CLI now supports multi-agent workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.1 adds interactive diagrams",
+      "Diagrams render natively in iOS, macOS, Android",
+      "Streamlined install-to-chat flow launched",
+      "Merged PRs fix release pipeline failures",
+      "High P0/P1 bugs persist in session management",
+      "Community engagement spikes on critical issues"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 stable with 3 high-severity fixes",
+      "SGLang sees 6 PRs merged in 24h",
+      "llama.cpp patched with b10793 update",
+      "Ollama active with 5 PRs merged",
+      "LiteLLM improves observability features",
+      "Unsloth optimizes for Apple Silicon"
+    ],
+    "ai-trending": [
+      "ECC.js: 247K stars, 65% token reduction",
+      "rtk-ai/rtk cuts tokens by 60–90%",
+      "DietrichGebert/ponytail goes viral (+2,128)",
+      "Affaan-m/ECC enables cross-tool skills",
+      "Hermes Agent gains popularity for laziness",
+      "Skill repos surge for Claude & Copilot"
+    ],
+    "ai-web": [
+      "India ranks #2 in global Claude.ai usage",
+      "Anthropic releases India Economic Index",
+      "GPT-6 Astra metadata hints at launch",
+      "OpenAI's gpt-6-astra cluster suggests rollout",
+      "NYC bans AI in K–8 schools for 1 year",
+      "GPT-6 Astra scores 1,209 on HN"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra tops HN with 1,209 score",
+      "Claude Fable 5.1 sparks performance debate",
+      "Gemini 3.8 Flash praised for speed",
+      "Major models face simultaneous outages",
+      "Regulatory scrutiny grows over AI use",
+      "HN community split on model transparency"
+    ],
+    "ai-arxiv": [
+      "User feedback signals improve LLM behavior",
+      "Trace-as-State reduces memory by exp.",
+      "LLMs can control their own attention",
+      "Sparse decoding mitigates hallucinations",
+      "Early outcome prediction boosts evaluation",
+      "Robust retrieval-augmented reasoning advances"
+    ],
+    "ai-community": [
+      "20 agentic AI terms explained simply",
+      "Self-improving agents fail due to flawed search",
+      "Memory is a liability—track state instead",
+      "Debugging AI apps remains challenging",
+      "Guardrails needed for LLM-tool safety",
+      "Low-cost ARC-AGI performance breakthrough"
+    ]
+  }
+}
