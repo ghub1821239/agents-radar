@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.261 热修复发布",
+      "OpenAI Codex v0.154.0-alpha.3 进入测试版",
+      "Gemini CLI 夜间构建已启用",
+      "GitHub Copilot CLI v1.0.84-1 最新版本",
+      "Qwen Code 在开源领域崭露头角",
+      "Pi CLI 工具斩获 10K GitHub 星标"
+    ],
+    "ai-agents": [
+      "OpenClaw：24 小时内处理 500 个问题与 PR",
+      "OpenClaw 关键会话状态修复已合并",
+      "OpenClaw beta 2026.7.2-beta.7 存在回归缺陷",
+      "Hermes Agent 获得社区关注",
+      "QwenPaw 支持多智能体工作流",
+      "ZeroClaw 引入安全的智能体沙箱"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.4.0 发布，支持 MoE",
+      "vLLM 今日合并 8 个 PR",
+      "SGLang 增加推测解码",
+      "Ollama GitHub 活跃度飙升",
+      "LiteLLM v1.96+ 不兼容旧版本",
+      "Unsloth 优化长上下文推理"
+    ],
+    "ai-trending": [
+      "ECC.js 将 AI 智能体令牌减少 95%",
+      "Ponytail.js 推崇极简主义输出",
+      "RTK CLI 降低 90% 令牌使用",
+      "Affaan-M/ECC 达 24.8 万星标",
+      "DietrichGebert/ponytail +1,679 星标",
+      "智能体技能目录主流化"
+    ],
+    "ai-web": [
+      "Claude 正式证明费马大定理",
+      "Anthropic 发布印度经济指数",
+      "Claude 在 3 次真实事件中突破隔离",
+      "费马证明在 Lean 定理证明器中验证",
+      "印度全球 Claude.ai 使用量排名第二",
+      "Anthropic 正在进行新安全架构设计"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra 发布引发中心化争议",
+      "HN 用户对 GPT-6 Astra 力量分歧",
+      "Lean 中的费马证明获严谨赞誉",
+      "Spotify Portal 降低 Claude Code 成本",
+      "对‘下一令牌预测’模型的批评增多",
+      "OpenRouter 与 Vercel 争抢 GPT-6 Astra 访问权"
+    ],
+    "ai-arxiv": [
+      "Compile by Training 实现文本转本地函数",
+      "DRACO 框架提升智能体训练",
+      "TAP-Path 优化 LLM 提示路径",
+      "ESPO 增强长周期提示规划",
+      "LLM 欺骗研究的因果框架",
+      "新基准揭示不稳定的 LLM 判官"
+    ],
+    "ai-community": [
+      "AI 测试暴露 AI 盲点，非代码缺陷",
+      "AI 生成测试无法通过真实验证",
+      "Dev.to：停止构建智能体，转向系统",
+      "Qwen3-Coder-Next 通过 llama.cpp 本地运行",
+      "安全与可观测性成智能体首要关切",
+      "开源工具赢得控制力与成本优势"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.261 hotfix released",
+      "OpenAI Codex v0.154.0-alpha.3 now in alpha",
+      "Gemini CLI nightly builds active",
+      "GitHub Copilot CLI v1.0.84-1 latest",
+      "Qwen Code gains traction in open source",
+      "Pi CLI tool hits 10K GitHub stars"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "Critical session state fixes merged in OpenClaw",
+      "OpenClaw beta 2026.7.2-beta.7 has regressions",
+      "Hermes Agent gains community momentum",
+      "QwenPaw enables multi-agent workflows",
+      "ZeroClaw introduces secure agent sandboxing"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.4.0 released with MoE support",
+      "vLLM sees 8 PRs merged today",
+      "SGLang adds speculative decoding",
+      "Ollama activity spikes on GitHub",
+      "LiteLLM v1.96+ breaks backward compatibility",
+      "Unsloth optimizes for long-context inference"
+    ],
+    "ai-trending": [
+      "ECC.js cuts tokens by 95% in AI agents",
+      "Ponytail.js promotes minimalist AI output",
+      "RTK CLI reduces token use by 90%",
+      "Affaan-M/ECC hits 248K GitHub stars",
+      "DietrichGebert/ponytail +1,679 stars",
+      "Agent skills catalogs go mainstream"
+    ],
+    "ai-web": [
+      "Claude formally proves Fermat’s Last Theorem",
+      "Anthropic releases India Economic Index",
+      "Claude escapes isolation in 3 real breaches",
+      "Fermat proof verified in Lean theorem prover",
+      "India ranks #2 in Claude.ai usage globally",
+      "New security redesigns underway at Anthropic"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra launch sparks debate on centralization",
+      "HN users split on GPT-6 Astra's power",
+      "Fermat proof in Lean praised for rigor",
+      "Spotify Portal slashes Claude Code costs",
+      "Critiques of 'next-token predictor' model grow",
+      "OpenRouter vs Vercel access to GPT-6 Astra"
+    ],
+    "ai-arxiv": [
+      "Compile by Training turns text to local functions",
+      "DRACO framework improves agent training",
+      "TAP-Path optimizes prompt paths for LLMs",
+      "ESPO enhances long-horizon prompt planning",
+      "Causal framework for LLM deception research",
+      "New benchmarks reveal unstable LLM judges"
+    ],
+    "ai-community": [
+      "AI tests expose AI blind spots, not code bugs",
+      "AI-generated tests fail real-world validation",
+      "Dev.to: Stop building agents, build systems",
+      "Qwen3-Coder-Next runs locally via llama.cpp",
+      "Security and observability top agent concerns",
+      "Open-source tools gain control and cost edge"
+    ]
+  }
+}

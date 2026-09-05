@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-05",
+  "profileUser": "ghub1821239",
+  "starCount": 8,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "main": {
+    "id": "anthropics/skills#1708",
+    "name": "Add api-governance skill (CodeRifts)",
+    "description": "Add `api-governance` skill (CodeRifts) Adds one skill, `skills/api-governance/`, and registers it as a single-skill plugin in `.claude-plugin/marketplace.json`. What the skill does It teaches Claude when to ask for a governance decision on an **API or agent-tool contract change**, and how to read the answer. The decision comes from the CodeRifts MCP…",
+    "url": "https://github.com/anthropics/skills/pull/1708",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "你 Star 中的 'skills'、'skill' 和 'ai-agent' 兴趣高度匹配，该 PR 提供一个可独立学习与实验的 API 治理技能实现，直接关联 AI Agent 的安全决策流程。",
+    "whyNow": "API 治理是 AI Agent 实践中的关键环节，当前开放的 PR 展示了如何在 Agent 工作流中集成治理逻辑，适合快速理解并动手验证其设计模式。",
+    "learn": [
+      "理解 API 治理技能的核心目标：在 Agent 修改接口或工具合约前触发人工决策",
+      "掌握该技能通过 MCP 插件机制注册，并在 Claude Code 等环境中被调用的集成方式"
+    ],
+    "exercise": [
+      "在本地创建一个空项目目录，手动编写 `skills/api-governance/SKILL.md` 文件，内容包含技能描述、触发条件和决策反馈格式",
+      "修改 `.claude-plugin/marketplace.json` 添加该技能条目，确保其能被识别为单技能插件（仅需结构正确即可验证）"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1701",
+      "name": "feat: add red-green-proof debugging skill",
+      "description": "Add the `red-green-proof` Agent Skill under `skills/red-green-proof/SKILL.md`. Require cause verification before test authoring. Require a focused red test, smallest fix, deliberate revert-to-red check, and final full-suite validation. Document honest alternatives for inaccessible code paths: extraction, structural, model, and characterization tests. This…",
+      "url": "https://github.com/anthropics/skills/pull/1701",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "该开放 PR 提供了一个可动手实践的红绿测试调试技能，契合你对 AI Agent 技能开发的兴趣",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 feat: add red-green-proof debugging skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1702",
+      "name": "Add loopify: a standing brief + one /loop line for jobs that repeat",
+      "description": "loopify is a Claude Code skill for jobs that never quite finish — keeping a release PR healthy while reviews trickle in, watching a deploy until it settles, sweeping new bug reports every hour. You describe the job once; the skill reads the project, asks about the few real choices, and writes a standing brief: a file holding what one round of the job does,…",
+      "url": "https://github.com/anthropics/skills/pull/1702",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "loopify 技能聚焦重复性任务自动化，是典型可拆解的小型 Agent Skill，适合快速上手",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add loopify: a standing brief + one /loop line for jobs that repeat 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "name": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "kind": "project",
+      "source": "GitHub Search: claude-code",
+      "whyForYou": "该项目解决 AI Agent 的上下文持久化问题，与你关注的 claude-code 与 agent 兴趣高度相关",
+      "whyNow": "最近来自 GitHub Search: claude-code 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 thedotmack/claude-mem 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}
