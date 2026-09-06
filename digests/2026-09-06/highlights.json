@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 突破174k星标",
+      "Gemini CLI v0.60.0-nightly 发布",
+      "Pi 增加 GPT-6 Astra 支持",
+      "OpenAI Codex 24小时内修复10个PR",
+      "GitHub Copilot CLI 尽管有缺陷仍稳定",
+      "Qwen Code 在CLI领域崭露头角"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.2 提升会话稳定性",
+      "OpenClaw 今日合并220个PR",
+      "Hermes Agent 势头强劲",
+      "IronClaw 优化多智能体流程",
+      "QwenPaw 集成 Qwen3.8",
+      "ZeroClaw 聚焦轻量级代理"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.0 稳定发布",
+      "SGLang v0.5.19 含重大变更",
+      "Ollama v0.34.0-rc1 发布，关键漏洞待修",
+      "Unsloth 加速MoE推理",
+      "LiteLLM 修复流式计费问题",
+      "llama.cpp 回归全部修复"
+    ],
+    "ai-trending": [
+      "ECC GitHub 星标达249k",
+      "rtk-ai/rtk token减少90%",
+      "JuliusBrussee/caveman 使用量降65%",
+      "Anthropic技能库达174k星标",
+      "affaan-m/ECC：Claude代理框架",
+      "ruvnet/ruflo：元框架平台"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra 引发热议",
+      "LLMs作认知病毒论文走红",
+      "费马大定理获形式证明",
+      "Qwen 3.8 27B 达1500 tokens/s",
+      "学区实施AI暂停令",
+      "开源信任与LLM过度依赖之争"
+    ],
+    "ai-community": [
+      "AI守门人阻止线上错误",
+      "多数AI代理因外部依赖失败",
+      "RAG无法解决信任与一致性",
+      "Laravel开发者呼吁更安全的AI系统",
+      "隐私与本地执行成首要关切",
+      "OpenClaw推动无信任设计"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 174k stars",
+      "Gemini CLI v0.60.0-nightly released",
+      "Pi adds GPT-6 Astra support",
+      "OpenAI Codex fixes 10 PRs in 24h",
+      "GitHub Copilot CLI stable despite issues",
+      "Qwen Code gains traction in CLI space"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.2 boosts session stability",
+      "220 PRs merged in OpenClaw today",
+      "Hermes Agent gains momentum",
+      "IronClaw enhances multi-agent workflows",
+      "QwenPaw integrates with Qwen3.8",
+      "ZeroClaw focuses on lightweight agents"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.0 stable release",
+      "SGLang v0.5.19 with breaking changes",
+      "Ollama v0.34.0-rc1 out, critical bugs open",
+      "Unsloth speeds up MoE inference",
+      "LiteLLM fixes streaming cost issues",
+      "llama.cpp backports all fixes"
+    ],
+    "ai-trending": [
+      "ECC hits 249k stars on GitHub",
+      "rtk-ai/rtk cuts tokens by 90%",
+      "JuliusBrussee/caveman reduces usage by 65%",
+      "Anthropic’s skills repo at 174k stars",
+      "affaan-m/ECC: agent harness for Claude",
+      "ruvnet/ruflo: meta-harness platform"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra sparks massive debate",
+      "LLMs as cognitive viruses paper goes viral",
+      "Formal proof of Fermat's Last Theorem",
+      "Qwen 3.8 27B runs at 1500 tokens/s",
+      "School districts impose AI moratoriums",
+      "Open-source trust vs. LLM overreliance"
+    ],
+    "ai-community": [
+      "AI gatekeepers prevent live errors",
+      "Most AI agents fail due to external deps",
+      "RAG doesn’t fix trust or consistency",
+      "Laravel devs demand safer AI systems",
+      "Privacy and local execution top concerns",
+      "OpenClaw pushes trustless design"
+    ]
+  }
+}
