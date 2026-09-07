@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.263 发布关键修复",
+      "Gemini CLI 现已加入夜间构建，v0.60.0",
+      "OpenAI Codex 存在45个开放问题，暂无发布",
+      "Qwen Code v0.23.1-preview 失败，新构建待定",
+      "Pi 工具获关注，近期提交10个PR",
+      "GitHub Copilot CLI 本周仅1个PR"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题与PR",
+      "自8月以来无新OpenClaw发布",
+      "v2026.8.2稳定版，测试版v2026.9.1-beta.1",
+      "会话状态损坏关键修复",
+      "UI/UX更新优化移动端聊天对齐",
+      "核心TLS文件读取安全增强"
+    ],
+    "ai-infra": [
+      "vLLM：合并12个PR，5个高危问题",
+      "SGLang：8个PR，4个高优先级漏洞",
+      "llama.cpp 稳定版发布b10826",
+      "Ollama：6个开放问题，2个PR合并",
+      "LiteLLM RC v1.101.0-rc.1 可用",
+      "聚焦Blackwell与Apple M系列支持"
+    ],
+    "ai-trending": [
+      "ECC by affaan-m 收获25.1万星标",
+      "ponytail、humanizer、magnitude 快速崛起",
+      "MCP对齐系统势头上升",
+      "n8n-io/n8n 添加原生AI集成",
+      "dify 支持多智能体RAG管道",
+      "ollama 实现本地Kimi-K2.6推理"
+    ],
+    "ai-web": [
+      "OpenAI 发布*异星心智*下5个新页面",
+      "GPT-6 Astra上线引发HN热议",
+      "Anthropic 自8月30日沉默无更新",
+      "OpenAI研究框架暗示新方向",
+      "新OpenAI链接疑似A/B测试",
+      "内部文档或通过预发环境同步"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra：HN评分2246，反应两极",
+      "异星心智：305分，引发存在主义讨论",
+      "Anthropic 验证费马大定理",
+      "AI作'认知病毒'引发担忧",
+      "Nueralese：模型输出愈发模糊",
+      "共和党警告AI公司备战2026选举"
+    ],
+    "ai-hf": [
+      "unsloth/Qwen3.8-27B-GGUF 下载量达1000万",
+      "Qwen3.8系列主导多模态趋势",
+      "Lightricks/LTX-2.5：视频生成下载超150万",
+      "zai-org/GLM-5.3：基于MoE，推理优化",
+      "tencent/Hy4-preview 在中国受关注",
+      "gpt2 仍为轻量场景首选"
+    ],
+    "ai-community": [
+      "无需LangChain的RAG提升控制力",
+      "Postgres速度测试胜过向量数据库",
+      "真实基准显示亚美元级ARC-AGI",
+      "优质提示胜过复杂框架",
+      "安全强化工作流逐渐普及",
+      "评估循环成智能体可靠性关键"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.263 released with critical fixes",
+      "Gemini CLI now in nightly builds, v0.60.0",
+      "OpenAI Codex sees 45 open issues, no release",
+      "Qwen Code v0.23.1-preview failed, new build pending",
+      "Pi tool gains traction with 10 recent PRs",
+      "GitHub Copilot CLI has only 1 PR this week"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues & PRs in 24 hours",
+      "No new OpenClaw releases since August",
+      "v2026.8.2 stable, beta at v2026.9.1-beta.1",
+      "Critical fixes for session state corruption",
+      "UI/UX updates improve mobile chat alignment",
+      "TLS file read safety improved in core"
+    ],
+    "ai-infra": [
+      "vLLM: 12 PRs merged, 5 high-severity issues",
+      "SGLang: 8 PRs, 4 high-priority bugs",
+      "llama.cpp stable with b10826 release",
+      "Ollama: 6 open issues, 2 PRs merged",
+      "LiteLLM RC v1.101.0-rc.1 now available",
+      "Focus on Blackwell and Apple M-series support"
+    ],
+    "ai-trending": [
+      "ECC by affaan-m hits 251K stars",
+      "ponytail, humanizer, magnitude trending fast",
+      "MCP-aligned systems gaining momentum",
+      "n8n-io/n8n adds native AI integration",
+      "dify supports multi-agent RAG pipelines",
+      "ollama enables local Kimi-K2.6 inference"
+    ],
+    "ai-web": [
+      "OpenAI publishes 5 new pages under *An Alien Mind*",
+      "GPT-6 Astra rollout sparks debate on HN",
+      "Anthropic silent since Aug 30, no updates",
+      "OpenAI's research framing hints at new agenda",
+      "A/B testing suspected in new OpenAI URLs",
+      "Internal docs possibly synced via staging"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra: 2246 HN score, split reactions",
+      "An Alien Mind: 305 score, existential debate",
+      "Anthropic verifies Fermat’s Last Theorem",
+      "AI as 'cognitive virus' sparks concern",
+      "Nueralese: opaque model outputs growing",
+      "GOP warns AI firms ahead of 2026 election"
+    ],
+    "ai-hf": [
+      "unsloth/Qwen3.8-27B-GGUF hits 10M downloads",
+      "Qwen3.8 series dominates multimodal trends",
+      "Lightricks/LTX-2.5: 1.5M+ video generation downloads",
+      "zai-org/GLM-5.3: MoE-based, optimized inference",
+      "tencent/Hy4-preview gains traction in China",
+      "gpt2 still leads in lightweight use cases"
+    ],
+    "ai-community": [
+      "RAG without LangChain improves control",
+      "Postgres beats vector DBs in speed tests",
+      "Real-world benchmarks show sub-dollar ARC-AGI",
+      "Better prompts win over complex frameworks",
+      "Security-hardened workflows gaining adoption",
+      "Evaluation loops now key to agent reliability"
+    ]
+  }
+}
