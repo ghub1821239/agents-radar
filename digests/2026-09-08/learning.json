@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-08",
+  "profileUser": "ghub1821239",
+  "starCount": 8,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "main": {
+    "id": "anthropics/skills#1729",
+    "name": "Add portable CC for Codex Agent Skill",
+    "description": "This adds `skills/cc-for-codex`, a small, portable Agent Skill that teaches a Codex task how to use an explicitly requested local Claude Code installation as an independent second agent. It covers read-only review, adversarial review, bounded delegation, resumable handoffs, and the permission boundaries needed when two coding agents share a repository. The…",
+    "url": "https://github.com/anthropics/skills/pull/1729",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "与你 Star 中的 'skills'、'ai-agent'、'codex' 兴趣高度匹配，该 PR 提出的 portable CC for Codex Agent Skill 是一个可独立拆解的小技术，直接关联你关注的 Claude Code 和 Codex 集成场景。",
+    "whyNow": "当前 AI Agent 多代理协作成为关键挑战，此技能演示了如何在不依赖外部服务的前提下，让两个编码代理（Codex + Claude Code）安全共享仓库并分权协作，是近期前沿实践的缩影。",
+    "learn": [
+      "理解 portable CC 技能如何通过本地 Claude Code 实例作为独立第二代理运行",
+      "掌握 read-only review、adversarial review、bounded delegation 等权限边界设计模式"
+    ],
+    "exercise": [
+      "在本地创建一个空项目目录，复制 `skills/cc-for-codex` 的结构和 `SKILL.md` 内容，仅保留核心逻辑描述和入口函数框架",
+      "使用 `python -m http.server 8000` 启动本地服务，用浏览器访问 `http://localhost:8000` 模拟一次 agent 手动交互流程，验证其是否能正确识别并调用本地 Claude Code（无需实际部署）"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "thedotmack/claude-mem",
+      "name": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "kind": "project",
+      "source": "GitHub Search: claude-code",
+      "whyForYou": "与你星标中的 claude-code 与 agent 兴趣高度契合，提供持久上下文能力，是提升 agent 连贯性的关键技术点。",
+      "whyNow": "最近来自 GitHub Search: claude-code 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 thedotmack/claude-mem 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "zhayujie/CowAgent",
+      "name": "zhayujie/CowAgent",
+      "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "kind": "project",
+      "source": "GitHub Search: ai-agent",
+      "whyForYou": "与你关注的 ai-agent、skills 兴趣一致，是一个轻量级可快速实验的开源 Agent Harness，适合构建原型。",
+      "whyNow": "最近来自 GitHub Search: ai-agent 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 zhayujie/CowAgent 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills",
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "kind": "project",
+      "source": "GitHub Search: agent-skills",
+      "whyForYou": "与你星标中的 skills 与 agent 兴趣匹配，提供了大量可复用的科学领域技能，可快速集成到你的工作流中。",
+      "whyNow": "最近来自 GitHub Search: agent-skills 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 K-Dense-AI/scientific-agent-skills 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}

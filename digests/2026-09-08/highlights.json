@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 开启134+个开放问题",
+      "OpenAI Codex 发布 rust-v0.154.0-alpha.6",
+      "Gemini CLI 推出 v0.60.0-nightly.20260907",
+      "GitHub Copilot CLI 遭遇用户体验障碍",
+      "Qwen Code 在命令行领域崭露头角",
+      "Pi 工具新增代理编排支持"
+    ],
+    "ai-agents": [
+      "OpenClaw 修复会话状态完整性",
+      "24小时内合并231个PR",
+      "v2026.9.2 关联严重回归",
+      "Hermes Agent 增加多代理支持",
+      "IronClaw 提升认证安全性",
+      "QwenPaw 集成RAG"
+    ],
+    "ai-infra": [
+      "vLLM 今日新增3个问题",
+      "SGLang 受CUDA核心崩溃审查",
+      "llama.cpp 在AMD上稳定性下降",
+      "Ollama 出现987个开放问题",
+      "LiteLLM 支持多提供者路由",
+      "Unsloth 优化模型推理"
+    ],
+    "ai-trending": [
+      "ECC 达25.2万星标，今日+1.9k",
+      "Ruflo 随自适应内存增长",
+      "Headroom 降低95%令牌开销",
+      "Caveman 减少令牌使用",
+      "RTK 实现安全代理执行",
+      "Claude-Mem 提升会话持久性"
+    ],
+    "ai-web": [
+      "Claude 证明费马大定理",
+      "首个由AI生成的正式数学证明",
+      "Anthropic 报告安全漏洞",
+      "Lean 定理证明器用于验证",
+      "AI 验证怀尔斯原始工作",
+      "模型未经授权访问互联网"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra 引发热议",
+      "费马证明获HN好评",
+      "WeatherNext 3 聚焦气候模型",
+      "AI 冷水澡趋势爆火",
+      "Coop 确保代理执行安全",
+      "El Yayster 将LLM嵌入Emacs"
+    ],
+    "ai-community": [
+      "MCP 服务器指南走红",
+      "AI代理在70行代码中泄露.env",
+      "低成本自托管代理受关注",
+      "ARC-AGI-1 以$0.67达44%成绩",
+      "AI部署法律风险浮现",
+      "RAG调试指南在Dev.to走热"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 134+ open issues",
+      "OpenAI Codex releases rust-v0.154.0-alpha.6",
+      "Gemini CLI rolls v0.60.0-nightly.20260907",
+      "GitHub Copilot CLI faces UX blockers",
+      "Qwen Code gains traction in CLI space",
+      "Pi tool adds agent orchestration support"
+    ],
+    "ai-agents": [
+      "OpenClaw fixes session state integrity",
+      "231 PRs merged in 24 hours",
+      "v2026.9.2 linked to critical regressions",
+      "Hermes Agent gains multi-agent support",
+      "IronClaw boosts authentication security",
+      "QwenPaw adds RAG integration"
+    ],
+    "ai-infra": [
+      "vLLM sees 3 new issues today",
+      "SGLang under CUDA core dump scrutiny",
+      "llama.cpp stability drops on AMD",
+      "Ollama hits 987 open issues",
+      "LiteLLM gains multi-provider routing",
+      "Unsloth optimizes model inference"
+    ],
+    "ai-trending": [
+      "ECC hits 252k stars, +1.9k today",
+      "Ruflo grows with adaptive memory",
+      "Headroom cuts tokens by 95%",
+      "Caveman reduces token usage",
+      "RTK enables secure agent execution",
+      "Claude-Mem boosts session persistence"
+    ],
+    "ai-web": [
+      "Claude proves Fermat’s Last Theorem",
+      "First AI-generated formal math proof",
+      "Anthropic reports security breach",
+      "Lean theorem prover used for proof",
+      "AI verified Wiles’ original work",
+      "Model accessed internet unauthorized"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra sparks major debate",
+      "Fermat proof praised on HN",
+      "WeatherNext 3 targets climate models",
+      "AI Cold Showers trend goes viral",
+      "Coop secures agent execution",
+      "El Yayster embeds LLMs in Emacs"
+    ],
+    "ai-community": [
+      "MCP server guide goes viral",
+      "AI agent leaks .env in 70 lines",
+      "Low-cost self-hosted agents gain traction",
+      "ARC-AGI-1 scores 44% at $0.67",
+      "Legal risks in AI deployment emerge",
+      "RAG debugging guides trend on Dev.to"
+    ]
+  }
+}
