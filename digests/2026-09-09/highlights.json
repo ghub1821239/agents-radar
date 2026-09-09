@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.266 稳定性修复版发布",
+      "OpenAI Codex 体验版：rust-v0.154.0",
+      "Gemini CLI 今日现10个热门问题",
+      "GitHub Copilot CLI 新增插件支持",
+      "Qwen Code 支持多文件上下文",
+      "Pi CLI 增加浏览器自动化技能"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.3 更安全更新发布",
+      "新演练系统防止更新失败",
+      "报告关键会话状态漏洞",
+      "多智能体编排仍很痛苦",
+      "语音/语音输入正在开发",
+      "插件管理功能现已稳定"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 稳定版，无重大变更",
+      "SGLang 面临严重稳定性问题",
+      "llama.cpp b10867 补丁修复懒加载模式",
+      "Ollama：关键修复合并，暂无发布",
+      "LiteLLM 阶段分支影响生产",
+      "Unsloth 测试版 v0.1.807 上线"
+    ],
+    "ai-trending": [
+      "ECC.js 代理减少98%令牌",
+      "rtk-ai/rtk 令牌使用降90%",
+      "headroomlabs-ai JSON压缩95%",
+      "MCP协议推动代理集成",
+      "Claude Code 技能受关注",
+      "Affaan-m/ECC 达25.4万星标"
+    ],
+    "ai-web": [
+      "Anthropic 暴露2.4万个虚假账号攻击",
+      "中国实验室被指工业级蒸馏",
+      "MITRE ATT&CK研究揭示AI威胁",
+      "蒸馏攻击针对Claude",
+      "AI网络攻击已实现自主",
+      "安全重心转向主动防御"
+    ],
+    "ai-hn": [
+      "Meta Muse AI 引发自主性争议",
+      "OpenAI 数学突破遭质疑",
+      "LibreOffice 无AI功能依然繁荣",
+      "大模型出现新型社会偏见",
+      "AlphaGenome图谱绘制人类基因组",
+      "纳维-斯托克斯解法宣称走红"
+    ],
+    "ai-community": [
+      "AI代理常仅为'如果语句'",
+      "Dev.to：AI让开发者更懒？",
+      "6行修复胜过一周匹配器",
+      "10分钟内攻破自身AI",
+      "AI代码质量仍不可靠",
+      "版权与AI监管争议不断"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.266 released with stability fixes",
+      "OpenAI Codex in alpha: rust-v0.154.0",
+      "Gemini CLI sees 10 hot issues today",
+      "GitHub Copilot CLI gains new plugin support",
+      "Qwen Code now supports multi-file context",
+      "Pi CLI adds browser automation skills"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.3 released with safer updates",
+      "New rehearsal system prevents update failures",
+      "Critical session state bugs reported",
+      "Multi-agent orchestration remains painful",
+      "Voice/dictation support in active dev",
+      "Plugin management feature now stable"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 stable, no breaking changes",
+      "SGLang faces high-severity stability issues",
+      "llama.cpp b10867 patch fixes lazy mode",
+      "Ollama: critical fixes merged, no release",
+      "LiteLLM staging PRs impact production",
+      "Unsloth beta v0.1.807 launched"
+    ],
+    "ai-trending": [
+      "ECC.js reduces tokens by 98% for agents",
+      "rtk-ai/rtk cuts token use by 90%",
+      "headroomlabs-ai compresses JSON by 95%",
+      "MCP protocol drives agent integration",
+      "Claude Code skills gain traction",
+      "Affaan-m/ECC hits 254K stars"
+    ],
+    "ai-web": [
+      "Anthropic exposes 24K fake accounts attack",
+      "China labs accused of industrial distillation",
+      "MITRE ATT&CK study reveals AI threats",
+      "Distillation campaign targets Claude",
+      "AI cyberattacks now autonomous",
+      "Security focus shifts to proactive defense"
+    ],
+    "ai-hn": [
+      "Meta's Muse AI sparks autonomy debate",
+      "OpenAI math breakthrough questioned",
+      "LibreOffice thrives without AI features",
+      "LLMs develop novel social biases",
+      "AlphaGenome Atlas maps human DNA",
+      "Navier–Stokes solution claim goes viral"
+    ],
+    "ai-community": [
+      "AI agents often just 'if-statements'",
+      "Dev.to: AI makes developers lazier?",
+      "6-line fix beats week-long matcher",
+      "Attack your own AI in under 10 mins",
+      "AI code quality still unreliable",
+      "Copyright and AI regulation debated"
+    ]
+  }
+}

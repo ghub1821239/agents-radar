@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-09",
+  "profileUser": "ghub1821239",
+  "starCount": 8,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "main": {
+    "id": "anthropics/skills#1729",
+    "name": "Add portable CC for Codex Agent Skill",
+    "description": "This adds `skills/cc-for-codex`, a small, portable Agent Skill that teaches a Codex task how to use an explicitly requested local Claude Code installation as an independent second agent. It covers read-only review, adversarial review, bounded delegation, resumable handoffs, and the permission boundaries needed when two coding agents share a repository. The…",
+    "url": "https://github.com/anthropics/skills/pull/1729",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "你 Star 了 skills、ai-agent、codex 等相关项目，该 PR 提出的 `cc-for-codex` 技能正是围绕本地 Claude Code 与 Codex Agent 的协作设计，高度契合你的兴趣方向。",
+    "whyNow": "当前 AI Agent 协作模式正从单体向多代理协同演进，掌握如何在两个代理间安全地共享任务与权限边界，是构建可复用技能的关键能力，适合今天快速实践。",
+    "learn": [
+      "理解 Portable Skill 的设计思想：如何将一个独立功能封装为可被多个 Agent 调用的模块",
+      "掌握双代理协作中的权限边界与委托机制：包括只读审查、对抗性审查、可恢复交接等核心概念"
+    ],
+    "exercise": [
+      "在本地创建一个 `skills/cc-for-codex` 目录，编写一个最小化的 skill 配置文件 `skill.json`，定义其入口点和依赖项（如使用 `claude-code` 工具）",
+      "模拟一次任务交接流程：写一段伪代码或 Markdown 文档，描述当 Codex Agent 请求使用本地 Claude Code 执行代码审查时，如何通过 skill 触发并传递上下文，验证其是否符合‘受限委托’原则"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "thedotmack/claude-mem",
+      "name": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "kind": "project",
+      "source": "GitHub Search: claude-code",
+      "whyForYou": "你关注 claude-code 和 agent 持久化能力，该项目提供跨会话的上下文记忆方案，直接增强 Agent 的连续性体验。",
+      "whyNow": "最近来自 GitHub Search: claude-code 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 thedotmack/claude-mem 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1708",
+      "name": "Add api-governance skill (CodeRifts)",
+      "description": "Add `api-governance` skill (CodeRifts) Adds one skill, `skills/api-governance/`, and registers it as a single-skill plugin in `.claude-plugin/marketplace.json`. What the skill does It teaches Claude when to ask for a governance decision on an **API or agent-tool contract change**, and how to read the answer. The decision comes from the CodeRifts MCP…",
+      "url": "https://github.com/anthropics/skills/pull/1708",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你对 api-governance 与 agent 权限控制感兴趣，该 PR 探索了在工具变更时引入治理决策流程，适合拆解为小实验。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add api-governance skill (CodeRifts) 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1736",
+      "name": "Make the academy-guide skill use the Claude Academy connector when present",
+      "description": "Teaches the `academy-guide` skill to use the Claude Academy connector (the `claude-academy` MCP server: `search_academy`, `get_content`, `list_content`) when its tools are available in a conversation, and to behave exactly as today — fetching the published catalog.json — when they are not. **Why:** Claude Academy now has an MCP connector. A skill cannot…",
+      "url": "https://github.com/anthropics/skills/pull/1736",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你关注 skill 与外部连接器集成，该 PR 实现了 academy-guide 技能自动适配 Claude Academy 连接器，体现智能降级逻辑。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Make the academy-guide skill use the Claude Academy connector when present 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}
