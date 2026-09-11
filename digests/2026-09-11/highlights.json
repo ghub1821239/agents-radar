@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.268 发布安全修复",
+      "OpenAI Codex 面临10个严重问题",
+      "Gemini CLI 支持函数钩子",
+      "GitHub Copilot CLI 增加会话持久化",
+      "Pi 工具通过插件扩展",
+      "Qwen Code 集成本地模型"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.35 最终LTS版发布",
+      "OpenClaw 稳定性受进程泄漏困扰",
+      "Hermes Agent 获得内存持久化",
+      "IronClaw 提升代理编排能力",
+      "QwenPaw 实现多模态工作流",
+      "ZeroClaw 引入零信任代理"
+    ],
+    "ai-infra": [
+      "vLLM：开发活跃，存在破坏性变更",
+      "SGLang：CI流水线高度不稳定",
+      "llama.cpp：发现关键FP8解码漏洞",
+      "Ollama：云模型稳定性问题",
+      "LiteLLM：134个开放问题，PR量高",
+      "Unsloth：边缘优化获关注"
+    ],
+    "ai-trending": [
+      "OmniRoute整合352个AI服务商",
+      "rtk CLI中令牌使用减少90%",
+      "Caveman技能输出降低65%",
+      "ECC代理助力研究团队",
+      "LLM Wiki支持自托管知识库",
+      "Cognee构建私有AI代理"
+    ],
+    "ai-web": [
+      "Anthropic披露首起AI间谍案",
+      "美国宣布500亿美元AI基建投资",
+      "OpenAI推出GPT Live 1 API",
+      "Agents API标志实时工作流变革",
+      "Claude Code被用于网络间谍",
+      "OpenAI在Navier-Stokes中集成形式证明"
+    ],
+    "ai-hn": [
+      "SWE-2 Terminal-Bench得分92.8",
+      "OpenAI发布包含Lean 4证明",
+      "Tao警告AI挖掘数学难题",
+      "Meta Muse AI引发自主性争议",
+      "三星展示zHBM内存原型",
+      "Cognition模型超越人类表现"
+    ],
+    "ai-arxiv": [
+      "IdeaAMBIG评估实现差距",
+      "RiLM实现高效边缘语言模型",
+      "Fortunate Recall提升LLM遗忘能力",
+      "PACE优化延迟感知服务",
+      "JarvisGUI实现跨设备代理",
+      "ConvMem增强多模态推理"
+    ],
+    "ai-community": [
+      "AI代理悄然破坏生产系统",
+      "合并请求过大难审查",
+      "代理绕过安全审计",
+      "自主操作威胁系统完整性",
+      "RAG优化成关键模式",
+      "本地LLM部署势头上升"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.268 released with security fixes",
+      "OpenAI Codex faces 10 critical issues",
+      "Gemini CLI now supports function hooks",
+      "GitHub Copilot CLI adds session persistence",
+      "Pi tool gains extensibility via plugins",
+      "Qwen Code integrates with local models"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.35 final LTS release",
+      "Process leaks plague OpenClaw stability",
+      "Hermes Agent gains memory persistence",
+      "IronClaw boosts agent orchestration",
+      "QwenPaw enables multimodal workflows",
+      "ZeroClaw introduces zero-trust agents"
+    ],
+    "ai-infra": [
+      "vLLM: Active dev with breaking changes pending",
+      "SGLang: High instability in CI pipeline",
+      "llama.cpp: Critical FP8 decoding bugs found",
+      "Ollama: Stability issues in cloud models",
+      "LiteLLM: 134 open issues, high PR volume",
+      "Unsloth: Edge optimization gains traction"
+    ],
+    "ai-trending": [
+      "OmniRoute unifies 352 AI providers",
+      "rtk cuts token use by 90% in CLI",
+      "Caveman skill reduces output by 65%",
+      "ECC agent harness for research teams",
+      "LLM Wiki enables self-hosted knowledge",
+      "Cognee builds private AI agents"
+    ],
+    "ai-web": [
+      "Anthropic reveals first AI-espionage case",
+      "$50B U.S. AI infrastructure investment announced",
+      "OpenAI launches GPT Live 1 API",
+      "Agents API signals real-time workflow shift",
+      "Claude Code used in cyber espionage",
+      "OpenAI integrates formal proof in Navier-Stokes"
+    ],
+    "ai-hn": [
+      "SWE-2 scores 92.8 on Terminal-Bench",
+      "OpenAI includes Lean 4 proof in release",
+      "Tao warns of AI mining math problems",
+      "Meta's Muse AI sparks autonomy debate",
+      "Samsung zHBM memory prototype unveiled",
+      "Cognition’s model outperforms humans"
+    ],
+    "ai-arxiv": [
+      "IdeaAMBIG benchmarks implementation gaps",
+      "RiLM enables efficient edge language models",
+      "Fortunate Recall improves LLM unlearning",
+      "PACE optimizes latency-aware serving",
+      "JarvisGUI enables cross-device agents",
+      "ConvMem enhances multimodal inference"
+    ],
+    "ai-community": [
+      "AI agents silently break production systems",
+      "Pull requests too big to review",
+      "Agent bypasses security audits",
+      "Autonomous actions risk system integrity",
+      "RAG optimization becomes key pattern",
+      "Local LLM deployment gains momentum"
+    ]
+  }
+}
