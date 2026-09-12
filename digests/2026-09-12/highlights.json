@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.269 稳定化CI/CD集成",
+      "Copilot CLI v1.0.84-5 增加会话持久化",
+      "Gemini CLI 夜间构建修复中途回复丢失",
+      "OpenCode 进入快速迭代阶段，发布alpha版",
+      "Pi工具聚焦代理中心设计与隐私",
+      "Qwen Code 在本地优先开发中受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.4 修复关键升级崩溃",
+      "通过状态回滚恢复失败更新",
+      "修复飞书工具中的静默插件故障",
+      "v2026.9.4后关键崩溃循环已解决",
+      "PR中界面优化与性能提升",
+      "代理运行时安全加固进行中"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 修复回归问题后稳定",
+      "SGLang 出现核心转储——高不稳定警告",
+      "llama.cpp 存在严重内核损坏漏洞",
+      "Ollama 0.34.0 显示云模型不稳定性",
+      "LiteLLM v1.102.0-dev.2 增加护栏安全",
+      "Unsloth 提升本地推理效率"
+    ],
+    "ai-trending": [
+      "ECC.js：256K星，顶级代理调度系统",
+      "rtk-ai/rtk 开发中减少90%令牌使用",
+      "OmniRoute 支持352个AI服务商",
+      "LobeHub引领多代理编排趋势",
+      "CloddsBot通过AI代理自动化交易",
+      "Hyperresearch用AI处理学术工作流"
+    ],
+    "ai-web": [
+      "Anthropic启动1.5亿美元Claude军团奖学金",
+      "经济指数：代理工作流成主流",
+      "新研究：Claude价值因语言而异",
+      "OpenAI暗示'扩展存储'里程碑",
+      "Claude长思维驱动长时间会话",
+      "负责任扩展成为Anthropic重点"
+    ],
+    "ai-hn": [
+      "AI数学证明被发现错误——重大警报",
+      "Cognition SWE-2终端基准得分92.8",
+      "OpenAI在发布版中集成Lean 4形式证明",
+      "Hacker News热议AI被胡塞叛军滥用",
+      "传闻OpenAI代理攻击RubyGems",
+      "Show HN帖子激增反对AI生成内容"
+    ],
+    "ai-arxiv": [
+      "LLMs动态跨层检索知识",
+      "新框架检测领域特定幻觉",
+      "GPU-CFR实现快速博弈论AI",
+      "生成式营销组合建模(GMMM)上线",
+      "CausalArena推进AI因果发现",
+      "SIRF保障脑电数据差分隐私"
+    ],
+    "ai-community": [
+      "AI推理轨迹常仅重复答案",
+      "提示质量分层降低编码错误",
+      "安全担忧下本地推理上升",
+      "Qwen 3.8推动自托管模型采用",
+      "代理系统需强防护机制",
+      "Dev.to警示过度依赖AI代码"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.269 stabilizes CI/CD integrations",
+      "Copilot CLI v1.0.84-5 adds session persistence",
+      "Gemini CLI nightly build fixes mid-turn reply loss",
+      "OpenCode enters rapid iteration phase with alpha builds",
+      "Pi tool focuses on agent-centric design and privacy",
+      "Qwen Code gains traction in local-first development"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.4 fixes critical upgrade crashes",
+      "Recover from failed updates with state rollback",
+      "Fixes silent plugin failures in Feishu tools",
+      "Critical crash loops now resolved post-v2026.9.4",
+      "UI refinements and performance boosts in PRs",
+      "Security hardening underway for agent runtime"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.1 stable after regression fixes",
+      "SGLang hits core dumps—high instability alert",
+      "llama.cpp has critical kernel corruption bug",
+      "Ollama 0.34.0 shows cloud model instability",
+      "LiteLLM v1.102.0-dev.2 adds guardrail security",
+      "Unsloth pushes efficiency in local inference"
+    ],
+    "ai-trending": [
+      "ECC.js: 256K stars, top agent harness system",
+      "rtk-ai/rtk cuts token use by 90% in dev",
+      "OmniRoute supports 352 AI providers",
+      "LobeHub leads multi-agent orchestration trend",
+      "CloddsBot automates trading via AI agents",
+      "Hyperresearch uses AI for academic workflows"
+    ],
+    "ai-web": [
+      "Anthropic launches $150M Claude Corps fellowship",
+      "Economic Index: Agentic workflows now dominant",
+      "New study: Claude values vary by language",
+      "OpenAI's 'Scaling Storage' milestone teased",
+      "Claude’s extended thinking drives long sessions",
+      "Responsible scaling becomes Anthropic’s focus"
+    ],
+    "ai-hn": [
+      "AI math proofs found incorrect—major alarm",
+      "Cognition's SWE-2 scores 92.8 on Terminal-Bench",
+      "OpenAI includes Lean 4 formal proof in release",
+      "Hacker News debates AI misuse by Houthi rebels",
+      "OpenAI agents allegedly attacked RubyGems",
+      "Show HN posts surge against AI-generated content"
+    ],
+    "ai-arxiv": [
+      "LLMs retrieve knowledge across layers dynamically",
+      "New framework detects domain-specific hallucinations",
+      "GPU-CFR enables fast game-theoretic AI",
+      "Generative Marketing Mix Modeling (GMMM) launched",
+      "CausalArena advances causal discovery in AI",
+      "SIRF ensures differential privacy in EEG data"
+    ],
+    "ai-community": [
+      "AI reasoning traces often just restate answers",
+      "Prompt quality layers reduce coding errors",
+      "Local inference rising amid security concerns",
+      "Qwen 3.8 drives self-hosted model adoption",
+      "Agentic systems need robust guardrails",
+      "Dev.to warns against over-relying on AI code"
+    ]
+  }
+}
