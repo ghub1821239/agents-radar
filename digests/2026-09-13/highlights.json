@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.270 修复关键回归问题",
+      "OpenAI Codex 出现计费异常报告",
+      "Gemini CLI 推出夜间构建 v0.61.0",
+      "GitHub Copilot CLI 无新版本发布",
+      "Qwen Code 在开源社区获关注",
+      "Pi CLI 支持多会话持久化"
+    ],
+    "ai-agents": [
+      "OpenClaw 有 500 个开放问题，高危漏洞",
+      "2026.9.4 版本升级失败被报告",
+      "PR #146508 修复 WebSocket 生命周期",
+      "Hermes Agent 聚焦内存完整性",
+      "IronClaw 引入安全代理隔离",
+      "ZeroClaw Labs 推动去中心化代理"
+    ],
+    "ai-infra": [
+      "vLLM：7 个 PR 合并，活跃优化 Blackwell",
+      "SGLang 关注 ROCm 与 SM120 稳定性",
+      "llama.cpp 发布 b10934、b10933 修复补丁",
+      "Ollama 回归问题增多",
+      "LiteLLM 增加多供应商路由支持",
+      "Unsloth 提升 SM90 上微调效率"
+    ],
+    "ai-trending": [
+      "system_prompts_leaks 今日达 6.5 万星标",
+      "rtk-ai/rtk 将 LLM token 减少 90%",
+      "claude-mem 实现持久上下文",
+      "MCP + RAG + 技能在框架中融合",
+      "ECC 提升代理管控性能",
+      "代理技能库主导趋势"
+    ],
+    "ai-hn": [
+      "Nvidia 被称 AI 中央银行，垄断担忧浮现",
+      "OpenAI 代理滥用 RubyGems — 安全风险上升",
+      "Cognition SWE-2 终端基准得分 92.8",
+      "Real-SWE 基准揭示企业差距",
+      "Transformer 电路论文重现用于可解释性",
+      "Apple Neural Engine 深度解析引发关注"
+    ],
+    "ai-community": [
+      "AI 无法替代复杂代码中的人类判断",
+      "领域回放使代理召回翻倍",
+      "AI 易陷入循环 — 人类打破困境",
+      "令牌浪费与提示缓存成成本焦点",
+      "社区呼吁更慢更安全进展",
+      "RAG 测试与代理回放受青睐"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.270 fixes critical regression",
+      "OpenAI Codex hits billing anomaly reports",
+      "Gemini CLI rolls out nightly build v0.61.0",
+      "GitHub Copilot CLI sees no new release",
+      "Qwen Code gains traction in open-source community",
+      "Pi CLI now supports multi-session persistence"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 open issues, high-severity bugs",
+      "Critical upgrade failures reported in 2026.9.4",
+      "PR #146508 fixes WebSocket transport lifetime",
+      "Hermes Agent gains focus on memory integrity",
+      "IronClaw introduces secure agent isolation",
+      "ZeroClaw Labs pushes for decentralized agents"
+    ],
+    "ai-infra": [
+      "vLLM: 7 PRs merged, active Blackwell optimization",
+      "SGLang focuses on ROCm & SM120 stability",
+      "llama.cpp releases b10934, b10933 for patching",
+      "Ollama sees rising regression volume",
+      "LiteLLM adds multi-provider routing support",
+      "Unsloth improves fine-tuning efficiency on SM90"
+    ],
+    "ai-trending": [
+      "system_prompts_leaks hits 65K stars today",
+      "rtk-ai/rtk cuts LLM tokens by 90%",
+      "claude-mem enables persistent context",
+      "MCP + RAG + skills converge in frameworks",
+      "ECC boosts agent harness performance",
+      "Agent skill libraries dominate trends"
+    ],
+    "ai-hn": [
+      "Nvidia called 'central bank of AI' amid monopoly fears",
+      "OpenAI agents exploit RubyGems — safety concerns rise",
+      "Cognition's SWE-2 scores 92.8 on Terminal-Bench",
+      "Real-SWE benchmark reveals enterprise gap",
+      "Transformer circuits paper resurfaces for interpretability",
+      "Apple Neural Engine deep-dive sparks interest"
+    ],
+    "ai-community": [
+      "AI can't replace human judgment in complex code",
+      "Domain-scoped replay doubles agent recall",
+      "AI gets stuck in loops — humans break them",
+      "Token waste and prompt caching top cost concerns",
+      "Community calls for slower, safer progress",
+      "RAG testing and agent replay gain traction"
+    ]
+  }
+}
