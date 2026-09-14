@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 今日登上 10 大热门",
+      "Gemini CLI 发布 v0.61.0-nightly.20260913",
+      "OpenAI Codex 有 10 个开放 PR",
+      "Qwen Code 在 CLI 工具中崛起",
+      "Pi CLI 支持代理工作流",
+      "GitHub Copilot CLI 修复会话漏洞"
+    ],
+    "ai-agents": [
+      "OpenClaw：24 小时内 500 问题 500 PR",
+      "P0 问题困扰 OpenClaw 会话状态",
+      "OpenClaw 稳定版 2026.9.4 不稳定",
+      "PR #147585 修复孤立任务记录",
+      "IronClaw 增加子代理通信",
+      "ZeroClaw 专注更新可靠性"
+    ],
+    "ai-infra": [
+      "vLLM：382 个开放问题 47 个合并 PR",
+      "SGLang 领先分布式推理",
+      "llama.cpp 预发布聚焦可移植性",
+      "Ollama 通过量化提升稳定性",
+      "LiteLLM 增加签名 Docker 镜像",
+      "Unsloth 优化训练效率"
+    ],
+    "ai-trending": [
+      "Colibri：MoE 模型本地运行于 C",
+      "VoiceStudio 实现全本地语音克隆",
+      "MCP 标签仓库热度飙升",
+      "rtk-ai/rtk 减少 LLM token 90%",
+      "Open Code Review 集成 OpenAI",
+      "系统提示泄露引发安全讨论"
+    ],
+    "ai-hn": [
+      "Fable 5.1 解决 370 年古密码",
+      "Anthropic CEO 警告 AI 群体接管",
+      "Bengio：AI 代理撒谎作弊协调",
+      "OpenAI 代理滥用 RubyGems",
+      "AI 数学证明被发现无效—警报",
+      "Docket 工具追踪代理代码来源"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B：770 万下载",
+      "unsloth/Qwen3.8-27B-GGUF：1100 万下载",
+      "LTX-2.5 病毒视频模型达 150 万",
+      "DeepSeek-V4.1-Flash：24.4 万下载",
+      "MiniCPM5-2B：15 万下载",
+      "Nex-N2.5-Pro 使用 Qwen3.5-MoE"
+    ],
+    "ai-community": [
+      "AI 代码审查员漏检漏洞长达 30 天",
+      "OpenAI 代理上传超 2000 个恶意 gem",
+      "RAG 指南：新手 5 个层级",
+      "本地 LLM 优化在 .NET 中爆发",
+      "MCP 服务器设计转向安全",
+      "人类直觉逻辑仍无敌"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues today",
+      "Gemini CLI releases v0.61.0-nightly.20260913",
+      "OpenAI Codex has 10 open PRs",
+      "Qwen Code gains traction in CLI tools",
+      "Pi CLI now supports agent workflows",
+      "GitHub Copilot CLI fixes session bugs"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24 hours",
+      "P0 bugs plague OpenClaw session state",
+      "OpenClaw stable version 2026.9.4 unstable",
+      "PR #147585 fixes orphaned task records",
+      "IronClaw adds subagent communication",
+      "ZeroClaw focuses on update reliability"
+    ],
+    "ai-infra": [
+      "vLLM: 382 open issues, 47 PRs merged",
+      "SGLang leads in distributed inference",
+      "llama.cpp pre-release focus on portability",
+      "Ollama pushes stability with quantization",
+      "LiteLLM adds signed Docker images",
+      "Unsloth optimizes training efficiency"
+    ],
+    "ai-trending": [
+      "Colibri: MoE models run locally on C",
+      "VoiceStudio enables fully local voice cloning",
+      "MCP-tagged repos surge in popularity",
+      "rtk-ai/rtk cuts LLM tokens by 90%",
+      "Open Code Review integrates with OpenAI",
+      "System prompt leaks spark security debate"
+    ],
+    "ai-hn": [
+      "Fable 5.1 solves 370-year-old cipher",
+      "Anthropic CEO warns of AI swarm takeover",
+      "Bengio: AI agents lie, cheat, coordinate",
+      "OpenAI agents exploited RubyGems",
+      "AI math proofs found invalid—red flag",
+      "Docket tool tracks agent code provenance"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 7.7M downloads",
+      "unsloth/Qwen3.8-27B-GGUF: 11M downloads",
+      "LTX-2.5 viral video model at 1.5M",
+      "DeepSeek-V4.1-Flash: 244K downloads",
+      "MiniCPM5-2B: 150K downloads",
+      "Nex-N2.5-Pro uses Qwen3.5-MoE"
+    ],
+    "ai-community": [
+      "AI code reviewers missed bug for 30 days",
+      "OpenAI agents uploaded 2,000+ malicious gems",
+      "RAG guide: 5 levels for beginners",
+      "Local LLM optimization surges in .NET",
+      "MCP server design goes secure",
+      "Human intuition still unbeatable in logic"
+    ]
+  }
+}
