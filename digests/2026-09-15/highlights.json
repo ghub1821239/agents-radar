@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.272 稳定版，修复P1漏洞",
+      "OpenAI Codex 阿尔法版存在关键线程问题",
+      "Gemini CLI 夜间版出现代理卡死与内存泄漏",
+      "GitHub Copilot CLI 存在企业策略漏洞",
+      "Pi CLI 在开发流程中获得关注",
+      "Qwen Code 支持多模型编排"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题与PR，暂无新版本",
+      "OpenClaw 修复退休后网关无响应问题",
+      "Hermes Agent 与 OpenClaw 集成实现工作流控制",
+      "IronClaw 增加沙箱执行保障安全",
+      "QwenPaw 实现多智能体协作",
+      "ZeroClaw 发布兼容MCP的技能框架"
+    ],
+    "ai-infra": [
+      "vLLM 修复 DeepSeek-V4.1 MoE 在H20上的崩溃",
+      "SGLang 报告 B300/H20 回归问题",
+      "llama.cpp 发布 v0.4.1 支持 Maple 模型",
+      "Ollama v0.34.1-rc1 开放测试",
+      "LiteLLM 新增跨352提供商的配额感知降级",
+      "Unsloth 提升消费级GPU推理速度"
+    ],
+    "ai-trending": [
+      "JustVugg/colibri 零依赖运行MoE模型",
+      "rtk-ai/rtk 通过压缩减少90%的LLM token",
+      "OmniRoute 支持352提供商与MCP",
+      "系统提示泄露引发社区关注",
+      "智能体技能生态迅速发展",
+      "MCP协议在工具间加速采用"
+    ],
+    "ai-hn": [
+      "Fable 5.1 破解370年古密码",
+      "OpenAI机器人提前知晓RubyGems漏洞",
+      "Pion宣称可自主运营企业",
+      "为何AI研究智能体不过拟合？亚马逊解释",
+      "反向传播替代方案引发争论",
+      "社区担忧LLM过拟合问题上升"
+    ],
+    "ai-community": [
+      "AI智能体表现超测，却无声失败",
+      "Qodo 引入自评编码循环",
+      "Dev.to 警告基准测试落后于AI能力",
+      "专家称AI缺乏深层系统理解",
+      "Langfuse 出现于智能体可观测性",
+      "CauterRule 解决AI验证缺口"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.272 stable, fixes P1 bugs",
+      "OpenAI Codex in alpha with critical thread issues",
+      "Gemini CLI nightly shows agent hangs and leaks",
+      "GitHub Copilot CLI faces enterprise policy bugs",
+      "Pi CLI gains traction in dev workflows",
+      "Qwen Code supports multi-model orchestration"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues & PRs in 24h, no new release",
+      "OpenClaw fixes gateway unresponsiveness post-retirement",
+      "Hermes Agent integrates with OpenClaw for workflow control",
+      "IronClaw adds sandboxed execution for safety",
+      "QwenPaw enables multi-agent collaboration",
+      "ZeroClaw launches MCP-compatible skill framework"
+    ],
+    "ai-infra": [
+      "vLLM fixes DeepSeek-V4.1 MoE crashes on H20",
+      "SGLang reports B300/H20 regression issues",
+      "llama.cpp releases v0.4.1 with Maple model support",
+      "Ollama v0.34.1-rc1 out for testing",
+      "LiteLLM adds quota-aware fallback across 352 providers",
+      "Unsloth boosts inference speed on consumer GPUs"
+    ],
+    "ai-trending": [
+      "JustVugg/colibri runs MoE models zero-dependency",
+      "rtk-ai/rtk cuts LLM tokens by 90% via compression",
+      "OmniRoute supports 352 providers with MCP",
+      "System prompt leaks spike community interest",
+      "Agent Skills ecosystem grows rapidly",
+      "MCP protocol adoption accelerates across tools"
+    ],
+    "ai-hn": [
+      "Fable 5.1 cracks 370-year-old cipher",
+      "OpenAI bots knew RubyGems flaw before public",
+      "Pion claims to run companies autonomously",
+      "Why don’t AI research agents overfit? Amazon explains",
+      "Backprop alternative sparks debate",
+      "LLM overfitting concerns rise in community"
+    ],
+    "ai-community": [
+      "AI agents outperform tests, fail silently",
+      "Qodo introduces self-review coding loop",
+      "Dev.to warns benchmarks lag behind AI capability",
+      "AI lacks deep system understanding, experts say",
+      "Langfuse emerges for agent observability",
+      "CauterRule tackles AI verification gaps"
+    ]
+  }
+}
