@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-16",
+  "profileUser": "ghub1821239",
+  "starCount": 8,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "main": {
+    "id": "anthropics/skills#525",
+    "name": "Add pyxel skill for retro game development",
+    "description": "Add a Pyxel skill for creating, debugging, and verifying retro games in Python. It guides the agent through implementation, deterministic headless runs, direct frame inspection, and task-specific state checks, with separate references for Pyxel behavior, presentation defaults, and opt-in release evidence. Register `./skills/pyxel` in the existing…",
+    "url": "https://github.com/anthropics/skills/pull/525",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "你 Star 了 skills、skill、ai-agent，且对 Python 有使用偏好，该 PR 提出的 Pyxel 技能正契合你在 AI Agent 中探索游戏开发方向的兴趣，且可拆解为独立小技能动手实践。",
+    "whyNow": "Pyxel 是轻量级的复古游戏开发框架，适合快速验证一个技能原型；当前开放 PR 可直接阅读并实验，无需复杂部署，是 20–30 分钟内完成从理解到动手的理想选择。",
+    "learn": [
+      "理解 Pyxel 框架如何通过 headless 运行实现无界面测试与帧检查",
+      "掌握如何将技能定义为可复用的 `SKILL.md` 文件，并集成进 Agent 工作流"
+    ],
+    "exercise": [
+      "在本地创建 `./skills/pyxel/SKILL.md` 文件，内容包含：1. 使用 Marp 将 Markdown 转为幻灯片，2. 用 Edge-TTS 生成语音，3. 通过 ffmpeg 合成视频（仅描述流程，不执行）",
+      "编写一个简单的 `test_pyxel_game.py`，用 Pyxel 模拟一个 16×16 像素的窗口显示 'Hello, Pyxel!'，运行后输出帧截图（使用 `pyxel.run()` 并添加 `pyxel.image(0).load(0, 0, [0xFF, 0x00, 0x00])` 等基础逻辑）"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1771",
+      "name": "feat(skills): add proofcore-contract-auditor for smart contract notarization",
+      "description": "Adds `proofcore-contract-auditor`, an Agent Skill for Web3 developers that performs automated static analysis of Solidity and Rust smart contracts and anchors cryptographic audit proofs onto the public TON Blockchain using ProofCore's zero-storage Merkle protocol. What this skill does **Security Audit:** Scans `.sol` and `.rs` files for common…",
+      "url": "https://github.com/anthropics/skills/pull/1771",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你关注 skill 与 agent，该 PR 提出的智能合约审计技能可作为安全类技能原型进行快速学习和实验。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 feat(skills): add proofcore-contract-auditor for smart contract notarization 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1703",
+      "name": "Add md2video-audio skill",
+      "description": "Adds `md2video-audio`, a zero-cost skill that directly compiles Markdown documents into professional-grade MP4 videos with realistic human-like voiceovers. `skills/md2video-audio/SKILL.md` — Defines the workflow: Markdown documents are converted via Marp into presentation slides and paired with Edge-TTS to generate finished MP4 videos.…",
+      "url": "https://github.com/anthropics/skills/pull/1703",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你对 AI Agent 的多模态能力感兴趣，该技能将 Markdown 直接转为视频，适合动手拆解流程。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add md2video-audio skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "zhayujie/CowAgent",
+      "name": "zhayujie/CowAgent",
+      "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "kind": "project",
+      "source": "GitHub Search: ai-agent",
+      "whyForYou": "你关注 ai-agent 与 skills，该项目是轻量级、可本地运行的 Agent 框架，适合快速体验多技能协同。",
+      "whyNow": "最近来自 GitHub Search: ai-agent 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 zhayujie/CowAgent 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.273 稳定性修复版发布",
+      "OpenAI Codex 24小时内主导10次合并请求",
+      "Gemini CLI 在企业流程中获关注",
+      "Pi CLI 支持多智能体编排",
+      "Qwen Code 7天内达5000星",
+      "Claude Code 技能新增插件市场"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时合并500个PR",
+      "无新OpenClaw版本；v2026.9.4不稳定",
+      "PR #148193：LLM代理内存泄漏修复",
+      "Hermes Agent 实现实时调试",
+      "IronClaw：新安全沙箱部署",
+      "QwenPaw 增加跨平台同步"
+    ],
+    "ai-infra": [
+      "LiteLLM v1.101.0：关键安全补丁",
+      "Ollama v0.34.2-rc0：新补丁发布",
+      "vLLM 问题解决领先（7个PR）",
+      "SGLang 提升MoE可扩展性",
+      "Unsloth 微调速度提升3倍",
+      "llama.cpp 添加Apple Silicon优化"
+    ],
+    "ai-trending": [
+      "colibri：基于C的MoE模型可在任意设备运行",
+      "open-code-review：一天获2756星",
+      "Agent Skills GitHub趋势飙升",
+      "MCP协议成关键标准",
+      "LibreChat：自托管AI工作台增长",
+      "Graphify 实现无向量知识图谱"
+    ],
+    "ai-web": [
+      "OpenAI 被评为Gartner 2026企业AI领导者",
+      "GPT-5 即将发布，紧随认可之后",
+      "Anthropic 今日零更新",
+      "尽管传闻不断，仍无Claude 3.5更新",
+      "企业AI采纳加速",
+      "OpenAI验证信号彰显市场成熟"
+    ],
+    "ai-hn": [
+      "System One模型：确定性推理突破",
+      "Fable 5.1 破解370年古密码",
+      "Jev架构承诺可验证AI",
+      "争议声明：单家公司突破AI巨头",
+      "批评：'为何我仍看空LLM'",
+      "Gemini 3.8 Live Extended Thinking 爆红"
+    ],
+    "ai-arxiv": [
+      "伪造计划，干净痕迹：隐蔽攻击论文",
+      "训练中用新词免疫",
+      "Mind2Dialogue：人类感知模型训练",
+      "星际角斗场：安全智能体协调",
+      "HypoEvolve：可扩展智能体演化框架",
+      "视频模型中的因果可控性"
+    ],
+    "ai-community": [
+      "AI 将工程工作隐藏于虚假生产力之下",
+      "Dev.to：AI时代心理健康危机",
+      "工程师报告使用AI导致认知退化",
+      "呼吁放缓AI进展声势渐起",
+      "需设防护避免SDLC绕过",
+      "智能体工作流获实际应用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.273 released with stability fixes",
+      "OpenAI Codex leads PR merges: 10 in 24h",
+      "Gemini CLI gains traction in enterprise workflows",
+      "Pi CLI now supports multi-agent orchestration",
+      "Qwen Code hits 5k stars in 7 days",
+      "Claude Code Skills adds plugin marketplace"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 PRs merged in 24 hours",
+      "No new OpenClaw release; v2026.9.4 unstable",
+      "PR #148193: LLM agent memory leak fixed",
+      "Hermes Agent gains real-time debugging",
+      "IronClaw: new security sandbox deployed",
+      "QwenPaw adds cross-platform sync"
+    ],
+    "ai-infra": [
+      "LiteLLM v1.101.0: critical security patch",
+      "Ollama v0.34.2-rc0: new patch release",
+      "vLLM leads in issue resolution (7 PRs)",
+      "SGLang improves MoE scalability",
+      "Unsloth boosts fine-tuning speed by 3x",
+      "llama.cpp adds Apple Silicon optimizations"
+    ],
+    "ai-trending": [
+      "colibri: C-based MoE model runs on any device",
+      "open-code-review: 2756 stars in one day",
+      "Agent Skills trend surges on GitHub",
+      "MCP protocol emerges as key standard",
+      "LibreChat: self-hosted AI workbench grows",
+      "Graphify enables knowledge graphs without vectors"
+    ],
+    "ai-web": [
+      "OpenAI named Gartner 2026 Enterprise AI Leader",
+      "GPT-5 rollout expected soon after recognition",
+      "Anthropic publishes zero new content today",
+      "No Claude 3.5 updates despite speculation",
+      "Enterprise AI adoption accelerating",
+      "OpenAI's validation signals market maturity"
+    ],
+    "ai-hn": [
+      "System One Models: deterministic reasoning breakthrough",
+      "Fable 5.1 cracks 370-year-old cipher",
+      "Jev architecture promises verifiable AI",
+      "Controversial claim: single firm breached AI giants",
+      "Critique: 'Why I'm still bearish on LLMs'",
+      "Gemini 3.8 Live Extended Thinking goes viral"
+    ],
+    "ai-arxiv": [
+      "Corrupt Plans, Clean Traces: stealth attack paper",
+      "Inoculation Midtraining with neologisms",
+      "Mind2Dialogue: human-aware model training",
+      "Stellar Colosseum: safe agent coordination",
+      "HypoEvolve: scalable agent evolution framework",
+      "Causal controllability in video models"
+    ],
+    "ai-community": [
+      "AI hides engineering work behind false productivity",
+      "Dev.to: mental health crisis in AI era",
+      "Engineers report cognitive atrophy from AI use",
+      "Call to slow down AI progress gains traction",
+      "Guardrails needed to prevent SDLC bypass",
+      "Agent workflows gain practical adoption"
+    ]
+  }
+}
