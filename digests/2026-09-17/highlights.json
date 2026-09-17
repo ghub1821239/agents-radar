@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.274 稳定版上线",
+      "Gemini CLI 夜间构建发布",
+      "GitHub Copilot CLI v1.0.86 发布",
+      "OpenAI Codex 仍处测试阶段",
+      "Pi CLI 增加模块化工作流支持",
+      "Qwen Code 登顶顶级工具"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题",
+      "今日无OpenClaw新版本发布",
+      "v2026.9.4 存在严重稳定性缺陷",
+      "性能优化正在进行",
+      "Hermes Agent项目势头上升",
+      "IronClaw社区关注度持续攀升"
+    ],
+    "ai-infra": [
+      "vLLM：高危回归问题",
+      "SGLang：CUDA崩溃追踪",
+      "llama.cpp：稳定发布b11010–b11000",
+      "Ollama：今日无更新",
+      "LiteLLM 成为编排枢纽",
+      "Unsloth专注桌面安全"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review +3,231星",
+      "rtk-ai/rtk token减少90%",
+      "JuliusBrussee/caveman达106k星",
+      "CC-Switch工具受关注",
+      "Agent技能跨生态流行",
+      "RAG增强工作流主流化"
+    ],
+    "ai-web": [
+      "OpenAI下架18篇威胁缓解文章",
+      "聚焦卢旺达选举虚假信息",
+      "‘赌注机器人’和‘甜鬼’遭针对性攻击",
+      "Anthropic两日沉默后无动静",
+      "破坏活动预示转变信号",
+      "主动应对区域威胁"
+    ],
+    "ai-hn": [
+      "Mistral X Mozilla引发争议",
+      "System One Models以1790分领先",
+      "Mustafa Suleyman警示模型福祉",
+      "‘看空大模型’帖文爆火",
+      "效率基准获好评",
+      "三值大模型突破1.58比特"
+    ],
+    "ai-arxiv": [
+      "CoSQ无需训练降低幻觉",
+      "OPEN-1B：首次可审计训练",
+      "大模型发展几何信念状态",
+      "JustFit实现笔记本运行20万token模型",
+      "ECHO基准测试上下文韧性",
+      "MéTRON-FR评估视觉语言任务"
+    ],
+    "ai-community": [
+      "AI代码速度超审查能力",
+      "Claude Code vs Cursor：任务对比",
+      "Gemini 3.8 Live支持实时语音",
+      "MCP与AgentCore受欢迎",
+      "本地AI执行兴起",
+      "SDLC门禁悄然跳过"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.274 stable now",
+      "Gemini CLI nightly build released",
+      "GitHub Copilot CLI v1.0.86 out",
+      "OpenAI Codex still in alpha",
+      "Pi CLI gains modular workflow support",
+      "Qwen Code joins top-tier tools"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues in 24h",
+      "No new OpenClaw release today",
+      "Critical stability bugs in v2026.9.4",
+      "Performance refactors underway",
+      "Hermes Agent project gaining traction",
+      "IronClaw sees rising community interest"
+    ],
+    "ai-infra": [
+      "vLLM: High severity regressions",
+      "SGLang: CUDA coredump tracker",
+      "llama.cpp: Stable b11010–b11000 releases",
+      "Ollama: No new updates today",
+      "LiteLLM emerges as orchestration hub",
+      "Unsloth focuses on desktop security"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review +3,231 stars",
+      "rtk-ai/rtk cuts tokens by 90%",
+      "JuliusBrussee/caveman hits 106k stars",
+      "CC-Switch tool gains attention",
+      "Agent skills trend across ecosystems",
+      "RAG-enhanced workflows go mainstream"
+    ],
+    "ai-web": [
+      "OpenAI drops 18 threat mitigation articles",
+      "Focus on Rwandan election disinfo",
+      "‘Bet Bot’ and ‘Sweetspecter’ targeted",
+      "Anthropic silent after 2-day gap",
+      "Disruption campaign signals shift",
+      "Regional threats addressed proactively"
+    ],
+    "ai-hn": [
+      "Mistral X Mozilla sparks debate",
+      "System One Models leads with 1790 points",
+      "Mustafa Suleyman warns on model welfare",
+      "‘Bearish on LLMs’ post goes viral",
+      "Efficiency benchmark praised",
+      "Ternary LLMs break 1.58-bit barrier"
+    ],
+    "ai-arxiv": [
+      "CoSQ reduces hallucinations without training",
+      "OPEN-1B: First auditable training run",
+      "LLMs develop geometric belief states",
+      "JustFit enables 200K-token models on laptops",
+      "ECHO benchmark tests context resilience",
+      "MéTRON-FR evaluates vision-language tasks"
+    ],
+    "ai-community": [
+      "AI code speed exceeds review capacity",
+      "Claude Code vs Cursor: task comparison",
+      "Gemini 3.8 Live powers real-time voice",
+      "MCP and AgentCore gain traction",
+      "Local AI execution on the rise",
+      "SDLC gates being silently skipped"
+    ]
+  }
+}

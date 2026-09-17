@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-17",
+  "profileUser": "ghub1821239",
+  "starCount": 8,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "main": {
+    "id": "anthropics/skills#525",
+    "name": "Add pyxel skill for retro game development",
+    "description": "Add a Pyxel skill for creating, debugging, and verifying retro games in Python. It guides the agent through implementation, deterministic headless runs, direct frame inspection, and task-specific state checks, with separate references for Pyxel behavior, presentation defaults, and opt-in release evidence. Register `./skills/pyxel` in the existing…",
+    "url": "https://github.com/anthropics/skills/pull/525",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "你 Star 了 skills、skill、ai-agent，且对 Python 有使用兴趣，该 PR 提出的 Pyxel 技能正契合你在 AI Agent 领域探索技能扩展的需求，且适合拆解为一个可动手的小技能实验。",
+    "whyNow": "Pyxel 是轻量级的复古游戏开发库，结合 AI Agent 实现自动化游戏构建与调试，是当前 AI-Agent 与创意开发融合的前沿实践，适合作为今日快速上手的微技术项目。",
+    "learn": [
+      "理解 Pyxel 技能在 AI Agent 框架中的作用：作为可复用的、任务导向的执行单元。",
+      "掌握如何通过 Markdown 定义技能行为流程，包括文件生成、状态检查和帧级验证。"
+    ],
+    "exercise": [
+      "在本地创建 `./skills/pyxel/SKILL.md` 文件，内容包含：`description: Create a retro game using Pyxel`, `steps: [\"install pyxel\", \"generate main.py with demo code\", \"run headless test\"]`。",
+      "运行 `python -m pyxel run main.py`（若未安装则跳过），并验证是否能生成一个最小化的窗口或输出提示，确认技能逻辑可被代理解析与执行。"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1771",
+      "name": "feat(skills): add proofcore-contract-auditor for smart contract notarization",
+      "description": "Adds `proofcore-contract-auditor`, an Agent Skill for Web3 developers that performs automated static analysis of Solidity and Rust smart contracts and anchors cryptographic audit proofs onto the public TON Blockchain using ProofCore's zero-storage Merkle protocol. What this skill does **Security Audit:** Scans `.sol` and `.rs` files for common…",
+      "url": "https://github.com/anthropics/skills/pull/1771",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你关注 skill 与 agent，该开放 PR 提出的智能合约审计技能可拓展 AI Agent 在 Web3 场景下的安全能力，与你的兴趣高度匹配。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 feat(skills): add proofcore-contract-auditor for smart contract notarization 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1703",
+      "name": "Add md2video-audio skill",
+      "description": "Adds `md2video-audio`, a zero-cost skill that directly compiles Markdown documents into professional-grade MP4 videos with realistic human-like voiceovers. `skills/md2video-audio/SKILL.md` — Defines the workflow: Markdown documents are converted via Marp into presentation slides and paired with Edge-TTS to generate finished MP4 videos.…",
+      "url": "https://github.com/anthropics/skills/pull/1703",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你对 AI Agent 的内容生成能力感兴趣，该技能将 Markdown 转为带语音的视频，是典型的多模态技能实现范例，适合快速体验。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add md2video-audio skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1763",
+      "name": "Add resume-screening skill",
+      "description": "Adds `skills/resume-screening`, a skill that turns job-application emails into an HR-ready screening report, and registers it as a plugin in `.claude-plugin/marketplace.json`. It demonstrates a multi-step local workflow that combines scripts with Claude's judgment: 1. **Export**: `scripts/export_mail.applescript` pulls applications for a role from macOS…",
+      "url": "https://github.com/anthropics/skills/pull/1763",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你曾关注 skill 与 ai-agent，该简历筛选技能展示了 Agent 如何处理真实办公场景任务，结构清晰，易于拆解为小练习。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add resume-screening skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}
