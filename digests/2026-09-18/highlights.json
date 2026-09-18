@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.275 发布",
+      "OpenAI Codex 遇 Intel macOS 问题",
+      "Gemini CLI P1 子代理更新",
+      "Pi GitHub 仓库上线",
+      "Qwen Code 受关注",
+      "Claude Code 技能功能上线"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.4 启动耗时12分钟",
+      "OpenClaw 存在僵尸进程",
+      "OpenClaw 报告消息丢失",
+      "v2026.9.4 缺少迁移指南",
+      "关键漏洞修复中",
+      "社区呼吁稳定修复"
+    ],
+    "ai-infra": [
+      "vLLM：7个问题，5个PR合并",
+      "SGLang：12个开放问题",
+      "llama.cpp：补丁发布 b11028",
+      "Ollama：无新版本",
+      "LiteLLM：5个开放问题",
+      "Unsloth：6个开放问题"
+    ],
+    "ai-trending": [
+      "ECC：261K 星标，AI代理工具",
+      "rtk：节省60–90% token",
+      "diagram-design：38个图表",
+      "n8n：204K 星标，AI工作流",
+      "Affaan-m/ECC：性能提升",
+      "BrowserSkill：真实世界代理"
+    ],
+    "ai-web": [
+      "Anthropic 推出 LSVP",
+      "生物分子模型提速4倍",
+      "100万美元蛋白质设计竞赛",
+      "OpenAI 发布金融指南",
+      "Claude Science 优化工具",
+      "安全事件报告发布"
+    ],
+    "ai-hn": [
+      "OpenAI 承认模型偏差",
+      "Bend：错误免编程",
+      "Canto：真实语音模型",
+      "无限参数大模型论文",
+      "三值大模型突破1.58比特",
+      "AI安全被称‘邪教’"
+    ],
+    "ai-arxiv": [
+      "新分词框架发布",
+      "零阶对齐方法",
+      "实时数据大模型权重论文",
+      "三值大模型达1.58比特",
+      "机制可解释性聚焦",
+      "多模态推理进展"
+    ],
+    "ai-community": [
+      "AI 反复重写旧漏洞",
+      "KODA 基于150美元安卓",
+      "AI 无法证明自身修复",
+      "本地优先AI受关注",
+      "模型注入攻击上升",
+      "过度依赖AI引担忧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.275 released",
+      "OpenAI Codex on Intel macOS hit",
+      "Gemini CLI P1 subagent rec",
+      "Pi GitHub repo now live",
+      "Qwen Code gains traction",
+      "Claude Code Skills launch"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.4 has 12-min boot time",
+      "Zombie processes in OpenClaw",
+      "Message loss reported in OpenClaw",
+      "No migration guide for v2026.9.4",
+      "Critical bug fixes in progress",
+      "Community demands stability fix"
+    ],
+    "ai-infra": [
+      "vLLM: 7 issues, 5 PRs merged",
+      "SGLang: 12 open issues",
+      "llama.cpp: patch release b11028",
+      "Ollama: no new release",
+      "LiteLLM: 5 open issues",
+      "Unsloth: 6 open issues"
+    ],
+    "ai-trending": [
+      "ECC: 261K stars, AI agent tool",
+      "rtk: 60–90% token savings",
+      "diagram-design: 38 diagrams",
+      "n8n: 204K stars, AI workflows",
+      "Affaan-m/ECC: performance boost",
+      "BrowserSkill: real-world agent"
+    ],
+    "ai-web": [
+      "Anthropic launches LSVP",
+      "4x speedup in biomolecular models",
+      "$1M protein design competition",
+      "OpenAI releases finance guides",
+      "Claude Science optimizes tools",
+      "Security incident report published"
+    ],
+    "ai-hn": [
+      "OpenAI admits model misalignment",
+      "Bend: error-proof programming",
+      "Canto: real-world speech model",
+      "Infinite-parameter LLMs paper",
+      "Ternary LLMs break 1.58-bit",
+      "AI safety called 'sex cult'"
+    ],
+    "ai-arxiv": [
+      "New tokenizer framework out",
+      "Zeroth-order alignment method",
+      "Live-data LLM weights paper",
+      "Ternary LLMs reach 1.58-bit",
+      "Mechanistic interpretability focus",
+      "Multi-modal reasoning advances"
+    ],
+    "ai-community": [
+      "AI rewrites old bugs repeatedly",
+      "KODA built on $150 Android",
+      "AI can't prove its own fixes",
+      "Local-first AI gaining traction",
+      "Model injection attacks rise",
+      "Over-trust in AI sparks concern"
+    ]
+  }
+}
