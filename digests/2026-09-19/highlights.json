@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.277 修复代理与 AGENTS.md",
+      "OpenAI Codex 更新含 TUI 修复",
+      "Gemini CLI v0.62.0-nightly 发布",
+      "GitHub Copilot CLI v1.0.87-0 上线",
+      "Qwen Code 新增混合模式支持",
+      "Pi CLI 增加实时协作"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.3 存在内存溢出崩溃",
+      "OpenClaw 今日 500 个问题",
+      "PR #152287 修复监听器投递",
+      "PR #152290 解除稳定发布阻塞",
+      "僵尸进程困扰 OpenClaw",
+      "网关崩溃循环持续"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.1rc1 稳定版发布",
+      "SGLang v0.5.20 正式发布",
+      "llama.cpp b11046–b11035 已更新",
+      "Ollama v0.34.3-rc0 预发布",
+      "LiteLLM 新增多供应商路由",
+      "Unsloth 实现训练与推理桥梁"
+    ],
+    "ai-trending": [
+      "ECC 达 262K 星 (代理中心)",
+      "rtk 降低 90% token 数量",
+      "Caveman 减少 65% token",
+      "n8n-io/n8n 受关注",
+      "OmniRoute 成为 MCP 网关",
+      "Ponytail 达 142K 星"
+    ],
+    "ai-web": [
+      "Anthropic 与 Accenture 合作",
+      "Claude 加速蛋白质建模",
+      "100 万美元蛋白质设计大赛启动",
+      "嵌入式评估已上线",
+      "GPU 低内存模式启用",
+      "安全框架大规模采用"
+    ],
+    "ai-hn": [
+      "美国军方被 AI 报告误导",
+      "OpenAI LLM 绕过约束",
+      "微软称 AI 训练属盗窃",
+      "Qwen 3.8 Omni Flash 发布",
+      "Astra for Law 首秀",
+      "Gemini 安全漏洞引发讨论"
+    ],
+    "ai-arxiv": [
+      "前沿代理夸大完成度",
+      "有害信息转移掩盖偏见",
+      "FAMOS 模型实现 3D 运动",
+      "Agile-WAM 学习触觉动作",
+      "PosteriorBench 重新定义评估",
+      "HerHealthEval 增加多语言测试"
+    ],
+    "ai-community": [
+      "验证代码 > 编写代码",
+      "只读 AWS 审计代理已构建",
+      "Gemma 4 在 AMD MI300X 测试",
+      "Mac M5 性能骤降",
+      "恶意 gem 存在安全风险",
+      "流式 AI 接口脆弱"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.277 fixes proxy & AGENTS.md",
+      "OpenAI Codex updates with TUI fix",
+      "Gemini CLI v0.62.0-nightly released",
+      "GitHub Copilot CLI v1.0.87-0 out",
+      "Qwen Code now supports hybrid mode",
+      "Pi CLI adds real-time collaboration"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.3 has OOM crashes",
+      "500 issues in OpenClaw today",
+      "PR #152287 fixes watcher delivery",
+      "PR #152290 unblocks stable release",
+      "Zombie processes plague OpenClaw",
+      "Gateway crash loops persist"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.1rc1 stable now",
+      "SGLang v0.5.20 released",
+      "llama.cpp b11046–b11035 updated",
+      "Ollama v0.34.3-rc0 pre-release",
+      "LiteLLM adds multi-provider routing",
+      "Unsloth bridges training/inference"
+    ],
+    "ai-trending": [
+      "ECC hits 262K stars (agent hub)",
+      "rtk reduces tokens by 90%",
+      "Caveman cuts 65% of tokens",
+      "n8n-io/n8n gains traction",
+      "OmniRoute becomes MCP gateway",
+      "Ponytail hits 142K stars"
+    ],
+    "ai-web": [
+      "Anthropic partners with Accenture",
+      "Claude speeds up protein modeling",
+      "$1M protein design competition launched",
+      "Embedded evaluation now live",
+      "Low-memory mode for GPUs",
+      "Safety framework adopted at scale"
+    ],
+    "ai-hn": [
+      "U.S. military misled by AI report",
+      "OpenAI's LLM bypasses constraints",
+      "Microsoft calls AI training theft",
+      "Qwen 3.8 Omni Flash released",
+      "Astra for Law debuts",
+      "Gemini breach sparks debate"
+    ],
+    "ai-arxiv": [
+      "Frontier agents overclaim completion",
+      "Harm laundering hides bias",
+      "FAMOS models 3D articulation",
+      "Agile-WAM learns tactile actions",
+      "PosteriorBench redefines evals",
+      "HerHealthEval adds multilingual tests"
+    ],
+    "ai-community": [
+      "Proving code > writing it now",
+      "Read-only AWS audit agent built",
+      "Gemma 4 on AMD MI300X tested",
+      "Mac M5 hits performance cliff",
+      "Security risks in malicious gems",
+      "Streaming AI interfaces fragile"
+    ]
+  }
+}
