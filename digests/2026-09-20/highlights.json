@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.278 发布",
+      "OpenAI Codex：本周发布5个alpha版本",
+      "Gemini CLI v0.62.0-nightly上线",
+      "GitHub Copilot CLI：无新版本发布",
+      "OpenCode 24小时内收到10个PR",
+      "Qwen Code受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5 发布但存在升级问题",
+      "24小时内500个问题，500个PR",
+      "Hermes Agent获社区支持",
+      "IronClaw重构核心路由",
+      "QwenPaw新增多代理支持",
+      "ZeroClaw引入代理框架"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.1rc1 稳定版发布",
+      "SGLang v0.5.20 存在MoE回归问题",
+      "llama.cpp：GPU后端漏洞严重",
+      "Ollama：167个开放问题",
+      "LiteLLM 无新标签发布",
+      "Unsloth：高性能推理"
+    ],
+    "ai-trending": [
+      "Claude Code 增长+483颗星",
+      "安全审计技能+3155颗星",
+      "代理技能快速标准化",
+      "Cactus-compute/needle 边缘AI方案",
+      "ComposioHQ 技能库增长",
+      "rtk & headroom 优化令牌"
+    ],
+    "ai-web": [
+      "OpenAI发布澳大利亚青年安全蓝图",
+      "今日Anthropic无新内容",
+      "澳大利亚聚焦青年安全政策",
+      "OpenAI暗示区域治理变化",
+      "Anthropic未公布模型更新",
+      "监管准备可能已启动"
+    ],
+    "ai-hn": [
+      "军事情报中AI幻觉引发警报",
+      "LLMs通过语义缓存通信",
+      "人类大脑源于两个神经系统",
+      "AI模仿创造力引伦理争议",
+      "ENZO和Ax-check.com受关注",
+      "真实世界AI可靠性受质疑"
+    ],
+    "ai-community": [
+      "AI代理可被仓库攻击",
+      "AI测试无法通过真实行为验证",
+      "理想路径幻象导致崩溃",
+      "Jev：确定性AI工作流",
+      "报告OpenAI单体仓库遭入侵",
+      "模型自保笔记泄露"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.278 released",
+      "OpenAI Codex: 5 alpha releases this week",
+      "Gemini CLI v0.62.0-nightly out",
+      "GitHub Copilot CLI: No new release",
+      "OpenCode sees 10 PRs in 24h",
+      "Qwen Code gaining traction"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5 released with upgrade issues",
+      "500 issues, 500 PRs in 24h",
+      "Hermes Agent gains community momentum",
+      "IronClaw refactoring core router",
+      "QwenPaw adds multi-agent support",
+      "ZeroClaw introduces agent harnesses"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.1rc1 stable release",
+      "SGLang v0.5.20 has MoE regressions",
+      "llama.cpp: GPU backend bugs critical",
+      "Ollama: 167 open issues",
+      "LiteLLM sees no new tag",
+      "Unsloth: high-performance inference"
+    ],
+    "ai-trending": [
+      "Claude Code trending +483 stars",
+      "Security audit skill +3155 stars",
+      "Agent skills standardizing fast",
+      "Cactus-compute/needle for edge AI",
+      "ComposioHQ skill repo grows",
+      "rtk & headroom optimize tokens"
+    ],
+    "ai-web": [
+      "OpenAI releases Australian Youth Safety Blueprint",
+      "No new Anthropic content today",
+      "Policy focus on youth safety in Australia",
+      "OpenAI signals regional governance shift",
+      "Anthropic silent on model updates",
+      "Regulatory prep likely underway"
+    ],
+    "ai-hn": [
+      "AI hallucinations in military intel spark alarm",
+      "LLMs communicate via semantic caches",
+      "Human brain from two neural systems",
+      "AI mimics creativity—raises ethics concerns",
+      "ENZO and Ax-check.com gain interest",
+      "Real-world AI reliability questioned"
+    ],
+    "ai-community": [
+      "AI agents can be attacked by repos",
+      "AI tests fail real behavior checks",
+      "Happy-path mirage causes crashes",
+      "Jev: deterministic AI workflows",
+      "OpenAI monorepo breach reported",
+      "Model self-preservation notes leaked"
+    ]
+  }
+}
