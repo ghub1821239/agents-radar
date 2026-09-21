@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-21",
+  "profileUser": "ghub1821239",
+  "starCount": 8,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "main": {
+    "id": "anthropics/skills#1798",
+    "name": "Add NiceTryGPT skill for authorized CTF challenge adaptation",
+    "description": "Adds \"nice-try-gpt\", an Agent Skill for reviewing and minimally adapting authorized CTF challenges to reduce cheap LLM pattern-matching shortcuts without materially increasing human difficulty. The skill follows a verification-first workflow: 1. reproduce the original challenge end-to-end; 2. identify one evidence-backed cheap shortcut; 3. apply zero, one,…",
+    "url": "https://github.com/anthropics/skills/pull/1798",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "你 Star 过 'skills' 和 'ai-agent'，该 PR 提出的 NiceTryGPT 技能直接针对 CTF 挑战的 LLM 模式匹配问题，与你的兴趣高度契合，且可拆解为一个独立小技能实践。",
+    "whyNow": "当前 AI 安全与对抗性测试趋势上升，该技能设计精巧、流程清晰，适合在 25 分钟内理解并动手实现一个最小可运行版本。",
+    "learn": [
+      "理解验证优先的工作流：先复现原挑战，再定位廉价捷径，最后最小化修改。",
+      "掌握如何将 AI 判断与自动化脚本结合，构建可验证的防御性技能逻辑。"
+    ],
+    "exercise": [
+      "创建一个名为 `nice_try_gpt.py` 的 Python 脚本，定义函数 `analyze_challenge(challenge_path)`，模拟读取一个简单的文本挑战文件并返回 'found cheap shortcut' 或 'no shortcut found'。",
+      "在本地运行脚本，传入一个包含简单模式（如固定格式输入）的示例挑战文件，验证输出是否符合预期，确保逻辑可被后续集成到 Agent 工作流中。"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1799",
+      "name": "Add AI ML engineering mentor skill",
+      "description": "Adds an AI/ML Engineering Mentor skill designed to help users: Learn AI/ML concepts step by step Debug ML and Python implementations Design and review AI/ML projects Work with RAG and agentic AI systems Understand model training, evaluation, and optimization Follow structured workflows for project development The skill includes reference material,…",
+      "url": "https://github.com/anthropics/skills/pull/1799",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你对 'skills' 和 'ai-agent' 有明确兴趣，该 PR 提出的 AI/ML 工程导师技能结构完整，适合作为可动手的小技能原型学习。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add AI ML engineering mentor skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "name": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "kind": "project",
+      "source": "GitHub Search: claude-code",
+      "whyForYou": "你关注 'claude-code' 和 'agent'，该项目提供持久上下文机制，是提升 Agent 连贯性的关键技术，适合快速体验。",
+      "whyNow": "最近来自 GitHub Search: claude-code 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 thedotmack/claude-mem 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1771",
+      "name": "feat(skills): add proofcore-contract-auditor for smart contract notarization",
+      "description": "Adds `proofcore-contract-auditor`, an Agent Skill for Web3 developers that performs automated static analysis of Solidity and Rust smart contracts and anchors cryptographic audit proofs onto the public TON Blockchain using ProofCore's zero-storage Merkle protocol. What this skill does **Security Audit:** Scans `.sol` and `.rs` files for common…",
+      "url": "https://github.com/anthropics/skills/pull/1771",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你对 'skills' 和 'ai-agent' 有持续关注，该 PR 中的智能合约审计技能涉及 Web3 与 AI 结合，具有前沿实践价值。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 feat(skills): add proofcore-contract-auditor for smart contract notarization 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}

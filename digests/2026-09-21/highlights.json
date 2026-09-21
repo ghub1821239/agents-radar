@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code今日引爆10个热门议题",
+      "OpenAI Codex发布3个测试版",
+      "Pi v0.86.1正式版上线",
+      "Qwen Code v0.24.2更新可用",
+      "Gemini CLI夜间更新：v0.62.0-nightly.20260920",
+      "OpenCode PR活跃度领先"
+    ],
+    "ai-agents": [
+      "OpenClaw有500个未关闭问题和PR",
+      "严重回归：静默升级失败 #152759",
+      "网关启动卡顿17分钟",
+      "插件状态迁移死锁报告",
+      "SQLite WAL增长引发崩溃循环",
+      "高活跃度却无新版本发布"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.1rc1存在稳定性风险",
+      "SGLang报告319次核心转储",
+      "llama.cpp发布b11065+支持CUDA/ROCm调优",
+      "Ollama修复Vulkan/MLX稳定性问题",
+      "LiteLLM新增会话感知路由",
+      "Unsloth优化边缘设备MoE流式性能"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC获26.3万星标",
+      "rtk-ai/rtk降低90%令牌使用",
+      "JuliusBrussee/caveman节省65%令牌",
+      "thedotmack/claude-mem实现持久上下文",
+      "security-audit-skill星标激增+2,428",
+      "addyosmani/agent-skills达9.7万星标"
+    ],
+    "ai-hn": [
+      "ChatGPT广告收集引发隐私争议",
+      "Qwen Image 2.1因画质受赞",
+      "双脑起源研究挑战认知模型",
+      "海盗脸工具拯救LLM免于删除",
+      "AI怀疑论升温：'我已不再喝这杯可乐'",
+      "Claude Code AGENTS.md行为引关注"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B在HF获1.58万点赞",
+      "Lightricks/LTX-2.5推动视频生成趋势",
+      "prism-ml的Ternary-Bonsai-2-27B-gguf突破2比特限制",
+      "Edge0-35B-A3B-preview适配Apple Silicon",
+      "Meta-Llama-3.1-8B-Instruct下载量第一",
+      "DavidAU的非审查版Qwen获关注"
+    ],
+    "ai-community": [
+      "Orca支持并行AI编码代理",
+      "DevSecOps流水线保障企业代理安全",
+      "需DPO/RLHF训练AI回答质量",
+      "代理编码破坏心流状态",
+      "Jev数小时内孵化克隆体",
+      "代理内存安全成首要关切"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues today",
+      "OpenAI Codex releases 3 alpha builds",
+      "Pi v0.86.1 stable release out",
+      "Qwen Code v0.24.2 updates available",
+      "Gemini CLI nightly update: v0.62.0-nightly.20260920",
+      "OpenCode leads in PR activity with 9"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 open issues and PRs",
+      "Critical regression: silent upgrade failure #152759",
+      "Gateway startup hangs for 17 minutes",
+      "Plugin state migration deadlocks reported",
+      "SQLite WAL growth causes crash loops",
+      "No new releases despite high activity"
+    ],
+    "ai-infra": [
+      "vLLM v0.28.1rc1 has stability risks",
+      "SGLang sees 319 coredump reports",
+      "llama.cpp releases b11065+ with CUDA/ROCm tuning",
+      "Ollama fixes Vulkan/MLX stability issues",
+      "LiteLLM adds session-aware routing",
+      "Unsloth optimizes MoE streaming for edge"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC hits 263k stars",
+      "rtk-ai/rtk cuts token use by 90%",
+      "JuliusBrussee/caveman saves 65% tokens",
+      "thedotmack/claude-mem enables persistent context",
+      "security-audit-skill surges +2,428 stars",
+      "addyosmani/agent-skills hits 97k stars"
+    ],
+    "ai-hn": [
+      "ChatGPT's ad collector sparks privacy debate",
+      "Qwen Image 2.1 praised for image quality",
+      "Two-brain origin study challenges cognition models",
+      "Pirate Face tool rescues LLMs from deletion",
+      "AI skepticism grows: 'I stopped drinking the Kool-Aid'",
+      "Claude Code’s AGENTS.md behavior draws attention"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B hits 15.8K likes on HF",
+      "Lightricks/LTX-2.5 drives video gen trend",
+      "prism-ml’s Ternary-Bonsai-2-27B-gguf breaks 2-bit limit",
+      "Edge0-35B-A3B-preview ideal for Apple Silicon",
+      "Meta-Llama-3.1-8B-Instruct leads downloads",
+      "DavidAU’s uncensored Qwen variant gains traction"
+    ],
+    "ai-community": [
+      "Orca enables parallel AI coding agents",
+      "DevSecOps pipeline secures enterprise agents",
+      "DPO/RLHF needed to teach AI answer quality",
+      "Flow state disrupted by agentic coding",
+      "Jev spawns clones within hours",
+      "Agent memory safety now a top concern"
+    ]
+  }
+}
