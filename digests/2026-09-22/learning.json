@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-22",
+  "profileUser": "ghub1821239",
+  "starCount": 8,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "python",
+    "rust",
+    "typescript"
+  ],
+  "main": {
+    "id": "anthropics/skills#525",
+    "name": "Add pyxel skill for retro game development",
+    "description": "Add a Pyxel skill for creating, debugging, and verifying retro games in Python. It guides the agent through implementation, deterministic headless runs, direct frame inspection, and task-specific state checks, with separate references for Pyxel behavior, presentation defaults, and opt-in release evidence. Register `./skills/pyxel` in the existing…",
+    "url": "https://github.com/anthropics/skills/pull/525",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "你 Star 了 skills、skill、ai-agent 和 python，此 PR 提出的 Pyxel 技能正是用 Python 实现的复古游戏开发技能，与你的兴趣高度契合，且可拆解为一个独立小练习。",
+    "whyNow": "Pyxel 是轻量级游戏框架，适合快速上手。今天学习它能让你在 30 分钟内体验 AI Agent 如何生成、调试和验证一个简单游戏，是理解 AI Agent 工作流的绝佳入口。",
+    "learn": [
+      "理解 Pyxel 框架的基本结构：使用 `pyxel.init()` 初始化窗口，`pyxel.run()` 启动游戏循环",
+      "掌握 AI Agent 如何通过技能指导实现游戏逻辑：如绘制像素、响应输入、更新状态"
+    ],
+    "exercise": [
+      "创建一个名为 `game.py` 的文件，使用 Pyxel 实现一个简单的像素小球弹跳动画（水平移动，碰到边缘反弹）",
+      "运行脚本并观察动画是否正常，确保能通过 `pyxel.run()` 正常启动，预期产物是一个可运行的 128×128 像素窗口中带小球运动的窗口"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1798",
+      "name": "Add NiceTryGPT skill for authorized CTF challenge adaptation",
+      "description": "Adds \"nice-try-gpt\", an Agent Skill for reviewing and minimally adapting authorized CTF challenges to reduce cheap LLM pattern-matching shortcuts without materially increasing human difficulty. The skill follows a verification-first workflow: 1. reproduce the original challenge end-to-end; 2. identify one evidence-backed cheap shortcut; 3. apply zero, one,…",
+      "url": "https://github.com/anthropics/skills/pull/1798",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "CTF 挑战适应技能与你对 AI-Agent 安全性及技能扩展的兴趣匹配，适合快速阅读其设计思路",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add NiceTryGPT skill for authorized CTF challenge adaptation 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1799",
+      "name": "Add AI ML engineering mentor skill",
+      "description": "Adds an AI/ML Engineering Mentor skill designed to help users: Learn AI/ML concepts step by step Debug ML and Python implementations Design and review AI/ML projects Work with RAG and agentic AI systems Understand model training, evaluation, and optimization Follow structured workflows for project development The skill includes reference material,…",
+      "url": "https://github.com/anthropics/skills/pull/1799",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "AI/ML 工程导师技能直接关联你对 AI Agent 能力增强的关注，内容可拆为一个小练习，适合快速实验",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add AI ML engineering mentor skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#822",
+      "name": "feat: add AWT (AI Watch Tester) — AI-powered E2E testing skill",
+      "description": "Description Adds AWT (AI Watch Tester) as a new skill under `skills/awt/SKILL.md`. What is AWT? AWT is an open-source tool that gives Claude vision and browser control to run E2E tests automatically: **Zero-code test generation** — Point at a URL, AI generates complete test scenarios **Self-healing DevQA Loop** — Tests fail? AI fixes and retries…",
+      "url": "https://github.com/anthropics/skills/pull/822",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "AWT E2E 测试技能是零代码自动化测试的典型代表，与你关注的 AI Agent 实用能力高度相关",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 feat: add AWT (AI Watch Tester) — AI-powered E2E testing skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}

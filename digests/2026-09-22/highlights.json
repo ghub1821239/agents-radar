@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code：无新版本，10个热门问题",
+      "OpenAI Codex：24小时内发布5个alpha版",
+      "Gemini CLI：v0.62.0-nightly.20260921上线",
+      "GitHub Copilot CLI：v1.0.88-1补丁发布",
+      "Qwen Code：移动端优先的远程工作流推送",
+      "Pi：通过标准会话模型扩展"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.35：长期稳定版发布",
+      "OpenClaw v2026.7.35关键安全补丁",
+      "OpenClaw：新增Codex原生模型支持",
+      "Hermes Agent：社区高度活跃",
+      "IronClaw：Windows/Linux积极开发",
+      "QwenPaw：新兴多智能体框架"
+    ],
+    "ai-infra": [
+      "vLLM：87个开放问题，12个合并PR",
+      "SGLang：121个开放问题，9个PR",
+      "llama.cpp：b11094版发布，新增3个标志",
+      "Ollama：153个开放问题，PR量低",
+      "LiteLLM：148个开放问题，稳定版",
+      "Unsloth：配置修复中3个破坏性变更"
+    ],
+    "ai-trending": [
+      "BuilderIO/agent-native：今日+607颗星",
+      "rtk-ai/rtk：token减少60–90%",
+      "JuliusBrussee/caveman：107K星，token减65%",
+      "diegosouzapw/OmniRoute：MIT协议，免费API抽象",
+      "Cognee、RAGFlow、Mem0：崛起的RAG工具",
+      "ECC：病毒式传播的模块化智能体框架"
+    ],
+    "ai-web": [
+      "Claude生物分子建模能力提升4倍",
+      "Claude Science：蛋白质设计超1万token",
+      "100万美元蛋白质设计竞赛启动",
+      "OpenAI Academy扩展学习路径",
+      "OpenAI数据团队指南上线",
+      "Anthropic研究：低内存模式首秀"
+    ],
+    "ai-hn": [
+      "Qwen Image 2.1：画质显著提升",
+      "Grok 4.7：推理与代码生成更强",
+      "聊天机器人无法回答金钱问题：金融时报报道",
+      "AI编码工具导致CI瓶颈",
+      "HN上AI伦理争议升温",
+      "双重脑细胞起源：神经科学突破"
+    ],
+    "ai-community": [
+      "浏览器原生AI代理演示爆火",
+      "新模式阻止AI发布有缺陷代码",
+      "AI代理被禁止做决策",
+      "RAG遗漏明显文档信息：为何？",
+      "Laya 33ms决策引擎受关注",
+      "ChatGPT追踪跨网站用户"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code: No new release, 10 hot issues",
+      "OpenAI Codex: 5 alpha releases in 24h",
+      "Gemini CLI: v0.62.0-nightly.20260921 live",
+      "GitHub Copilot CLI: v1.0.88-1 patch released",
+      "Qwen Code: Mobile-first remote workflow push",
+      "Pi: Extensibility via canonical session models"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.35: Extended-stable LTS release",
+      "Critical security patches in OpenClaw v2026.7.35",
+      "OpenClaw: New Codex-native model support",
+      "Hermes Agent: High community engagement",
+      "IronClaw: Active development on Windows/Linux",
+      "QwenPaw: Emerging multi-agent framework"
+    ],
+    "ai-infra": [
+      "vLLM: 87 open issues, 12 PRs merged",
+      "SGLang: 121 open issues, 9 PRs",
+      "llama.cpp: Release b11094 with 3 new flags",
+      "Ollama: 153 open issues, low PR volume",
+      "LiteLLM: 148 open issues, stable release",
+      "Unsloth: 3 breaking changes in config fixes"
+    ],
+    "ai-trending": [
+      "BuilderIO/agent-native: +607 stars today",
+      "rtk-ai/rtk: 60–90% token reduction",
+      "JuliusBrussee/caveman: 107K stars, 65% tokens cut",
+      "diegosouzapw/OmniRoute: MIT, free API abstraction",
+      "Cognee, RAGFlow, Mem0: Rising RAG tools",
+      "ECC: Viral modular agent framework"
+    ],
+    "ai-web": [
+      "Claude boosts biomolecular modeling 4x",
+      "Claude Science: 10K+ token protein design",
+      "$1M+ protein design competition launched",
+      "OpenAI Academy expands learning paths",
+      "OpenAI data team guide now live",
+      "Anthropic research: Low-memory mode debut"
+    ],
+    "ai-hn": [
+      "Qwen Image 2.1: Major quality leap",
+      "Grok 4.7: Stronger reasoning & code gen",
+      "Chatbot fails on money questions: FT report",
+      "CI bottlenecks from AI coding tools",
+      "AI ethics debate heats up on HN",
+      "Dual brain cell origins: Neuroscience breakthrough"
+    ],
+    "ai-community": [
+      "Browser-native AI agent demo goes viral",
+      "New pattern stops AI shipping broken code",
+      "AI agents banned from making decisions",
+      "RAG misses obvious document info: Why?",
+      "Laya’s 33ms decision engine gains traction",
+      "ChatGPT tracked users across websites"
+    ]
+  }
+}
