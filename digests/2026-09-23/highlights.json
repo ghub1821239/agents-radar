@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.280 集成 Opus 5.5",
+      "OpenAI Codex α v0.157.0 进入测试",
+      "Gemini CLI 夜间版 v0.62.0 上线",
+      "GitHub Copilot CLI 新增 Opus 5.5",
+      "Qwen Code 支持本地执行",
+      "Pi 工具实现实时代理脚本"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题、500个PR",
+      "无新版本；v2026.9.5 存在回归问题",
+      "PR #156040 修复CI误报",
+      "PR #155430 修正令牌计数",
+      "关键会话管理修复合并",
+      "内存泄漏与崩溃循环待审"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.0 上线并大幅更新",
+      "SGLang 24小时内新增14个PR",
+      "llama.cpp 随b11115系列趋于稳定",
+      "Ollama v0.34.1 修复macOS GUI缺陷",
+      "LiteLLM v1.1 发布新功能",
+      "Unsloth 提升微调性能"
+    ],
+    "ai-trending": [
+      "google/ax 今日增长2,305颗星",
+      "rtk-ai/rtk 降低60–90%令牌消耗",
+      "davila7/claude-code-templates 增加64颗星",
+      "affaan-m/ECC 达26.5万颗星",
+      "Agent-substrate/substrate 受关注",
+      "Dream-num/univer 成为新代理枢纽"
+    ],
+    "ai-web": [
+      "OpenAI 宣布 GPT-6 Sol 和 Luna",
+      "GPT-6 Astra 破解2005年恩尼格玛密码",
+      "GPT-6 推出更优提示缓存",
+      "OpenAI 公布第三方评估细节",
+      "Anthropic 对 Claude 4/5 推出保持沉默",
+      "战略沉默暗示后端聚焦"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol 和 Luna 引发热议",
+      "Claude Opus 5.5 代码能力获赞",
+      "GPT-6 Astra 打破历史密码",
+      "五角大楼归咎AI导致校园袭击",
+      "OpenAI 模型发布彰显紧迫",
+      "社区分歧于成本与能力之间"
+    ],
+    "ai-arxiv": [
+      "LoRA 超网络实现设备端AI",
+      "onPanda 优化对齐数据标注",
+      "Pinocchio 解决不确定性估计",
+      "GRUET 提升大模型可解释性",
+      "RSI 实现自进化代理",
+      "GameHorizon 评估多代理系统"
+    ],
+    "ai-community": [
+      "AI代理引发秘密泄露与误操作",
+      "Laya 提供33毫秒决策引擎",
+      "自托管AI规避厂商锁定",
+      "ChatGPT 通过广告追踪暴露",
+      "廉价RAG方案使用Gemini文件搜索",
+      "代理测试时间从2,490降至206"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.280 ships with Opus 5.5",
+      "OpenAI Codex α v0.157.0 now in testing",
+      "Gemini CLI nightly v0.62.0 live",
+      "GitHub Copilot CLI adds Opus 5.5",
+      "Qwen Code gains local execution support",
+      "Pi tool enables real-time agent scripting"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "No new release; v2026.9.5 has regressions",
+      "PR #156040 fixes CI false warnings",
+      "PR #155430 corrects token accounting",
+      "Critical session management fixes merged",
+      "Memory leaks and crash loops under review"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.0 live with major updates",
+      "SGLang sees 14 new PRs in 24h",
+      "llama.cpp stabilizing with b11115 series",
+      "Ollama v0.34.1 fixes macOS GUI bug",
+      "LiteLLM v1.1 released with new features",
+      "Unsloth enhances fine-tuning performance"
+    ],
+    "ai-trending": [
+      "google/ax surges +2,305 stars today",
+      "rtk-ai/rtk cuts tokens by 60–90%",
+      "davila7/claude-code-templates +64 stars",
+      "affaan-m/ECC hits 265K stars",
+      "Agent-substrate/substrate gains traction",
+      "Dream-num/univer emerges as new agent hub"
+    ],
+    "ai-web": [
+      "OpenAI announces GPT-6 Sol and Luna",
+      "GPT-6 Astra cracks 2005 Enigma cipher",
+      "Better Prompt Caching for GPT-6 launched",
+      "OpenAI details third-party assessments",
+      "Anthropic silent on Claude 4/5 rollout",
+      "Strategic silence suggests backend focus"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna spark debate",
+      "Claude Opus 5.5 praised for code skills",
+      "GPT-6 Astra breaks historic cipher",
+      "Pentagon blames AI for school strike",
+      "OpenAI’s model rollout signals urgency",
+      "Community split on cost vs. capability"
+    ],
+    "ai-arxiv": [
+      "LoRA hypernetworks enable on-device AI",
+      "onPanda improves alignment data annotation",
+      "Pinocchio tackles uncertainty estimation",
+      "GRUET boosts explainability in LLMs",
+      "RSI enables self-improving agents",
+      "GameHorizon evaluates multi-agent systems"
+    ],
+    "ai-community": [
+      "AI agents cause secret leaks and misfires",
+      "Laya offers 33ms decision engine",
+      "Self-hostable AI avoids vendor lock-in",
+      "ChatGPT exposed via ad collectors",
+      "Cheap RAG setup uses Gemini file search",
+      "Agent test runs cut from 2,490 to 206"
+    ]
+  }
+}
