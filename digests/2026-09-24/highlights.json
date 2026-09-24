@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.281：安全与IAM修复",
+      "OpenAI Codex rust-v0.156.1：GPT-6模型上线",
+      "Gemini CLI v0.62.0-nightly：Gemini 3.8/3.5闪电版",
+      "GitHub Copilot CLI v1.0.89-1：GPT-6模型选择器",
+      "Qwen Code在CLI工具中崭露头角",
+      "Pi CLI工具支持代理工作流"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.6：macOS崩溃漏洞已撤回",
+      "Hotfix v2026.9.7正在开发中",
+      "macOS用户：重新安装v2026.9.5恢复",
+      "OpenClaw：24小时内500个问题",
+      "报告严重会话管理漏洞",
+      "Hermes Agent：新稳定性优化"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0：稳定版发布",
+      "vLLM：稳定候选版进行中",
+      "SGLang：候选版高度不稳定",
+      "Ollama v0.34.4-rc1：重大变更",
+      "LiteLLM：仅开发版，无发布",
+      "Unsloth：低延迟推理优化"
+    ],
+    "ai-trending": [
+      "Google的`ax`：开放代理编排",
+      "`dream-num/univer`：代理办公套件",
+      "Claude Code模板获389星",
+      "ECC：高性能代理框架",
+      "TNT-Likely/PanWatch：金融领域AI",
+      "OpenStock：真实交易代理"
+    ],
+    "ai-web": [
+      "Claude发现具有类CRISPR特征的酶",
+      "Anthropic推出生命科学实验室",
+      "OpenAI：AirbnB GPT 6 Astra发布",
+      "联合国安理会：AI政策表态",
+      "OpenAI学院两年回顾发布",
+      "心理健康基准测试公布"
+    ],
+    "ai-hn": [
+      "Claude发现新型酶系统：HN热点",
+      "GPT-6 Sol破解1905年恩尼格玛密码",
+      "Mercury 2.5 LLM达770词/秒",
+      "OpenAI代理突破澳大利亚医保",
+      "HN上AI安全担忧激增",
+      "Claude发现引发热议"
+    ],
+    "ai-arxiv": [
+      "Flash-dLLM：非自回归生成快50%",
+      "高效而精简：隐式思维链提取",
+      "Agensh：内存高效的多代理协调",
+      "SWE-Serve：新生产评估框架",
+      "A2M：工具中的语义供应链风险",
+      "指标失败：代码修复的代理成本"
+    ],
+    "ai-community": [
+      "用状态机减少70%令牌浪费",
+      "单代理AWS成本追踪曝光",
+      "Claude Opus 5.5：缓存读取便宜60%",
+      "GPT-6 Sol：能否不处理简单任务？",
+      "ChatGPT通过广告收集器追踪用户",
+      "可观测性与内存控制上升"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.281: Security + IAM fixes",
+      "OpenAI Codex rust-v0.156.1: GPT-6 models live",
+      "Gemini CLI v0.62.0-nightly: Gemini 3.8/3.5 Flash",
+      "GitHub Copilot CLI v1.0.89-1: GPT-6 model picker",
+      "Qwen Code gains traction in CLI tools",
+      "Pi CLI tool now supports agent workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.6: macOS crash bug withdrawn",
+      "Hotfix v2026.9.7 in progress for Mac",
+      "macOS users: Reinstall v2026.9.5 to recover",
+      "OpenClaw: 500 issues in last 24h",
+      "Critical session management bugs reported",
+      "Hermes Agent: New stability improvements"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0: Stable release out",
+      "vLLM: Stable RC in progress",
+      "SGLang: High instability in RC",
+      "Ollama v0.34.4-rc1: Breaking changes",
+      "LiteLLM: Dev build only, no release",
+      "Unsloth: Optimized for low-latency inference"
+    ],
+    "ai-trending": [
+      "Google's `ax`: Open agentic orchestration",
+      "`dream-num/univer`: Office harness for agents",
+      "Claude Code templates gain 389 stars",
+      "ECC: High-performance agent harness",
+      "TNT-Likely/PanWatch: AI in finance",
+      "OpenStock: Real-world trading agents"
+    ],
+    "ai-web": [
+      "Claude discovers enzyme with CRISPR-like features",
+      "Anthropic launches life sciences lab",
+      "OpenAI: AirbnB GPT 6 Astra released",
+      "UN Security Council remarks: AI policy",
+      "OpenAI Academy two-year review out",
+      "Mental health benchmarking announced"
+    ],
+    "ai-hn": [
+      "Claude finds novel enzyme system: HN hit",
+      "GPT-6 Sol cracks 2005 Enigma cipher",
+      "Mercury 2.5 LLM hits 770 tokens/sec",
+      "OpenAI agents breach Australia’s Medicare",
+      "AI safety concerns surge on HN",
+      "Claude’s discovery sparks debate"
+    ],
+    "ai-arxiv": [
+      "Flash-dLLM: 50% faster non-autoregressive gen",
+      "Capable yet Parsimonious: Hidden CoT extraction",
+      "Agensh: Memory-efficient multi-agent coord",
+      "SWE-Serve: New production eval framework",
+      "A2M: Semantic supply-chain risks in tools",
+      "Metrics Failure: Proxy cost in code repair"
+    ],
+    "ai-community": [
+      "Cut 70% token waste with state machines",
+      "Per-agent AWS cost tracking exposed",
+      "Claude Opus 5.5: 60% cheaper cache reads",
+      "GPT-6 Sol: Can it leave simple work alone?",
+      "ChatGPT tracks users via ad collectors",
+      "Observability and memory control rise"
+    ]
+  }
+}

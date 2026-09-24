@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-24",
+  "profileUser": "ghub1821239",
+  "starCount": 9,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "c",
+    "python",
+    "rust"
+  ],
+  "main": {
+    "id": "anthropics/skills#1798",
+    "name": "Add NiceTryGPT skill for authorized CTF challenge adaptation",
+    "description": "Adds \"nice-try-gpt\", an Agent Skill for reviewing and minimally adapting authorized CTF challenges to reduce cheap LLM pattern-matching shortcuts without materially increasing human difficulty. The skill follows a verification-first workflow: 1. reproduce the original challenge end-to-end; 2. identify one evidence-backed cheap shortcut; 3. apply zero, one,…",
+    "url": "https://github.com/anthropics/skills/pull/1798",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "你 Star 中的 'skills' 和 'agent' 兴趣与该 PR 提出的 'NiceTryGPT' 技能高度匹配，且其目标是通过小改动提升 AI Agent 的安全性，适合快速动手实验。",
+    "whyNow": "当前 AI 安全性成为关键议题，该技能聚焦于防止模型模式匹配漏洞，是构建可信 AI Agent 的实用实践，可在短时间内理解并验证。",
+    "learn": [
+      "理解 'NiceTryGPT' 技能如何通过验证先行流程识别并消除低成本的 LLM 模式匹配攻击路径",
+      "掌握其三步工作流：复现挑战 → 识别证据支持的捷径 → 最小化修改以保持人类可解性"
+    ],
+    "exercise": [
+      "在本地创建一个简单的 CTF 挑战（如字符串反转谜题），用文本形式模拟原始挑战内容",
+      "使用该 PR 中描述的验证流程，手动检查是否存在可被 LLM 快速猜中的模式，并尝试修改题目以消除该捷径，输出修改后的版本"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1799",
+      "name": "Add AI ML engineering mentor skill",
+      "description": "Adds an AI/ML Engineering Mentor skill designed to help users: Learn AI/ML concepts step by step Debug ML and Python implementations Design and review AI/ML projects Work with RAG and agentic AI systems Understand model training, evaluation, and optimization Follow structured workflows for project development The skill includes reference material,…",
+      "url": "https://github.com/anthropics/skills/pull/1799",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你 Star 中的 'skills' 和 'ai' 兴趣匹配，该技能旨在辅助学习和开发 AI/ML 项目，适合拆成小练习",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Add AI ML engineering mentor skill 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1771",
+      "name": "feat(skills): add proofcore-contract-auditor for smart contract notarization",
+      "description": "Adds `proofcore-contract-auditor`, an Agent Skill for Web3 developers that performs automated static analysis of Solidity and Rust smart contracts and anchors cryptographic audit proofs onto the public TON Blockchain using ProofCore's zero-storage Merkle protocol. What this skill does **Security Audit:** Scans `.sol` and `.rs` files for common…",
+      "url": "https://github.com/anthropics/skills/pull/1771",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "你 Star 中的 'skills' 和 'agent' 兴趣匹配，该技能面向 Web3 安全审计，可作为独立小技术实验",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 feat(skills): add proofcore-contract-auditor for smart contract notarization 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "affaan-m/ECC",
+      "name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "kind": "project",
+      "source": "GitHub Search: mcp",
+      "whyForYou": "你 Star 中的 'agent'、'skills' 和 'mcp' 兴趣匹配，该项目是高性能 Agent Harness 系统，适合作为进阶参考",
+      "whyNow": "最近来自 GitHub Search: mcp 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 affaan-m/ECC 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}
