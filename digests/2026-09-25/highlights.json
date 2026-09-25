@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.282 修复关键安全问题",
+      "OpenAI Codex 进入测试阶段，共6个版本，暂无稳定版",
+      "Gemini CLI 存在代理卡死与配置漂移问题",
+      "Pi CLI 成为轻量级开发工具新宠",
+      "Qwen Code 深度集成IDE支持编码代理",
+      "Claude Code Skills 支持自定义代理工作流"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内报告500个问题和PR",
+      "P0级缺陷影响OpenClaw代理生命周期",
+      "PR #157294 重构核心代理逻辑提升稳定性",
+      "PR #156940 修复过期会话突变竞争条件",
+      "OpenClaw 2026.9.6 仍不稳定—避免生产使用",
+      "ZeroClaw Labs 推出新型代理编排框架"
+    ],
+    "ai-infra": [
+      "vLLM v0.29.0+ 稳定中，含15个高危问题",
+      "SGLang 更新配置，面临17个严重问题",
+      "llama.cpp 发布ggml v0.25.3补丁修复关键漏洞",
+      "Ollama 警告升级存在弃用风险",
+      "LiteLLM 解决企业可观测性4个关键问题",
+      "AMD ROCm 10 与 RTX 50系列推动异构推理需求"
+    ],
+    "ai-trending": [
+      "google/ax: Google代理编排运行时引爆网络",
+      "rtk-ai/rtk 减少90% Claude调用—现达81K星标",
+      "vectorize-io/hindsight 实现持久化代理记忆",
+      "affaan-m/ECC 通过缓存提升Claude Code效率",
+      "NVIDIA/Model-Optimizer 优化TensorRT-LLM模型",
+      "rohitg00/ai-engineering-from-scratch 成学习热点"
+    ],
+    "ai-web": [
+      "Anthropic Project Swap 展现代理类人谈判能力",
+      "Claude 自主发现类CRISPR酶系统",
+      "GPT-6 Sol与Luna 登顶HN创纪录分数",
+      "ChatGPT广告拓展至东南亚与台湾",
+      "OpenAI广告推广彰显多语言市场变现增长",
+      "Anthropic 转向AI驱动经济系统"
+    ],
+    "ai-hn": [
+      "Claude 发现新型酶系统—HN热议达757分",
+      "GPT-6 Sol与Luna 登顶HN获1762票",
+      "异常代理活动引发urlquery.net安全争议",
+      "Gen Alpha 将'That's so AI'用作文化嘲讽",
+      "对比语言模型挑战传统训练范式",
+      "医疗决策中AI伦理担忧加剧"
+    ],
+    "ai-arxiv": [
+      "动态基准评估LLM全仓库表现",
+      "ForgetMimic 无需重训即可消除强化学习动作",
+      "计算超越几何重新定义身份意义",
+      "Frozen Flows Forget 保留世界模型运动动态",
+      "COMPASS 实现可扩展多代理推理",
+      "PASTABench与StudentBench 推动长期安全评估"
+    ],
+    "ai-community": [
+      "7个代理评估错误致开发者浪费数周—修复方案曝光",
+      "更好的搜索索引胜过更多模型训练，Dev.to称",
+      "FinePrint代理验证黑客松参赛规则合规性",
+      "Laya决策引擎仅需33ms运行",
+      "非自回归建模推进前沿研究",
+      "隐私担忧上升，因ChatGPT接入跨站追踪"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.282 stabilizes with critical security fixes",
+      "OpenAI Codex hits alpha stage with 6 builds, no stable release",
+      "Gemini CLI faces agent hangs and config drift issues",
+      "Pi CLI gains traction as lightweight dev tool",
+      "Qwen Code integrates deep IDE support for coding agents",
+      "Claude Code Skills enables customizable agent workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and PRs in 24 hours",
+      "P0 bugs plague OpenClaw's agent lifecycle and sessions",
+      "PR #157294 refactors core agent logic for stability",
+      "PR #156940 fixes stale session mutation race condition",
+      "OpenClaw 2026.9.6 remains unstable—avoid production use",
+      "ZeroClaw Labs launches new agent orchestration framework"
+    ],
+    "ai-infra": [
+      "vLLM stabilizing v0.29.0+ with 15 high-critical issues",
+      "SGLang updates configs amid 17 open high-severity issues",
+      "llama.cpp releases ggml v0.25.3 patch for critical bugs",
+      "Ollama warns against upgrade due to deprecation risks",
+      "LiteLLM addresses 4 critical issues in enterprise observability",
+      "AMD ROCm 10 & RTX 50-series drive heterogeneous inference demand"
+    ],
+    "ai-trending": [
+      "google/ax: Google’s agentic orchestration runtime goes viral",
+      "rtk-ai/rtk reduces Claude token use by 90%—now 81K stars",
+      "vectorize-io/hindsight enables persistent agent memory",
+      "affaan-m/ECC boosts Claude Code efficiency with caching",
+      "NVIDIA/Model-Optimizer optimizes models for TensorRT-LLM",
+      "rohitg00/ai-engineering-from-scratch tops learning trends"
+    ],
+    "ai-web": [
+      "Anthropic’s Project Swap shows agents negotiating like humans",
+      "Claude discovers CRISPR-like enzyme system autonomously",
+      "GPT-6 Sol and Luna dominate HN with record-breaking scores",
+      "ChatGPT Ads expand to Southeast Asia and Taiwan",
+      "OpenAI’s ad push signals monetization growth in linguistically diverse markets",
+      "Anthropic pivots toward AI-driven economic systems"
+    ],
+    "ai-hn": [
+      "Claude discovers novel enzyme system—HN buzz at 757 points",
+      "GPT-6 Sol and Luna top HN with 1762 votes",
+      "Rogue agent activity sparks safety debate on urlquery.net",
+      "Gen Alpha adopts 'That’s so AI' as cultural insult",
+      "Contrastive Language Models challenge traditional LM training",
+      "Ethical concerns grow over AI in healthcare decisions"
+    ],
+    "ai-arxiv": [
+      "Dynamic benchmark evaluates LLMs across full repositories",
+      "ForgetMimic erases RL motions without retraining",
+      "Computation Over Geometry redefines meaning identity",
+      "Frozen Flows Forget preserves motion dynamics in world models",
+      "COMPASS enables scalable multi-agent reasoning",
+      "PASTABench and StudentBench push longitudinal safety evals"
+    ],
+    "ai-community": [
+      "7 agent eval mistakes cost developer weeks—fixes revealed",
+      "Better search index beats more model training, Dev.to says",
+      "FinePrint agent validates hackathon entries against rules",
+      "Laya decision engine runs in just 33ms",
+      "Non-autoregressive modeling advances frontier research",
+      "Privacy fears rise as ChatGPT accesses cross-site tracking"
+    ]
+  }
+}
