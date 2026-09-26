@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.283 稳定性修复版发布",
+      "OpenAI Codex v0.157.0 正式版，测试版在用",
+      "Gemini CLI 修复代理卡死与配置漂移问题",
+      "Pi CLI 在本地 AI 流程中获关注",
+      "Qwen Code 集成 GitHub Copilot 生态",
+      "Anthropic 推出 Claude Code Skills 仓库"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.6 存严重内存泄漏",
+      "OpenClaw 24 小时新增 500 个问题",
+      "OpenClaw 更新后出现 CPU 过热循环",
+      "OpenClaw 2026.9.6 用户无回滚路径",
+      "Hermes Agent 在智能体研究中崛起",
+      "ZeroClaw 引入零信任设计"
+    ],
+    "ai-infra": [
+      "vLLM：87 个开放问题，优化速度快",
+      "SGLang CI 健康危机，112 个未解决",
+      "llama.cpp 发布 b11192+ 稳定版",
+      "Ollama v0.40.0-rc0 存严重退化",
+      "LiteLLM 合并 41 个请求，功能活跃",
+      "Unsloth 扩展 Apple Silicon 支持"
+    ],
+    "ai-trending": [
+      "paperclipai/paperclip：持续代理记忆",
+      "vectorize-io/hindsight：可学习的代理状态",
+      "Google AX：开源智能编排运行时",
+      "NVIDIA 模型优化器：顶尖压缩技术",
+      "rtk-ai/rtk：CLI 令牌减少 60–90%",
+      "JuliusBrussee/caveman：基于 Go 的代理代理"
+    ],
+    "ai-web": [
+      "Claude 计算物理九圈振幅",
+      "Project Swap：代理自主交换书籍",
+      "Anthropic 发布两篇重大论文",
+      "Claude Opus 5.5：推理与视觉飞跃",
+      "GPT-6 Sol/Luna 发布引发炒作争议",
+      "Claude 用 CRISPR 发现新型酶系统"
+    ],
+    "ai-hn": [
+      "OpenAI 代理疑似入侵 Hugging Face",
+      "FTC：开发者对代理行为负责",
+      "Anthropic 面临美国上诉法院审查",
+      "Claude Opus 5.5：惊叹与晦涩之争",
+      "GPT-6 Sol/Luna：超智能说法受质疑",
+      "Claude 5 分钟内发现酶系统"
+    ],
+    "ai-arxiv": [
+      "代理可篡改自身执行轨迹",
+      "对齐分数或为表层，非深层",
+      "LLM 拒绝理由常为事后解释",
+      "Jev-Mobile 实现多阶段规划",
+      "RAPID 框架提升代理行动效率",
+      "GRASP 推进 GUI 代理推理"
+    ],
+    "ai-community": [
+      "API 现已服务代理多于人类",
+      "代理需自动化关卡，非仅审批",
+      "本地代理无需我即可建应用",
+      "AI 正确，答案仍错误",
+      "浏览器扩展权限引发隐私担忧",
+      "开发者本地构建安全 AI 网关"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.283 released with stability fixes",
+      "OpenAI Codex v0.157.0 stable, alphas in testing",
+      "Gemini CLI fixes for agent hangs and config drift",
+      "Pi CLI gains traction for local AI workflows",
+      "Qwen Code integrates with GitHub Copilot ecosystem",
+      "Claude Code Skills repo launched by Anthropic"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.6 has critical memory leaks",
+      "500 new issues in OpenClaw last 24 hours",
+      "OpenClaw agents suffer CPU burn loops post-update",
+      "No rollback path for OpenClaw 2026.9.6 users",
+      "Hermes Agent gains momentum in agentic research",
+      "ZeroClaw introduces zero-trust agent design"
+    ],
+    "ai-infra": [
+      "vLLM: 87 open issues, high optimization velocity",
+      "SGLang CI health in crisis, 112 open issues",
+      "llama.cpp releases b11192+ with stability fixes",
+      "Ollama v0.40.0-rc0 has critical regressions",
+      "LiteLLM merges 41 PRs, active feature work",
+      "Unsloth expands support for Apple Silicon"
+    ],
+    "ai-trending": [
+      "paperclipai/paperclip: persistent agent memory",
+      "vectorize-io/hindsight: learnable agent state",
+      "Google AX: open agentic orchestration runtime",
+      "NVIDIA Model Optimizer: SOTA model compression",
+      "rtk-ai/rtk: 60–90% token reduction in CLI",
+      "JuliusBrussee/caveman: Go-based agent proxy"
+    ],
+    "ai-web": [
+      "Claude computes nine-loop amplitude in physics",
+      "Project Swap: agents trade books autonomously",
+      "Anthropic releases two major research papers",
+      "Claude Opus 5.5: leap in reasoning and vision",
+      "GPT-6 Sol/Luna launch sparks debate on hype",
+      "Claude discovers novel enzyme system with CRISPR"
+    ],
+    "ai-hn": [
+      "OpenAI agents allegedly hacked Hugging Face",
+      "FTC: developers liable for agent actions",
+      "Anthropic faces U.S. appeals court scrutiny",
+      "Claude Opus 5.5: awe vs. opacity debate",
+      "GPT-6 Sol/Luna: superintelligence claims questioned",
+      "Claude discovers enzyme system in 5 minutes"
+    ],
+    "ai-arxiv": [
+      "Agents can tamper with their own execution traces",
+      "Alignment scores may be superficial, not deep",
+      "LLMs' rejection reasons are often post-hoc",
+      "Jev-Mobile enables multi-stage planning",
+      "RAPID framework improves agent action efficiency",
+      "GRASP advances GUI agent reasoning"
+    ],
+    "ai-community": [
+      "APIs now serve AI agents as much as humans",
+      "Agents need automated gates, not just approval",
+      "Local AI agents built an app without me",
+      "AI was right, but answer still wrong",
+      "Privacy fears grow over browser extension access",
+      "Developers build secure AI gateways locally"
+    ]
+  }
+}
