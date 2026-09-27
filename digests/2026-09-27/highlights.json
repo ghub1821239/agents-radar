@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 24小时内登上10大热门",
+      "OpenAI Codex发布多个alpha版本",
+      "Gemini CLI推出夜间版v0.63.0",
+      "Pi推动CLI工具用户体验创新",
+      "Qwen Code获企业广泛采用",
+      "GitHub Copilot CLI暂无新版本发布"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时处理500个问题、500个PR",
+      "OpenClaw稳定性危机，出现崩溃循环",
+      "PR #159288修复Slack测试波动",
+      "PR #159244新增频道运行日志",
+      "PR #159266限制执行审批",
+      "尽管存在回归问题，仍无新版本发布"
+    ],
+    "ai-infra": [
+      "llama.cpp发布b11205–b11202",
+      "Ollama移除`typical_p`配置",
+      "llama.cpp回滚上下文长度",
+      "vLLM：8个问题，7个PR合并",
+      "SGLang：5个问题，6个PR合并",
+      "LiteLLM：4个问题，5个PR合并"
+    ],
+    "ai-trending": [
+      "PaperclipAI与Hindsight主导记忆趋势",
+      "OmniRoute成为通用网关",
+      "rtk-ai/rtk：高效令牌代理",
+      "Caveman通过代理提升效率",
+      "代理技能与MCP服务器热度上升",
+      "增强RAG的代理发展迅速"
+    ],
+    "ai-web": [
+      "Claude改进黎曼ζ函数界限至67.2%",
+      "AI推进解析数论进展",
+      "Claude证明被正式验证",
+      "非平凡零点新研究",
+      "Anthropic披露未发布模型特性",
+      "数学推理达里程碑"
+    ],
+    "ai-hn": [
+      "OpenAI代理突破Hugging Face",
+      "GPT-6 Sol与Luna引发热议",
+      "Claude Opus 5.5精度受好评",
+      "AI发现新型酶系统",
+      "DNS漏洞引发代理安全担忧",
+      "AI使作业过时，开发者反思"
+    ],
+    "ai-community": [
+      "AI写代码，AI审代码——还剩什么？",
+      "提示工程不再是核心技能",
+      "模型卡片与评估报告受关注",
+      "LoRA/DoRA模型推动效率焦点",
+      "本地优先AI保障数据主权",
+      "追踪器泄露后隐私担忧加剧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues in 24h",
+      "OpenAI Codex releases multiple alphas",
+      "Gemini CLI rolls out nightly v0.63.0",
+      "Pi pushes UX innovation in CLI tools",
+      "Qwen Code gains traction for enterprise use",
+      "GitHub Copilot CLI sees no new release"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "OpenClaw stability crisis with crash loops",
+      "PR #159288 fixes Slack test flake",
+      "PR #159244 adds channel runtime logs",
+      "PR #159266 restricts exec approvals",
+      "No new OpenClaw release despite regressions"
+    ],
+    "ai-infra": [
+      "llama.cpp releases b11205–b11202",
+      "Ollama removes `typical_p` config",
+      "llama.cpp reverts context length",
+      "vLLM: 8 issues, 7 PRs merged",
+      "SGLang: 5 issues, 6 PRs merged",
+      "LiteLLM: 4 issues, 5 PRs merged"
+    ],
+    "ai-trending": [
+      "PaperclipAI & Hindsight dominate memory trends",
+      "OmniRoute emerges as universal gateway",
+      "rtk-ai/rtk: token-efficient proxy",
+      "Caveman boosts efficiency with proxy",
+      "Agent skills and MCP servers surge",
+      "RAG-enhanced agents gain momentum"
+    ],
+    "ai-web": [
+      "Claude improves Riemann zeta bound to 67.2%",
+      "AI advances analytic number theory",
+      "Claude's proof formally verified",
+      "New research on non-trivial zeros",
+      "Anthropic reveals unreleased model feat",
+      "Mathematical reasoning reaches milestone"
+    ],
+    "ai-hn": [
+      "OpenAI agents breach Hugging Face",
+      "GPT-6 Sol and Luna spark debate",
+      "Claude Opus 5.5 praised for precision",
+      "AI discovers novel enzyme system",
+      "DNS exploit raises agent safety fears",
+      "AI renders homework obsolete, devs reflect"
+    ],
+    "ai-community": [
+      "AI writes code, AI reviews it—what’s left?",
+      "Prompting isn’t the real skill anymore",
+      "Model cards and eval reports gain traction",
+      "LoRA/DoRA models drive efficiency focus",
+      "Local-first AI preserves data sovereignty",
+      "Privacy concerns rise after tracker leak"
+    ]
+  }
+}
