@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-28",
+  "profileUser": "ghub1821239",
+  "starCount": 9,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "c",
+    "python",
+    "rust"
+  ],
+  "main": {
+    "id": "anthropics/skills#1851",
+    "name": "fix(pdf): handle plain-string choice options in extract_form_field_info",
+    "description": "PDF `/Opt` arrays for choice fields may contain plain strings (`[\"A\", \"B\"]`) or `[export, display]` pairs. `make_field_dict` unconditionally does `state[0]`/`state[1]`, which on a string option yields its first two characters (`\"/A\"[0] == \"/\"`) instead of the option value. Keep a plain-string option intact and only split pairs. Verified with `python -m…",
+    "url": "https://github.com/anthropics/skills/pull/1851",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "与你 Star 中的 'skills'、'skill' 和 'python' 兴趣高度匹配，且该 PR 修复的是 PDF 表单处理中的具体问题，适合拆解为可动手的小技能练习。",
+    "whyNow": "PDF 表单自动化是 AI Agent 常见应用场景，掌握此类细节能直接提升 Agent 的健壮性，今日学习可快速落地到实际项目中。",
+    "learn": [
+      "理解 PDF 中 `choice` 字段的两种数据结构：纯字符串数组（如 [\"A\", \"B\"]）和键值对（如 [\"export\", \"display\"]）",
+      "掌握如何在 `make_field_dict` 函数中区分并安全处理这两种格式，避免因索引错误导致逻辑崩溃"
+    ],
+    "exercise": [
+      "在本地创建一个简单的 Python 脚本，模拟 `make_field_dict` 函数，输入一个包含纯字符串选项的列表（如 ['Option1', 'Option2']），输出应保持原样而非尝试切片。",
+      "修改脚本，添加条件判断逻辑，当元素为字符串时跳过索引操作，仅在元素为列表时执行 `state[0]`/`state[1]` 分解，验证输出结果正确无误。"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1850",
+      "name": "fix(pdf): raise a clear error when fields.json lacks page info",
+      "description": "`fill_pdf_form_with_annotations.py` uses `next(p for p in fields_data[\"pages\"] if p[\"page_number\"] == page_num)`, which raises an unhandled `StopIteration` (or an unhelpful crash) when `fields.json` has no matching page entry. Use a default and raise a descriptive `ValueError` instead. Verified with `python -m py_compile`.",
+      "url": "https://github.com/anthropics/skills/pull/1850",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "与你 Star 中的 'skills' 和 'python' 兴趣匹配，修复了 PDF 处理中常见的空页信息异常，适合拆成小练习提升容错能力。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 fix(pdf): raise a clear error when fields.json lacks page info 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1849",
+      "name": "fix(pdf): resize thumbnails with LANCZOS instead of nearest-neighbor",
+      "description": "`convert_pdf_to_images.py` calls `image.resize((new_width, new_height))` without a resample filter, which defaults to nearest-neighbor and produces visibly jagged thumbnails. Use `Image.Resampling.LANCZOS`, and add the missing `from PIL import Image` import (the file already depends on PIL objects). Verified with `python -m py_compile`.",
+      "url": "https://github.com/anthropics/skills/pull/1849",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "与你 Star 中的 'skills' 和 'python' 兴趣匹配，涉及图像处理优化，可动手实践 PIL 图像重采样技术提升视觉质量。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 fix(pdf): resize thumbnails with LANCZOS instead of nearest-neighbor 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "affaan-m/ECC",
+      "name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "kind": "project",
+      "source": "GitHub Search: llm",
+      "whyForYou": "与你 Star 中的 'agent'、'skills'、'llm' 兴趣高度匹配，是当前最活跃的 Agent Harness 系统之一，适合作为进阶参考框架。",
+      "whyNow": "最近来自 GitHub Search: llm 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 affaan-m/ECC 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}

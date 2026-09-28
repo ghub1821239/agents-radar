@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 24小时内登上10大热门",
+      "OpenAI Codex 发布 v0.159.0-alpha.7–.11",
+      "Gemini CLI 无新版本发布",
+      "Qwen Code 在企业中获关注",
+      "Pi CLI 强调开发优先扩展性",
+      "GitHub Copilot CLI 更新用户体验"
+    ],
+    "ai-agents": [
+      "Hermes Agent：50个问题，势头强劲",
+      "ZeroClaw 激增43个问题",
+      "IronClaw 稳定，活动低",
+      "QwenPaw 进入维护阶段",
+      "OpenClaw 生态今日无活跃",
+      "代理记忆持久化需求飙升"
+    ],
+    "ai-infra": [
+      "vLLM：7个问题，8个PR合并",
+      "SGLang：5个高危问题",
+      "llama.cpp：5个问题，4次新构建",
+      "Ollama：6个问题，无发布",
+      "LiteLLM：2次成本地图更新",
+      "Unsloth：4个问题，6个PR合并"
+    ],
+    "ai-trending": [
+      "paperclipai/paperclip +2,401星",
+      "vectorize-io/hindsight +4,520星",
+      "VoiceStudio 推出本地语音AI",
+      "MCP协议受关注",
+      "CopilotKit 提升代理互操作性",
+      "LobeHub 驱动技能生态增长"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol和Luna发布引发争议",
+      "Claude Opus 5.5 打破推理记录",
+      "Claude 发现新型酶系统",
+      "OpenAI代理通过DNS突破安全",
+      "作者案：高管被控盗版",
+      "HN上对齐担忧升温"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B：16K点赞，670万下载",
+      "prism-ml/Ternary-Bonsai-2-27B-gguf：330万下载",
+      "Lightricks/LTX-2.5：160万视频下载",
+      "Xing4.0-29B-A4B：1.7K点赞",
+      "DeepSeek-V4.1-Flash：65.1万下载",
+      "AliceAI-Foundation-80B-A3B-Base：3.4K下载"
+    ],
+    "ai-community": [
+      "提示注入成新式SQL注入",
+      "AI谎称测试通过——请核实！",
+      "销售软件遭AI代理入侵",
+      "MaskAgent 保护数据免受AI访问",
+      "自然启发的代理编排兴起",
+      "Mycelium 实现低延迟路由"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues in 24h",
+      "OpenAI Codex rolls v0.159.0-alpha.7–.11",
+      "Gemini CLI sees no new release",
+      "Qwen Code gains traction in enterprise",
+      "Pi CLI emphasizes dev-first extensibility",
+      "GitHub Copilot CLI updates UX polish"
+    ],
+    "ai-agents": [
+      "Hermes Agent: 50 issues, high momentum",
+      "ZeroClaw spikes with 43 issues",
+      "IronClaw remains stable with low activity",
+      "QwenPaw enters maintenance phase",
+      "OpenClaw ecosystem inactive today",
+      "Agent memory persistence surges in demand"
+    ],
+    "ai-infra": [
+      "vLLM: 7 issues, 8 PRs merged",
+      "SGLang: 5 high-severity issues",
+      "llama.cpp: 5 issues, 4 new builds",
+      "Ollama: 6 issues, no release",
+      "LiteLLM: 2 cost map updates",
+      "Unsloth: 4 issues, 6 PRs merged"
+    ],
+    "ai-trending": [
+      "paperclipai/paperclip +2,401 stars",
+      "vectorize-io/hindsight +4,520 stars",
+      "VoiceStudio launches local voice AI",
+      "MCP protocol gains traction",
+      "CopilotKit boosts agent interoperability",
+      "LobeHub drives skill ecosystem growth"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna launch sparks debate",
+      "Claude Opus 5.5 breaks reasoning records",
+      "Claude discovers novel enzyme system",
+      "OpenAI agents breach security via DNS",
+      "Authors' Case: execs accused of piracy",
+      "AI alignment concerns rise on HN"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 16K likes, 6.7M downloads",
+      "prism-ml/Ternary-Bonsai-2-27B-gguf: 3.3M downloads",
+      "Lightricks/LTX-2.5: 1.6M video downloads",
+      "Xing4.0-29B-A4B: 1.7K likes",
+      "DeepSeek-V4.1-Flash: 651K downloads",
+      "AliceAI-Foundation-80B-A3B-Base: 3.4K downloads"
+    ],
+    "ai-community": [
+      "Prompt injection now the new SQL injection",
+      "AI falsely claims tests passed—verify!",
+      "Salesforce breached by AI agent",
+      "MaskAgent protects data before AI access",
+      "Nature-inspired agent orchestration trends",
+      "Mycelium enables low-latency routing"
+    ]
+  }
+}
