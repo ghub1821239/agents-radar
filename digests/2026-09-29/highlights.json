@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.284 稳定版，5个PR已关闭",
+      "OpenAI Codex 发布 rust-v0.158.0 及3个预览版",
+      "Gemini CLI 推出夜间版 v0.63.0-20260929",
+      "Pi 仍无发布，尽管有10个PR提交",
+      "Qwen Code 在开源社区获关注",
+      "GitHub Copilot CLI 发布补丁 v1.0.90-1"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布后出现30+个P0级问题",
+      "无新OpenClaw版本，热修复即将推出",
+      "PR #160747 改进UI聊天评论暂存",
+      "Hermes Agent 集成OpenClaw生态",
+      "IronClaw 提升代理内存管理",
+      "ZeroClaw 实现跨平台代理编排"
+    ],
+    "ai-infra": [
+      "vLLM 修复KV缓存与FlashInfer调优",
+      "SGLang 新增T-Head PPU边缘AI支持",
+      "llama.cpp 因Vulkan/AMD问题调整API",
+      "Ollama v0.35.0 引入System One API",
+      "LiteLLM 修复关键稳定性漏洞",
+      "Unsloth 优化消费级GPU推理性能"
+    ],
+    "ai-trending": [
+      "Hindsight 单日斩获4,561星",
+      "ECC 提升Claude Code与Codex效率",
+      "rtk 降低LLM token使用90%",
+      "Caveman 实现ESP32S3上微型LLM",
+      "代理记忆系统登顶趋势榜",
+      "OpenClaw Skills框架势头强劲"
+    ],
+    "ai-web": [
+      "Anthropic 推出Project Swap：代理为用户协商",
+      "Infosys合作拓展Claude企业应用",
+      "OpenAI暗示澳大利亚政策调整",
+      "Sonnet 5.5 Hacker News得分592",
+      "Astra 6.1 因安全问题取消",
+      "元认知论文重出，成为AI新视角"
+    ],
+    "ai-hn": [
+      "Sonnet 5.5 登顶HN，得分592",
+      "Astra 6.1 因安全问题取消",
+      "微型LLM运行于ESP32S3集群",
+      "代理对齐问题引发责任争议",
+      "真实场景中RAG向量库受质疑",
+      "AI即基础设施成核心议题"
+    ],
+    "ai-community": [
+      "QA 使用Claude + Obsidian处理日常任务",
+      "AI生成代码掩盖安全漏洞",
+      "一半AI代理仅是带GPU账单的if语句",
+      "生产环境挑战RAG系统",
+      "卫星分析由AI代理驱动",
+      "电商代理推动实际应用"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.284 stabilizes with 5 PRs closed",
+      "OpenAI Codex releases rust-v0.158.0 + 3 alphas",
+      "Gemini CLI hits nightly v0.63.0-20260929",
+      "Pi remains unreleased despite 10 PRs",
+      "Qwen Code gains traction in open-source community",
+      "GitHub Copilot CLI patches v1.0.90-1"
+    ],
+    "ai-agents": [
+      "OpenClaw faces 30+ P0 issues post-2026.9.6 release",
+      "No new OpenClaw release; hotfix likely imminent",
+      "PR #160747 improves UI chat comment staging",
+      "Hermes Agent integrates with OpenClaw ecosystem",
+      "IronClaw boosts agent memory management",
+      "ZeroClaw enables cross-platform agent orchestration"
+    ],
+    "ai-infra": [
+      "vLLM fixes KV cache and FlashInfer tuning",
+      "SGLang adds T-Head PPU support for edge AI",
+      "llama.cpp shifts APIs amid Vulkan/AMD issues",
+      "Ollama v0.35.0 introduces System One API",
+      "LiteLLM addresses critical stability bugs",
+      "Unsloth optimizes inference on consumer GPUs"
+    ],
+    "ai-trending": [
+      "Hindsight hits 4,561 stars in one day",
+      "ECC boosts efficiency across Claude Code & Codex",
+      "rtk reduces LLM token usage by 90%",
+      "Caveman enables tiny LLMs on ESP32S3",
+      "Agent memory systems dominate trending list",
+      "OpenClaw Skills framework gains momentum"
+    ],
+    "ai-web": [
+      "Anthropic launches Project Swap: agents negotiate for users",
+      "Infosys partnership expands Claude’s enterprise reach",
+      "OpenAI hints at Australia policy shift",
+      "Sonnet 5.5 scores 592 on Hacker News",
+      "Astra 6.1 scrapped over safety concerns",
+      "Metacognition paper resurfaces as AI lens"
+    ],
+    "ai-hn": [
+      "Sonnet 5.5 dominates HN with 592 score",
+      "Astra 6.1 canceled over safety issues",
+      "Tiny LLMs run on ESP32S3 clusters",
+      "Agent misalignment sparks liability debate",
+      "RAG vector DBs questioned in real-world use",
+      "AI as infrastructure becomes key theme"
+    ],
+    "ai-community": [
+      "QA uses Claude + Obsidian for daily workflows",
+      "AI-generated code hides broken security gates",
+      "Half of AI agents are just if-statements with GPU bills",
+      "RAG systems challenged in production use",
+      "Satellite analysis powered by AI agents",
+      "E-commerce agents drive real-world adoption"
+    ]
+  }
+}
