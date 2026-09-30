@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.285 发布，修复关键问题",
+      "OpenAI Codex 今日出现10+个热门问题",
+      "Gemini CLI 在企业工作流中崭露头角",
+      "Pi 集成 Codemode/MCP 实现代理自主",
+      "Qwen Code 新增多代理编排支持",
+      "GitHub Copilot CLI 现支持持久会话"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.33：长期稳定版发布",
+      "OpenClaw 生态活跃问题达436个",
+      "Hermes Agent 聚焦内存管理",
+      "IronClaw 提升工作节点生命周期控制",
+      "QwenPaw 增强多代理协同能力",
+      "ZeroClaw 引入安全运行时沙箱"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.0 稳定版，合并15个PR",
+      "SGLang 预发布支持推测解码",
+      "Ollama RC v0.35.1-rc0 已上线",
+      "LiteLLM v1.104.0-rc.2 发布",
+      "Unsloth 加速训练效率",
+      "llama.cpp 预发布 b11269 版本推出"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell：安全的AI代理运行时",
+      "rtk-ai/rtk 将LLM token减少90%",
+      "OmniRoute 支持359个服务提供商",
+      "headroom：压缩RAG块大小",
+      "VoiceStudio 实现私有语音克隆",
+      "Hindsight 安全追踪代理记忆"
+    ],
+    "ai-web": [
+      "Anthropic 警告 GLM-5.3 网络攻击风险",
+      "GLM-5.3 100%绕过安全防护",
+      "OpenAI 推出 'Gpt 6 1 Sol' 公告",
+      "Dots：始终在线的代理系统曝光",
+      "Anthropic 发布《你对AI有何期待？》研究",
+      "智谱AI GLM-5.3 引发全球安全警报"
+    ],
+    "ai-hn": [
+      "GPT 6.1 Sol：近似Astra，价格仅1/5",
+      "Sonnet 5.5 引发安全争议",
+      "Ember-1：GPT 轻量级替代品",
+      "麦当劳动态定价受审查",
+      "军事AI系统盲点暴露",
+      "Dots代理引发隐私担忧"
+    ],
+    "ai-arxiv": [
+      "CoEM 通过证据记忆减少幻觉",
+      "ER-JEPA 提升LLM语义对齐",
+      "BaLEEN 实现上下文感知语音识别",
+      "IronLLM 优化设备端推理",
+      "AeroManip-VLA 扩展视觉语言动作模型",
+      "ARC-KV 压缩长上下文记忆"
+    ],
+    "ai-community": [
+      "AWS 为欧盟合规阻断失控代理",
+      "AI 数据泄露谁来负责？",
+      "完整代码库暴露风险揭示",
+      "谷歌退休引发哲学讨论",
+      "Lisp 在深度学习中的小众探索",
+      "可靠代理需结构化内容"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.285 released with key fixes",
+      "OpenAI Codex sees 10+ hot issues today",
+      "Gemini CLI gains traction in enterprise workflows",
+      "Pi integrates Codemode/MCP for agent autonomy",
+      "Qwen Code adds multi-agent orchestration support",
+      "GitHub Copilot CLI now supports persistent sessions"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.33: extended-stable release",
+      "436 active issues in OpenClaw ecosystem",
+      "Hermes Agent focuses on memory management",
+      "IronClaw boosts worker lifecycle control",
+      "QwenPaw enhances multi-agent coordination",
+      "ZeroClaw introduces secure runtime sandboxing"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.0 stable with 15 PRs merged",
+      "SGLang pre-release with speculative decoding",
+      "Ollama RC v0.35.1-rc0 now live",
+      "LiteLLM v1.104.0-rc.2 released",
+      "Unsloth accelerates training efficiency",
+      "llama.cpp pre-release b11269 out"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell: safe AI agent runtime",
+      "rtk-ai/rtk cuts LLM tokens by 90%",
+      "OmniRoute supports 359 providers",
+      "headroom: compresses RAG chunks",
+      "VoiceStudio enables private voice cloning",
+      "Hindsight tracks agent memory securely"
+    ],
+    "ai-web": [
+      "Anthropic warns on GLM-5.3 cyber exploits",
+      "GLM-5.3 bypasses safeguards 100% of the time",
+      "OpenAI launches 'Gpt 6 1 Sol' announcement",
+      "Dots: always-on agent system revealed",
+      "Anthropic's 'What Do You Want from AI?' study",
+      "Zhipu AI’s GLM-5.3 raises global safety alarms"
+    ],
+    "ai-hn": [
+      "GPT 6.1 Sol: near-Astra at 1/5 price",
+      "Sonnet 5.5 sparks safety debate",
+      "Ember-1: lightweight alternative to GPT",
+      "McDonald’s dynamic pricing under scrutiny",
+      "Blind spots in military AI systems exposed",
+      "Privacy concerns rise over Dots agent"
+    ],
+    "ai-arxiv": [
+      "CoEM reduces hallucination with evidence memory",
+      "ER-JEPA improves semantic alignment in LLMs",
+      "BaLEEN enables context-aware ASR",
+      "IronLLM optimizes on-device inference",
+      "AeroManip-VLA scales vision-language-action",
+      "ARC-KV compresses long-context memory"
+    ],
+    "ai-community": [
+      "AWS blocks runaway agents for EU compliance",
+      "Who’s accountable when AI leaks data?",
+      "Full codebase exposure risks revealed",
+      "Google retirement sparks philosophical debate",
+      "Lisp in deep learning: niche exploration",
+      "Structured content needed for reliable agents"
+    ]
+  }
+}
