@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.286 新增代理功能",
+      "OpenAI Codex 发布 rust-v0.159.3 测试版",
+      "Gemini CLI 推出夜间构建 v0.64.0.20260930",
+      "GitHub Copilot CLI 升级至 v1.0.91-0",
+      "Pi CLI 发布 v0.99.2 改进上下文",
+      "Qwen Code 新增多语言生成支持"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.7 修复关键内存泄漏",
+      "OpenClaw 版本解决 SQLite WAL 数据膨胀",
+      "通过工作线程修复导致崩溃问题",
+      "插件热重载失败可恢复",
+      "OpenClaw 网关稳定性提升",
+      "v2026.9.7 重构状态管理"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.1rc1 稳定推测解码",
+      "SGLang 24小时内合并22个PR",
+      "llama.cpp 修复63个开放问题",
+      "Ollama 预发布 v0.35.0 进行中",
+      "LiteLLM 开发版 v1.105.0-dev.1 上线",
+      "Unsloth 增加语音交互模式"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell 星标增长1,281",
+      "t8y2/dbx：25MB AI数据库客户端",
+      "rtk-ai/rtk 减少90% LLM令牌",
+      "mksglu/context-mode 工具输出降98%",
+      "debpalash/VoiceStudio 实现本地语音克隆",
+      "harry0703/MoneyPrinterTurbo 离线生成视频"
+    ],
+    "ai-web": [
+      "Anthropic 启动生命科学验证计划",
+      "LSVP 开放 Mythos、Opus、Sonnet 模型",
+      "新论文警示自主网络攻击风险",
+      "GLM-5.3 被标记为滥用基准",
+      "Anthropic 发布‘你希望AI做什么？’调查",
+      "Claude 扩展研究用途安全控制"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发性能争议",
+      "GPT 6.1 Sol 宣称接近Astra智能",
+      "OpenAI Dots 推出持续运行代理平台",
+      "Reddit 因AI机器人滥用封禁API",
+      "谷歌员工质疑Gemini模型宣称",
+      "热议是否真有严肃AI产品"
+    ],
+    "ai-arxiv": [
+      "ViLegalExpert：首个越南法律基准",
+      "LexReward：基于分类的法律模型奖励",
+      "Bongard：通过谜题训练机器直觉",
+      "推理时对齐进展验证",
+      "通过成对偏好实现模型个性化",
+      "鲁棒性对抗虚假相关性提升"
+    ],
+    "ai-community": [
+      "五分之一AI推荐npm包不存在",
+      "Slopsquatting攻击利用AI幻觉",
+      "代理模拟揭示未文档工作流",
+      "AI防护机制绿灯却无拦截",
+      "本地LLM部署渐受关注",
+      "VRAM带宽优化成核心焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.286 stabilizes with new agent features",
+      "OpenAI Codex releases rust-v0.159.3 alpha builds",
+      "Gemini CLI hits nightly v0.64.0.20260930",
+      "GitHub Copilot CLI updates to v1.0.91-0",
+      "Pi CLI launches v0.99.2 with improved context",
+      "Qwen Code adds multi-language codegen support"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.7 fixes critical memory leaks",
+      "SQLite WAL bloat resolved in OpenClaw release",
+      "OpenClaw crashes fixed via worker lifecycle patch",
+      "Plugin hot-reload failures now recoverable",
+      "OpenClaw gateway stability improved",
+      "State management overhaul in v2026.9.7"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.1rc1 stabilizes speculative decoding",
+      "SGLang sees 22 PRs in 24 hours",
+      "llama.cpp fixes 63 open issues",
+      "Ollama pre-release v0.35.0 underway",
+      "LiteLLM dev build v1.105.0-dev.1 live",
+      "Unsloth adds voice interaction mode"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell surges +1,281 stars",
+      "t8y2/dbx: 25MB AI-powered database client",
+      "rtk-ai/rtk cuts LLM tokens by 90%",
+      "mksglu/context-mode reduces tool output 98%",
+      "debpalash/VoiceStudio enables local voice cloning",
+      "harry0703/MoneyPrinterTurbo generates video offline"
+    ],
+    "ai-web": [
+      "Anthropic launches Life Sciences Verification Program",
+      "LSVP grants access to Mythos, Opus, Sonnet models",
+      "New paper warns of autonomous cyber exploit risk",
+      "GLM-5.3 flagged as misuse benchmark",
+      "Anthropic releases 'What do you want from AI?' survey",
+      "Claude expands safety controls for research use"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks debate on performance",
+      "GPT 6.1 Sol claims near-Astra intelligence",
+      "OpenAI Dots launches always-on agent platform",
+      "Reddit cuts API access over AI bot abuse",
+      "Google employees doubt Gemini model claims",
+      "Viral thread questions if serious AI products exist"
+    ],
+    "ai-arxiv": [
+      "ViLegalExpert: first Vietnamese legal benchmark",
+      "LexReward: taxonomy-driven legal model rewards",
+      "Bongard: training machine intuition via puzzles",
+      "Inference-time alignment advances proven",
+      "Model personalization via pairwise preferences",
+      "Robustness to spurious correlations improves"
+    ],
+    "ai-community": [
+      "1 in 5 AI-suggested npm packages don't exist",
+      "Slopsquatting attack exploits AI hallucinations",
+      "Agent mocks reveal undocumented workflows",
+      "AI guardrails catching nothing despite green status",
+      "Local LLM deployment gains traction",
+      "VRAM bandwidth optimization becomes key focus"
+    ]
+  }
+}
