@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.287 稳定版发布",
+      "OpenAI Codex alpha v0.162.0 实时版本",
+      "Pi v1.0.0 正式上线生产环境",
+      "Gemini CLI 夜间版 v0.64.0 更新",
+      "GitHub Copilot CLI 存在紧急问题",
+      "Qwen Code 处于激进测试阶段"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.34 重大更新",
+      "Windows 崩溃困扰 OpenClaw",
+      "v2026.8.34 修复 SQLite WAL 膨胀",
+      "worker.js 内存泄漏已修补",
+      "会话启动失败问题解决",
+      "Windows 下克隆定时任务错误修复"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.21 发布，支持 ROCm",
+      "vLLM 新增 Blackwell GPU 规格",
+      "Ollama 修补代理绕过漏洞 CVE",
+      "llama.cpp 修复 Vulkan 崩溃",
+      "LiteLLM 安全隐患上升",
+      "Unsloth 提升 MoE 模型效率"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell 今日增长 2,456 颗星",
+      "rtk-ai/rtk token 减少 90%",
+      "Caveman 爆火：用原始人语言说话",
+      "affaan-m/ECC 星标超 30 万",
+      "context-mode 受关注",
+      "OpenShell 推动本地优先 AI"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude 形状科学内容",
+      "巴克莱银行将大规模部署 Claude",
+      "OpenAI Dots 引发隐私争议",
+      "Albertsons 零售案例预告",
+      "Claude 协同创作科学难题",
+      "企业对智能体信任度提升"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon：Hacker News 超 1,600 条评论",
+      "OpenAI Dots 引发自主性担忧",
+      "加州调查 OpenAI 智能体",
+      "FTC 调查 AI 产品安全",
+      "DoGBench 显示文档准确率低于 50%",
+      "Hacker News 转向问责制"
+    ],
+    "ai-arxiv": [
+      "Gacha Decoding 实现多样化输出",
+      "PACE 论文聚焦智能体安全",
+      "TRACE 应对工具使用风险",
+      "DeFA 改进长周期规划",
+      "Fold'EM 预测冷冻电镜结构",
+      "学习通行时间模型发布"
+    ],
+    "ai-community": [
+      "认证机制拦截恶意智能体",
+      "AI 功能为无控依赖项",
+      "未知成本暴露可观测盲区",
+      "API 密钥因 URL 误读泄露",
+      "小模型虚构 fetch() 调用",
+      "防护墙对智能体控制至关重要"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.287 stable release",
+      "OpenAI Codex alpha v0.162.0 live",
+      "Pi v1.0.0 now stable for production",
+      "Gemini CLI nightly v0.64.0 updated",
+      "GitHub Copilot CLI has urgent issues",
+      "Qwen Code in aggressive alpha phase"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.34 critical update",
+      "Windows crashes plague OpenClaw",
+      "SQLite WAL growth fixed in v2026.8.34",
+      "Memory leaks in worker.js patched",
+      "Session startup failures resolved",
+      "Cron cloning errors on Windows fixed"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.21 released with ROCm support",
+      "vLLM adds Blackwell GPU specs",
+      "Ollama patch for proxy bypass CVE",
+      "llama.cpp fixes Vulkan crashes",
+      "LiteLLM sees rising security concerns",
+      "Unsloth boosts MoE model efficiency"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell +2,456 stars today",
+      "rtk-ai/rtk cuts tokens by 90%",
+      "Caveman viral: speak like a caveman",
+      "affaan-m/ECC hits 300k+ stars",
+      "context-mode gains traction",
+      "OpenShell drives local-first AI"
+    ],
+    "ai-web": [
+      "Anthropic unveils Claude-shaped science",
+      "Barclays to deploy Claude at scale",
+      "OpenAI’s Dots sparks privacy debate",
+      "Albertsons retail case study teased",
+      "Claude co-creates scientific problems",
+      "Enterprise trust in agentic AI grows"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon: 1,600+ HN comments",
+      "OpenAI Dots raises autonomy concerns",
+      "California investigates OpenAI agents",
+      "FTC probes AI product safety",
+      "DoGBench shows <50% docs accuracy",
+      "Hacker News shifts to accountability"
+    ],
+    "ai-arxiv": [
+      "Gacha Decoding enables diverse outputs",
+      "PACE paper tackles agent safety",
+      "TRACE addresses tool-use risks",
+      "DeFA improves long-horizon planning",
+      "Fold'EM predicts cryo-EM structures",
+      "Learning Commute-Time Models launched"
+    ],
+    "ai-community": [
+      "Bad agents blocked by certification gate",
+      "AI features are uncontrolled dependencies",
+      "Unknown costs signal observability gaps",
+      "API keys leak via URL misreads",
+      "Smaller models hallucinate fetch() calls",
+      "Guardrails essential for agent control"
+    ]
+  }
+}

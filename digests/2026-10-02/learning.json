@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-02",
+  "profileUser": "ghub1821239",
+  "starCount": 9,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "c",
+    "python",
+    "rust"
+  ],
+  "main": {
+    "id": "anthropics/skills#1947",
+    "name": "fix(skill-creator): add subagent capability check and inline fallback to eval loop",
+    "description": "Addresses #1942: in `skills/skill-creator/SKILL.md`, the evaluation workflow previously assumed subagents could always be spawned unconditionally at Step 1 (`Spawn all runs (with-skill AND baseline) in the same turn`). In harnesses like Claude Code or other environments where agent system instructions forbid unrequested subagent spawning, or in…",
+    "url": "https://github.com/anthropics/skills/pull/1947",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "该 PR 与你 Star 中的 'skills'、'agent'、'claude-code' 兴趣高度匹配，聚焦于子代理能力检查与回退逻辑，是可独立练习的 AI Agent 技术细节。",
+    "whyNow": "当前 AI Agent 系统对子代理调用的权限控制日益严格，理解并实现安全的子代理调用检查机制是构建健壮 Agent 的关键实践。",
+    "learn": [
+      "理解子代理调用在 Agent 工作流中的角色及其潜在风险",
+      "掌握如何在评估循环中添加条件判断以避免非法子代理创建"
+    ],
+    "exercise": [
+      "在本地克隆 anthropics/skills 仓库，进入 skill-creator 目录，创建一个名为 test_subagent_check.py 的文件。",
+      "编写一个简单的 Python 函数，模拟 PR 所描述的评估流程：当检测到 subagent 调用时，先检查是否允许，若不允许则返回 fallback 回应，验证其是否能正确绕过无效调用。预期产物为一个可运行的测试脚本，输出 'Subagent not allowed, using fallback'。"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1928",
+      "name": "fix(mcp-builder): require tool use for evaluation credit",
+      "description": "Problem The MCP evaluation guide requires questions whose answers depend on the server's tools, and the agent prompt says it must use those tools. Yet `evaluate_single_task` awards full credit for a matching ` ` even when `agent_loop` made zero tool calls. A model can guess or recall the answer and make an unusable server appear successful. Fix Require at…",
+      "url": "https://github.com/anthropics/skills/pull/1928",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "聚焦 Agent 评估中的工具使用信用机制，与你关注的 skills 与 agent 架构兴趣直接相关，适合拆解为小实验。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 fix(mcp-builder): require tool use for evaluation credit 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1923",
+      "name": "fix(mcp-builder): collect every page of MCP tools",
+      "description": "Problem `MCPConnection.list_tools()` reads one `tools/list` response. MCP servers can return `nextCursor`, so every tool after the first page is silently absent from the evaluator's tool set. Evaluation results then misrepresent the server's capabilities. Fix Follow tool-list cursors until the server has no next page. The code accepts the Python MCP SDK v1…",
+      "url": "https://github.com/anthropics/skills/pull/1923",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "解决多页工具列表收集问题，是 Agent 与 MCP 服务交互中的关键细节，适合快速动手验证。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 fix(mcp-builder): collect every page of MCP tools 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "affaan-m/ECC",
+      "name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "kind": "project",
+      "source": "GitHub Search: claude-code",
+      "whyForYou": "作为 Claude Code 环境下的性能优化系统，直接关联你 Star 中的 claude-code 与 agent 兴趣，具备高可学习性。",
+      "whyNow": "最近来自 GitHub Search: claude-code 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 affaan-m/ECC 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}
