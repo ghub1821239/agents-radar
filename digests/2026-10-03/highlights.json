@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.288 稳定性修复版发布",
+      "OpenAI Codex 推出 rust-v0.162.0-alpha 系列",
+      "Gemini CLI 新增模型支持",
+      "GitHub Copilot CLI 增强可扩展功能",
+      "Qwen Code UI 层迎来重大 PR 活动",
+      "Pi 工具支持实时代码协作"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.35 发布，等同 LTS 版本",
+      "新版本修复内存泄漏与崩溃问题",
+      "Hermes Agent 支持多智能体编排",
+      "IronClaw 引入安全沙箱",
+      "QwenPaw 增加智能体技能共享",
+      "ZeroClaw 实现私有自主智能体"
+    ],
+    "ai-infra": [
+      "vLLM：推测解码合并 7 个 PR",
+      "SGLang：9 个 PR 优化 MoE 性能",
+      "llama.cpp 发布 b11364, b11362, b11355",
+      "Ollama 最新版出现回归问题",
+      "LiteLLM 增加多提供商成本控制",
+      "Unsloth 推进微调效率极限"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell 今日新增 594 颗星",
+      "ECC.js 引领 MCP 优化趋势",
+      "OmniRoute 通过 Caveman 实现 95% 令牌节省",
+      "OpenShell 实现无信任本地 AI 智能体",
+      "谷歌发布官方智能体技能",
+      "Sentry 与 Dify 在生产中获关注"
+    ],
+    "ai-web": [
+      "Anthropic 启动 1 亿美元前沿学院",
+      "Claude 前沿学院目标 1 万名工程师",
+      "OpenAI 发布《构建 GPT-6 实用指南》",
+      "前沿部署工程师（FDE）认证上线",
+      "安永、德勤加入早期学院小组",
+      "GPT-6 指南暗示下一代模型开发"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 获 Stratego AI 挑战赛冠军",
+      "FLUX 3 图像展现惊人视觉保真度",
+      "苹果收紧 macOS 完全磁盘访问",
+      "ds4、Rai 推动本地 LLM 执行增长",
+      "社区热议 AI 是否为“常规技术”",
+      "部分信息博弈 AI 取得突破"
+    ],
+    "ai-arxiv": [
+      "TACO 优化器降低 LLM 内存 85%",
+      "采样 SFT 表现优于 RL",
+      "RPG 框架实现零样本机器人协同",
+      "SILSA 实现拓扑保持的 3D 生成",
+      "DuoMind 支持语义多机器人通信",
+      "KaliBench 评测真实世界 AI 性能"
+    ],
+    "ai-community": [
+      "73% AI 模型忽略真实泄露警报",
+      "Gemma 4 在 TPU v5e 上达 675 tokens/sec",
+      "一个‘生成草稿’按钮改变体验",
+      "模型幻觉仍是首要担忧",
+      "训练数据法律争议升温",
+      "OpenAI 诉讼披露引发讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.288 released with stability fixes",
+      "OpenAI Codex rolls out rust-v0.162.0-alpha series",
+      "Gemini CLI adds model support in latest update",
+      "GitHub Copilot CLI gains new extensibility features",
+      "Qwen Code sees major PR activity on UI layer",
+      "Pi tool now supports real-time code collaboration"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.35 released as LTS-equivalent",
+      "New release fixes memory leaks and crashes",
+      "Hermes Agent gains multi-agent orchestration",
+      "IronClaw introduces secure sandboxing",
+      "QwenPaw adds agent skill sharing",
+      "ZeroClaw enables private autonomous agents"
+    ],
+    "ai-infra": [
+      "vLLM: 7 PRs merged for speculative decoding",
+      "SGLang: 9 PRs improve MoE performance",
+      "llama.cpp releases b11364, b11362, b11355",
+      "Ollama faces regression issues in latest build",
+      "LiteLLM adds cost control for multi-provider",
+      "Unsloth pushes fine-tuning efficiency limits"
+    ],
+    "ai-trending": [
+      "NVIDIA/OpenShell hits 594 new stars today",
+      "ECC.js leads MCP optimization trends",
+      "OmniRoute offers 95% token savings via Caveman",
+      "OpenShell enables trustless local AI agents",
+      "Google launches official agent skills",
+      "Sentry and Dify gain traction in production"
+    ],
+    "ai-web": [
+      "Anthropic launches $100M Frontier Academy",
+      "Claude Frontier Academy targets 10K engineers",
+      "OpenAI publishes 'Practical Guide Building GPT-6'",
+      "Frontier Deployed Engineer (FDE) credential launched",
+      "Accenture, Deloitte join early academy cohorts",
+      "GPT-6 guide hints at next-gen model development"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon wins Stratego AI challenge",
+      "FLUX 3 Image shows stunning visual fidelity",
+      "Apple tightens macOS Full Disk Access",
+      "Local LLM execution surges with ds4, Rai",
+      "Community debates AI as 'normal technology'",
+      "Partial-information game AI makes breakthrough"
+    ],
+    "ai-arxiv": [
+      "TACO optimizer cuts LLM memory by 85%",
+      "SFT with sampling outperforms RL in study",
+      "RPG framework enables zero-shot robot coordination",
+      "SILSA achieves topology-preserving 3D gen",
+      "DuoMind enables semantic multi-robot comms",
+      "KaliBench benchmarks real-world AI performance"
+    ],
+    "ai-community": [
+      "73% of AI models ignored real breach alerts",
+      "Gemma 4 runs at 675 tokens/sec on TPU v5e",
+      "One 'Generate draft' button changes UX",
+      "Model hallucination remains top concern",
+      "Legal debate heats up over training data",
+      "OpenAI lawsuit revelations spark discussion"
+    ]
+  }
+}
