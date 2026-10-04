@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.289 修复关键漏洞",
+      "OpenAI Codex 现已升级至 rust-v0.162.0-alpha.11",
+      "Gemini CLI 无新版本发布",
+      "GitHub Copilot CLI 合并1个PR",
+      "Pi 工具活跃，10个问题待处理",
+      "Qwen Code 在CLI领域获得关注"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.8：关键补丁更新",
+      "24小时内新增500个问题与PR",
+      "修复SQLite WAL文件膨胀",
+      "解决代理重试循环崩溃",
+      "网关崩溃循环问题已修复",
+      "v2026.9.8 无破坏性变更"
+    ],
+    "ai-infra": [
+      "Unsloth v0.1.902-beta 不稳定版发布",
+      "LiteLLM v1.105.0-rc.1 修复安全漏洞",
+      "llama.cpp b11382 版本有轻微变动",
+      "SGLang PR提交速度领先（15）",
+      "vLLM 今日合并12个PR",
+      "Ollama 稳定性问题持续存在"
+    ],
+    "ai-trending": [
+      "Panniantong/Agent-Reach 减少65%令牌用量",
+      "affaan-m/ECC 主导代理测试",
+      "JuliusBrussee/caveman 火爆传播",
+      "DietrichGebert/ponytail：15.3万星标",
+      "rtk-ai/rtk 令牌使用量降低90%",
+      "ECC 集成技能、记忆与安全"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发实用性争议",
+      "FLUX 3 图像模型因细节受赞",
+      "上下文语言模型论文走红",
+      "OpenAI 安全负责人动荡中离职",
+      "Pop!_OS 禁止使用AI生成代码",
+      "Gemini 4 Argon 对比 Claude Opus 5.5"
+    ],
+    "ai-community": [
+      "5周内866次提交，学习收益未增",
+      "AI让项目切换过于轻松",
+      "更多上下文导致AI输出更差",
+      "大模型即使工具正确也误计数据",
+      "AI政策事实漂移引发警报",
+      "RAG陷阱与成本建模趋势明显"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.289 fixes critical bugs",
+      "OpenAI Codex now in rust-v0.162.0-alpha.11",
+      "Gemini CLI sees no new release",
+      "GitHub Copilot CLI has 1 merged PR",
+      "Pi tool active with 10 issues",
+      "Qwen Code gains traction in CLI space"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.8: critical patch release",
+      "500 issues & PRs in 24 hours",
+      "Fixes SQLite WAL file bloat",
+      "Resolves agent retry loop crashes",
+      "Gateway crash-loops fixed",
+      "No breaking changes in v2026.9.8"
+    ],
+    "ai-infra": [
+      "Unsloth v0.1.902-beta unstable release",
+      "LiteLLM v1.105.0-rc.1 with security fix",
+      "llama.cpp b11382 release with minor break",
+      "SGLang leads in PR velocity (15)",
+      "vLLM sees 12 PRs merged today",
+      "Ollama stability concerns persist"
+    ],
+    "ai-trending": [
+      "Panniantong/Agent-Reach cuts tokens by 65%",
+      "affaan-m/ECC dominates agent harness",
+      "JuliusBrussee/caveman goes viral",
+      "DietrichGebert/ponytail: 153K stars",
+      "rtk-ai/rtk slashes token usage by 90%",
+      "ECC integrates skills, memory, security"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks debate on utility",
+      "FLUX 3 Image model praised for detail",
+      "Context Language Models paper trends",
+      "OpenAI safety lead departs amid turmoil",
+      "Pop!_OS bans AI-generated code",
+      "Gemini 4 Argon vs. Claude Opus 5.5"
+    ],
+    "ai-community": [
+      "866 commits in 5 weeks—no learning gain",
+      "AI makes project-switching too easy",
+      "More context = worse AI output",
+      "LLMs miscount data despite correct tools",
+      "Fact drift in AI policies raises red flags",
+      "RAG pitfalls and cost modeling trend"
+    ]
+  }
+}
