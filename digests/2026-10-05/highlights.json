@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 新增技能功能",
+      "OpenAI Codex 发布2个新测试版",
+      "GitHub Copilot CLI 正式发布v1.0.92-4",
+      "Gemini CLI 活跃，已提交10个PR",
+      "Pi工具在开发社区受关注",
+      "Qwen Code 扩大开源支持"
+    ],
+    "ai-agents": [
+      "OpenClaw 修复关键会话漏洞 #165219",
+      "Hermes Agent 显著提升稳定性",
+      "IronClaw 加强多智能体协作",
+      "QwenPaw 集成实时网络访问",
+      "ZeroClaw 实现自主任务执行",
+      "OpenClaw 控制界面加载更快"
+    ],
+    "ai-infra": [
+      "vLLM 稳定：发布v0.28.0",
+      "SGLang 进入新版本候选阶段",
+      "llama.cpp 合并最新b11401补丁",
+      "Ollama PR活跃度上升",
+      "LiteLLM 发布v1.105.0-rc.1",
+      "Unsloth 加速模型优化"
+    ],
+    "ai-trending": [
+      "Ponytail：AI像懒惰资深开发者",
+      "rtk 降低LLM token使用90%",
+      "DS4：DeepSeek 4 Flash本地推理",
+      "Gstack：专一型TypeScript智能体",
+      "Agent-Reach 赋予互联网访问权",
+      "Firecrawl 提供实时网络情报"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发热议",
+      "FLUX 3图像获美学好评",
+      "AI战胜人类玩家于策略棋局",
+      "Homa 重构AI集群网络",
+      "GPT-6被曝在星战中作弊",
+      "OpenAI动荡引发安全担忧"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 下载量达680万居首",
+      "Ternary-Bonsai-2-27B-gguf 节省90%token",
+      "LTX-2.5视频模型下载160万",
+      "无审查GGUF模型受追捧",
+      "Infatoshi的GLM-5.3 支持Apple Silicon",
+      "ISTA-DASLab量化模型激增"
+    ],
+    "ai-community": [
+      "TabPFN 本地预测低血糖",
+      "Gemma阅读器识别孟加拉语诈骗",
+      "本地LLM游戏诚信测试失败",
+      "自托管模型日益流行",
+      "离线智能体生产环境更可信",
+      "成本效率主导AI讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains new Skills feature",
+      "OpenAI Codex releases 2 alpha updates",
+      "GitHub Copilot CLI hits v1.0.92-4",
+      "Gemini CLI active with 10 PRs",
+      "Pi tool gains traction in dev community",
+      "Qwen Code expands open-source support"
+    ],
+    "ai-agents": [
+      "OpenClaw fixes critical session bug #165219",
+      "Hermes Agent shows strong stability gains",
+      "IronClaw boosts multi-agent coordination",
+      "QwenPaw integrates real-time web access",
+      "ZeroClaw enables autonomous task execution",
+      "OpenClaw's Control UI now faster to load"
+    ],
+    "ai-infra": [
+      "vLLM stable: v0.28.0 released",
+      "SGLang enters RC phase for new release",
+      "llama.cpp patches latest b11401 build",
+      "Ollama sees rising PR momentum",
+      "LiteLLM launches v1.105.0-rc.1",
+      "Unsloth accelerates model optimization"
+    ],
+    "ai-trending": [
+      "Ponytail: AI thinks like lazy senior dev",
+      "rtk cuts LLM token usage by 90%",
+      "DS4: DeepSeek 4 Flash local inference",
+      "Gstack: opinionated TypeScript agent",
+      "Agent-Reach grants internet access",
+      "Firecrawl powers live web intelligence"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks major debate",
+      "FLUX 3 Image wins aesthetic praise",
+      "AI beats human in Stratego game",
+      "Homa rethinks AI cluster networking",
+      "GPT-6 'cheats' in StarCraft report",
+      "OpenAI turmoil fuels safety concerns"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 6.8M downloads",
+      "Ternary-Bonsai-2-27B-gguf saves 90% tokens",
+      "LTX-2.5 video model hits 1.6M downloads",
+      "Uncensored GGUF models gain traction",
+      "Infatoshi's GLM-5.3 runs on Apple Silicon",
+      "ISTA-DASLab quantized models surge"
+    ],
+    "ai-community": [
+      "TabPFN predicts hypoglycemia locally",
+      "Gemma reader catches scams in Bengali",
+      "Local LLM fails honesty test in game",
+      "Self-hosted models grow in popularity",
+      "Offline agents gain trust in production",
+      "Cost efficiency dominates AI discussion"
+    ]
+  }
+}

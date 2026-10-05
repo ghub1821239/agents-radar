@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-05",
+  "profileUser": "ghub1821239",
+  "starCount": 9,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "c",
+    "python",
+    "rust"
+  ],
+  "main": {
+    "id": "anthropics/skills#1947",
+    "name": "fix(skill-creator): add subagent capability check and inline fallback to eval loop",
+    "description": "Addresses #1942: in `skills/skill-creator/SKILL.md`, the evaluation workflow previously assumed subagents could always be spawned unconditionally at Step 1 (`Spawn all runs (with-skill AND baseline) in the same turn`). In harnesses like Claude Code or other environments where agent system instructions forbid unrequested subagent spawning, or in…",
+    "url": "https://github.com/anthropics/skills/pull/1947",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "该 PR 与你 Star 中的 'skills'、'ai-agent' 和 'skill' 兴趣高度匹配，聚焦于子代理能力检查与回退逻辑，是可拆解的微技术实践。",
+    "whyNow": "当前 AI Agent 系统对子代理调用的控制日益严格，理解并实现安全的子代理检查机制是构建健壮 Agent 流程的关键一步。",
+    "learn": [
+      "理解子代理在 Agent 流程中的角色及其潜在风险",
+      "掌握如何在评估循环中加入条件判断与回退策略"
+    ],
+    "exercise": [
+      "在本地创建一个 Python 脚本 `subagent_check.py`，模拟一个基础的 `eval_loop` 函数，包含一个 `if` 判断：当 `subagent_enabled` 为 False 时，直接跳过子代理生成步骤并返回默认结果。",
+      "运行脚本并验证输出是否符合预期（即未启用子代理时仍能正常执行流程），确保没有因缺失子代理而中断。"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1928",
+      "name": "fix(mcp-builder): require tool use for evaluation credit",
+      "description": "Problem The MCP evaluation guide requires questions whose answers depend on the server's tools, and the agent prompt says it must use those tools. Yet `evaluate_single_task` awards full credit for a matching ` ` even when `agent_loop` made zero tool calls. A model can guess or recall the answer and make an unusable server appear successful. Fix Require at…",
+      "url": "https://github.com/anthropics/skills/pull/1928",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "该 PR 涉及评估信用机制的修复，与你关注的 'skills' 和 'agent' 架构密切相关，适合动手理解评价逻辑。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 fix(mcp-builder): require tool use for evaluation credit 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1964",
+      "name": "fix(pptx): make clean.py slide resolution namespace-aware and fail closed (#1953)",
+      "description": "Addresses #1953 in `skills/pptx/scripts/clean.py`: Previously, `clean.py` extracted slide relationship IDs from `ppt/presentation.xml` using a regex: If `presentation.xml` was missing, malformed, used single-quoted XML attributes (`r:id='rId1'`), or used an alternative namespace prefix (` `), the regex returned no IDs. The safety guard then failed to…",
+      "url": "https://github.com/anthropics/skills/pull/1964",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "该 PR 改进了 PPTX 清理脚本的安全性，是典型的文件处理类小技能，可作为轻量级练习。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 fix(pptx): make clean.py slide resolution namespace-aware and fail closed (#1953) 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "zhayujie/CowAgent",
+      "name": "zhayujie/CowAgent",
+      "description": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "kind": "project",
+      "source": "GitHub Search: ai-agent",
+      "whyForYou": "作为高星开源个人 AI 助手框架，与你对 'ai-agent' 与 'skills' 的兴趣一致，适合快速探索其核心设计思想。",
+      "whyNow": "最近来自 GitHub Search: ai-agent 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 zhayujie/CowAgent 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}
