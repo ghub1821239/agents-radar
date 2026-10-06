@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-06",
+  "profileUser": "ghub1821239",
+  "starCount": 9,
+  "profileTopics": [
+    "ai-agents",
+    "skills",
+    "agent",
+    "ai",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "cordis"
+  ],
+  "profileLanguages": [
+    "html",
+    "javascript",
+    "c",
+    "python",
+    "rust"
+  ],
+  "main": {
+    "id": "anthropics/skills#1947",
+    "name": "fix(skill-creator): add subagent capability check and inline fallback to eval loop",
+    "description": "Addresses #1942: in `skills/skill-creator/SKILL.md`, the evaluation workflow previously assumed subagents could always be spawned unconditionally at Step 1 (`Spawn all runs (with-skill AND baseline) in the same turn`). In harnesses like Claude Code or other environments where agent system instructions forbid unrequested subagent spawning, or in…",
+    "url": "https://github.com/anthropics/skills/pull/1947",
+    "kind": "skill",
+    "source": "anthropics/skills PR",
+    "status": "开放 PR，仅建议阅读与实验",
+    "whyForYou": "与你 Star 中的 'skills'、'agent' 和 'ai-agent' 兴趣高度匹配，且该 PR 涉及子代理能力检查与回退逻辑，是可拆解为小技能实践的典型场景。",
+    "whyNow": "当前 AI Agent 系统对子代理调用的安全性要求越来越高，理解并动手实现此类防御机制能直接提升你在构建健壮 Agent 时的工程能力。",
+    "learn": [
+      "理解子代理在 Agent 工作流中的触发条件与潜在风险",
+      "掌握如何在评估循环中添加条件检查与安全回退逻辑"
+    ],
+    "exercise": [
+      "在本地创建一个 Python 脚本 `subagent_check.py`，模拟 `skill-creator` 的评估流程：定义一个函数 `can_spawn_subagent()`，根据输入参数返回布尔值。",
+      "扩展该函数，加入一个 `fallback_to_baseline()` 函数，在 `can_spawn_subagent()` 返回 False 时执行，并输出一条日志信息如 'Fallback to baseline due to subagent restriction.'，验证逻辑是否正确执行。"
+    ],
+    "duration": "20–30 分钟",
+    "difficulty": "入门"
+  },
+  "alternatives": [
+    {
+      "id": "anthropics/skills#1954",
+      "name": "Fix destructive PPTX cleanup when presentation.xml cannot be parsed",
+      "description": "Problem `skills/pptx/scripts/clean.py` extracted slide relationship IDs from `ppt/presentation.xml` with a regex, and the safety guard in `remove_orphaned_slides()` used the same regex. When `presentation.xml` was missing, malformed, used a different namespace prefix, or used single-quoted attributes, the regex returned no IDs — so the guard treated the…",
+      "url": "https://github.com/anthropics/skills/pull/1954",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "涉及 PPTX 清理中的 XML 解析安全问题，适合快速学习错误处理与容错设计，与你关注的 'skills' 兴趣一致。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 Fix destructive PPTX cleanup when presentation.xml cannot be parsed 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "anthropics/skills#1964",
+      "name": "fix(pptx): make clean.py slide resolution namespace-aware and fail closed (#1953)",
+      "description": "Addresses #1953 in `skills/pptx/scripts/clean.py`: Previously, `clean.py` extracted slide relationship IDs from `ppt/presentation.xml` using a regex: If `presentation.xml` was missing, malformed, used single-quoted XML attributes (`r:id='rId1'`), or used an alternative namespace prefix (` `), the regex returned no IDs. The safety guard then failed to…",
+      "url": "https://github.com/anthropics/skills/pull/1964",
+      "kind": "skill",
+      "source": "anthropics/skills PR",
+      "status": "开放 PR，仅建议阅读与实验",
+      "whyForYou": "改进 PPTX 清理脚本的命名空间感知能力，是典型的低风险、高价值的小技能优化实践，契合你对 'skills' 的关注。",
+      "whyNow": "最近来自 anthropics/skills PR 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 fix(pptx): make clean.py slide resolution namespace-aware and fail closed (#1953) 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    },
+    {
+      "id": "affaan-m/ECC",
+      "name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "kind": "project",
+      "source": "GitHub Search: llm",
+      "whyForYou": "作为高性能 Agent Harness 系统，其核心理念（如记忆、本能、安全）与你关注的 'agent' 与 'skills' 兴趣深度契合，适合作为宏观视野补充。",
+      "whyNow": "最近来自 GitHub Search: llm 的活跃候选，适合做一次小范围实验。",
+      "learn": [
+        "理解 affaan-m/ECC 解决的问题",
+        "识别其中可以迁移到自己 Agent 工作流的实现模式"
+      ],
+      "exercise": [
+        "阅读 README 或 SKILL.md，把核心流程整理成一张不超过 8 项的检查清单",
+        "找一个 20–50 行的真实小样例，按检查清单实际执行一次",
+        "保存执行前后结果，并记录一个成功信号和一个局限"
+      ],
+      "duration": "20–30 分钟",
+      "difficulty": "入门"
+    }
+  ]
+}

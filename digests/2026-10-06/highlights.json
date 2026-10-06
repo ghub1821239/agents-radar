@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.290 修复关键遥测问题",
+      "OpenAI Codex 发布 rust-v0.160.1 稳定性补丁",
+      "Gemini CLI 夜间版 v0.64.0 提升会话韧性",
+      "GitHub Copilot CLI v1.0.93-1 推出企业版",
+      "Pi CLI 工具在开发自动化中获关注",
+      "Qwen Code 新增多智能体工作流支持"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1 修复内存泄漏",
+      "会话持久性跨注册表变更保持稳定",
+      "远程工作器附件在测试版中可靠交付",
+      "重启后延续签名保持一致",
+      "嵌入缓存迁移无数据丢失",
+      "已解决代理生命周期管理的P0级缺陷"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 提升推理吞吐量",
+      "SGLang 尽管无发布但有142个开放PR",
+      "llama.cpp v0.6.0 改进移动SoC支持",
+      "Ollama 进入发布后稳定阶段",
+      "LiteLLM v1.104.1 增强API可靠性",
+      "MLA与MoE模型驱动硬件专用内核"
+    ],
+    "ai-trending": [
+      "rtk-ai/rtk 降低LLM token达60–90%",
+      "headroomlabs-ai/headroom 减少JSON token达95%",
+      "cc-switch 统一Claude、Codex、Grok访问",
+      "CLIProxyAPI 将5+ LLM封装为OpenAI API",
+      "ECC：面向生产的模块化代理框架",
+      "Hermes Agent 在代理生态中获关注"
+    ],
+    "ai-web": [
+      "Anthropic机器人暴露指数揭示75%任务可自动化",
+      "99.7%工作场景机器人成本不经济",
+      "ChatGPT 因伪造卡通家签名被诉",
+      "Gemini 4 Argon 在Hacker News得1,699分",
+      "五角大楼暂停使用Anthropic工具",
+      "欧盟文本溯源页暗示符合AI法案"
+    ],
+    "ai-hn": [
+      "Beam：501B开源模型在HN上线",
+      "Dust：无需反向传播的预训练",
+      "Opus 5.5代理发现磁性半导体",
+      "Anthropic因佛罗里达女性案受指控",
+      "五角大楼暂停Anthropic工具",
+      "Gemini 4 Argon 以1,699分主导HN"
+    ],
+    "ai-arxiv": [
+      "Nash均衡文本提升文本连贯性",
+      "反事实激活揭示隐藏安全",
+      "安全上下文切换缓解子空间干扰",
+      "委托基准优化代理评估",
+      "通用记忆共享提升测试时训练",
+      "VHDL-REPOBENCH 测试硬件设计精度"
+    ],
+    "ai-community": [
+      "AI代理可修改自身审计日志",
+      "自爬取代理49秒提取60文档",
+      "缓存响应降低项目独特性",
+      "AI幻觉可能引发财务与法律风险",
+      "代理自主预测烹饪时间",
+      "Dev.to 警告过度依赖AI"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.290 fixes critical telemetry issues",
+      "OpenAI Codex releases rust-v0.160.1 stability patch",
+      "Gemini CLI nightly v0.64.0 improves session resilience",
+      "GitHub Copilot CLI v1.0.93-1 out for enterprise use",
+      "Pi CLI tool gains traction in dev automation",
+      "Qwen Code now supports multi-agent workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1 fixes memory leaks",
+      "Session persistence now preserved across registry changes",
+      "Remote worker attachments delivered reliably in beta",
+      "Continuation signatures stay aligned after restarts",
+      "Embedding cache migration completed without loss",
+      "P0 bugs in agent lifecycle management now addressed"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 boosts inference throughput",
+      "SGLang sees 142 open PRs despite no release",
+      "llama.cpp v0.6.0 improves mobile SoC support",
+      "Ollama in post-release stabilization mode",
+      "LiteLLM v1.104.1 enhances API reliability",
+      "MLA and MoE models drive hardware-specific kernels"
+    ],
+    "ai-trending": [
+      "rtk-ai/rtk cuts LLM tokens by 60–90%",
+      "headroomlabs-ai/headroom slashes JSON tokens by 95%",
+      "cc-switch unifies Claude, Codex, Grok access",
+      "CLIProxyAPI wraps 5+ LLMs into OpenAI API",
+      "ECC: modular agent harness for production use",
+      "Hermes Agent gains traction in agent ecosystems"
+    ],
+    "ai-web": [
+      "Anthropic's Robot Exposure Index reveals 75% task automatability",
+      "Robots cost-ineffective for 99.7% of job tasks",
+      "ChatGPT sued over fake cartoonist signatures",
+      "Gemini 4 Argon scores 1,699 on Hacker News",
+      "Pentagon halts Anthropic tool usage",
+      "EU Text Provenance page hints at AI Act compliance"
+    ],
+    "ai-hn": [
+      "Beam: 501B open-weight model launches on HN",
+      "Dust: pretraining without backpropagation",
+      "Opus 5.5 agents discover magnetic semiconductors",
+      "Anthropic charged in Florida woman case",
+      "Pentagon suspends Anthropic tools",
+      "Gemini 4 Argon dominates HN with 1,699 score"
+    ],
+    "ai-arxiv": [
+      "Nash Equilibrium Text improves text coherence",
+      "Counterfactual activation reveals hidden safety",
+      "Safe context switching mitigates subspace interference",
+      "DelegationBench refines agent evaluation",
+      "Universal memory sharing boosts test-time training",
+      "VHDL-REPOBENCH tests hardware design accuracy"
+    ],
+    "ai-community": [
+      "AI agents can alter their own audit logs",
+      "Self-crawling agents extract 60 docs in 49 seconds",
+      "Cached responses reduce project uniqueness",
+      "AI hallucinations risk financial and legal harm",
+      "Agents forecast cooking times autonomously",
+      "Dev.to warns against over-relying on AI"
+    ]
+  }
+}
