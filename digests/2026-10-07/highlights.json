@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.292 发布稳定性修复版",
+      "OpenAI Codex rust-v0.162.0-alpha.17 正式上线",
+      "Gemini CLI v0.65.0-nightly 开放测试",
+      "GitHub Copilot CLI 存在企业级关键缺陷",
+      "Pi 工具在代理工作流中崭露头角",
+      "Qwen Code 集成本地AI代理"
+    ],
+    "ai-agents": [
+      "OpenClaw 因P0内存泄漏危机暂无新版本",
+      "OpenClaw 今日积压500个问题与PR",
+      "OpenClaw 2026.9.5 启动卡顿与崩溃",
+      "PR #166378 重构配置测试共享",
+      "Hermes Agent 在多代理研究中势头强劲",
+      "IronClaw 新增MoE模型路由支持"
+    ],
+    "ai-infra": [
+      "vLLM：8个高危问题待修复，无发布",
+      "SGLang：默认优化器发生破坏性变更",
+      "llama.cpp：新增3个含RPC -sm张量构建",
+      "Ollama：10个问题，含崩溃循环",
+      "LiteLLM：Rust网关更新带破坏性变更",
+      "vLLM与SGLang稳定性担忧上升"
+    ],
+    "ai-trending": [
+      "ECC.js 达27.4万星，成顶级代理框架",
+      "rtk：通过Rust代理实现60–90%令牌压缩",
+      "Caveman Go工具减少提示65%",
+      "Headroom Python工具优化上下文流",
+      "LobeHub引领多代理编排趋势",
+      "Reactive-resume吸引注重隐私用户"
+    ],
+    "ai-web": [
+      "Anthropic 扩展CVP支持Opus 5.5",
+      "Claude Mythos 5.1 现可通过CVP访问",
+      "OpenAI与Atlassian合作开发工具",
+      "OpenAI深入数学推理领域",
+      "为网络安全专家推出新CVP层级",
+      "Atlassian集成暗示代理工作流"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 引发GPT-4竞品讨论",
+      "AI 解决此前无法攻克的数学难题",
+      "预印本宣称整数乘法突破",
+      "犹他州允许AI无监督开药",
+      "韩国报告AI驱动银行劫案",
+      "OpenTPU：自生成AI加速器走红"
+    ],
+    "ai-arxiv": [
+      "SAGE框架提升医疗QA数据合成",
+      "POLAR解决大模型代理欺骗问题",
+      "DecepEval检测AI系统工具滥用",
+      "部分可观测下的零样本协同",
+      "法律推理模型测试时演化",
+      "语义锚引导的问答演化"
+    ],
+    "ai-community": [
+      "AI代理可能造成真实伤害——需设置紧急停止",
+      "绿色测试遗漏真实场景边缘案例",
+      "12岁少年用150元手机击败Claude Code",
+      "低成本AI生态受追捧",
+      "欧盟AI法案推动水印合规",
+      "模型失效时代码质量工具至关重要"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.292 released with stability fixes",
+      "OpenAI Codex rust-v0.162.0-alpha.17 now live",
+      "Gemini CLI v0.65.0-nightly out for testing",
+      "GitHub Copilot CLI faces enterprise-critical bugs",
+      "Pi tool gains traction for agent workflows",
+      "Qwen Code integrates with local AI agents"
+    ],
+    "ai-agents": [
+      "OpenClaw no new releases amid P0 memory leak crisis",
+      "500 issues and PRs in OpenClaw today",
+      "OpenClaw 2026.9.5 has startup hangs and crashes",
+      "PR #166378 refactors config test fixture sharing",
+      "Hermes Agent gains momentum in multi-agent research",
+      "IronClaw adds support for MoE model routing"
+    ],
+    "ai-infra": [
+      "vLLM: 8 high-severity issues open, no release",
+      "SGLang: breaking change in default optimizer",
+      "llama.cpp: 3 new builds with RPC -sm tensor",
+      "Ollama: 10 issues, including crash loops",
+      "LiteLLM: Rust gateway update with breaking changes",
+      "vLLM and SGLang see rising stability concerns"
+    ],
+    "ai-trending": [
+      "ECC.js hits 274K stars as top agent harness",
+      "rtk: 60–90% token reduction via Rust proxy",
+      "Caveman Go tool cuts prompts by 65%",
+      "Headroom Python tool optimizes context flow",
+      "LobeHub leads multi-agent orchestration trend",
+      "Reactive-resume gains privacy-focused users"
+    ],
+    "ai-web": [
+      "Anthropic expands CVP to include Opus 5.5",
+      "Claude Mythos 5.1 now accessible via CVP",
+      "OpenAI partners with Atlassian for dev tools",
+      "OpenAI dives into mathematical reasoning",
+      "New CVP tiers for cybersecurity professionals",
+      "Atlassian integration hints at agentic workflows"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 sparks debate on GPT-4 rival",
+      "AI solves math problems previously unattainable",
+      "Preprint claims breakthrough in integer multiplication",
+      "Utah allows AI to prescribe meds without oversight",
+      "South Korea reports AI-driven bank heists",
+      "OpenTPU: self-generated AI accelerator goes viral"
+    ],
+    "ai-arxiv": [
+      "SAGE framework improves medical QA data synthesis",
+      "POLAR addresses deception in LLM agents",
+      "DecepEval detects tool misuse in AI systems",
+      "Zero-shot coordination under partial observability",
+      "Test-time evolution for legal reasoning models",
+      "Semantic anchor-guided evolution in QA"
+    ],
+    "ai-community": [
+      "AI agents can cause real harm—use kill switches",
+      "Green tests miss real-world edge cases",
+      "12-year-old beats Claude Code on $150 phone",
+      "Low-cost AI ecosystems gain popularity",
+      "EU AI Act pushes watermarking compliance",
+      "Code quality tools critical when models fail"
+    ]
+  }
+}
