@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.293：默认模型更新",
+      "OpenAI Codex v26.1002.x：GPT-6.1 默认",
+      "Gemini CLI v0.65.0-nightly.20261008：新夜间构建",
+      "GitHub Copilot CLI：v2.1 稳定性优先",
+      "OpenCode 获得 OSC 协议支持关注",
+      "Pi 项目推进会话容错"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.2：重大稳定性提升",
+      "注册表变更后会话保留",
+      "远程工作节点连接稳定",
+      "活跃回合队列稳定性修复",
+      "升级后缓存迁移无缝",
+      "PR #137778：工作区处理修复"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 稳定版：RC 版本可用",
+      "SGLang：积极开发，暂无新发布",
+      "llama.cpp b11481：最新构建发布",
+      "Ollama v0.40.1：含破坏性变更补丁",
+      "LiteLLM：多版本开发/预发布",
+      "Unsloth v0.1.904-beta：功能丰富测试版"
+    ],
+    "ai-trending": [
+      "ECC by affaan-m：27.4 万星，代理框架",
+      "rtk-ai/rtk：节省 60–90% 标记",
+      "cc-switch：跨平台桌面助手",
+      "CLIProxyAPI：Go 语言大模型代理",
+      "代理技能标准渐成趋势",
+      "RAG 工具如 ragflow 与 qdrant 流行"
+    ],
+    "ai-web": [
+      "Claude 发现具类 CRISPR 功能的酶系统",
+      "Anthropic 扩展网络验证计划",
+      "新研究：'你希望 AI 做什么？'",
+      "OpenAI：今日无实质更新",
+      "Claude Opus 5.5 可通过 CVP 访问",
+      "Mythos 5.1 安全防护降低"
+    ],
+    "ai-hn": [
+      "Mistral Large 4：开源突破",
+      "AI 证明 11 个正方形最优排列",
+      "Hacker News 辩论 GPT-6 夸大其词",
+      "AI 定价歧视引发伦理争议",
+      "EmbeddingGemma 2：注重隐私的 AI 工具",
+      "Penguin Mail：安全邮件助手"
+    ],
+    "ai-arxiv": [
+      "AgentTime：代理自估运行时间",
+      "SkillForge：自我演化的技能管理",
+      "LiveMACE：过程感知评估框架",
+      "Dual-QK：2 位 KV 缓存提效",
+      "NeuralZip：可复用压缩方法",
+      "MIRROR：从模仿到内化"
+    ],
+    "ai-community": [
+      "AI 代理合并至生产环境——一次",
+      "编码系统拒绝信任自身输出",
+      "模型切换触发隐藏漏洞",
+      "Dev.to：AI 过载削弱无聊感",
+      "AI 开发中护栏至关重要",
+      "本地优先部署渐受青睐"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.293: Default model update",
+      "OpenAI Codex v26.1002.x: GPT-6.1 Sol default",
+      "Gemini CLI v0.65.0-nightly.20261008: New nightly build",
+      "GitHub Copilot CLI: Stability focus in v2.1",
+      "OpenCode gains traction with OSC protocol support",
+      "Pi project advances session resilience"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.2: Major stability push",
+      "Sessions preserved across registry changes",
+      "Remote worker attachments now stable",
+      "Queue stability fixes for active turns",
+      "Caching migration seamless post-upgrade",
+      "PR #137778: Fix for workspace handling"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 stable: RC release available",
+      "SGLang: Active dev, no new release",
+      "llama.cpp b11481: Latest build released",
+      "Ollama v0.40.1: Patch with breaking changes",
+      "LiteLLM: Multiple dev/rc releases",
+      "Unsloth v0.1.904-beta: Feature-rich beta"
+    ],
+    "ai-trending": [
+      "ECC by affaan-m: 274K stars, agent harness",
+      "rtk-ai/rtk: 60–90% token reduction",
+      "cc-switch: Cross-platform desktop assistant",
+      "CLIProxyAPI: Go-based LLM proxy",
+      "Agent Skills standard gaining momentum",
+      "RAG tools like ragflow and qdrant trending"
+    ],
+    "ai-web": [
+      "Claude discovers enzyme system with CRISPR-like function",
+      "Anthropic expands Cyber Verification Program",
+      "New study: 'What do you want from AI?'",
+      "OpenAI: No substantive updates today",
+      "Claude Opus 5.5 now accessible via CVP",
+      "Mythos 5.1 granted reduced safeguards"
+    ],
+    "ai-hn": [
+      "Mistral Large 4: Open-source breakthrough",
+      "AI proves optimal packing of 11 squares",
+      "Hacker News debates GPT-6 hype vs. reality",
+      "AI-driven price discrimination sparks ethics debate",
+      "EmbeddingGemma 2: Privacy-focused AI tool",
+      "Penguin Mail: Secure email assistant"
+    ],
+    "ai-arxiv": [
+      "AgentTime: Agents estimate their own runtime",
+      "SkillForge: Self-evolving skill management",
+      "LiveMACE: Process-aware evaluation framework",
+      "Dual-QK: 2-bit KV caching for efficiency",
+      "NeuralZip: Reusable compression method",
+      "MIRROR: From imitation to internalization"
+    ],
+    "ai-community": [
+      "AI agents merged to production—once",
+      "Coding system refuses to trust its output",
+      "Model swap triggered hidden bug",
+      "Dev.to: AI overstimulation erodes boredom",
+      "Guardrails critical in AI-assisted dev",
+      "Local-first deployment gaining traction"
+    ]
+  }
+}
