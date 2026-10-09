@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.295 发布稳定性修复版",
+      "OpenAI Codex 更新：rust-v0.163.0-alpha.2",
+      "GitHub Copilot CLI v1.0.95-1 正式上线",
+      "Gemini CLI 今日无发布",
+      "Pi 工具新增2个活跃讨论",
+      "Qwen Code 无新版本发布"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.9 稳定会话处理",
+      "OpenClaw v2026.9.9 合并185次提交",
+      "SessionTranscriptWriterClaimReboundError 已修复",
+      "旧工作区迁移问题已解决",
+      "代理生命周期问题已处理",
+      "更新恢复流程优化"
+    ],
+    "ai-infra": [
+      "vLLM 稳定，存在3个关键问题",
+      "SGLang 显著不稳定",
+      "llama.cpp 发布4个补丁（b11514–b11507）",
+      "Ollama v0.40.2 修复关键漏洞",
+      "LiteLLM 近期收到5个PR",
+      "Unsloth 转向全栈代理开发"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC 达27.5万星标",
+      "rtk-ai/rtk token减少90%",
+      "JuliusBrussee/caveman：11万星标",
+      "anthropics/skills 仓库快速成长",
+      "addyoosmani/agent-skills 火爆",
+      "VoltAgent/awesome-openclaw-skills 活跃"
+    ],
+    "ai-web": [
+      "Anthropic 推出网络任务",
+      "开源扫描发现2.9万+漏洞",
+      "Genesis Mission 获1.5亿美元融资",
+      "Anthropic 更新2026使用政策",
+      "OpenAI 针对影响力活动",
+      "俄系虚假信息被揭露"
+    ],
+    "ai-hn": [
+      "Step 5 预览：100万上下文MoE",
+      "亚1比特LLM压缩突破",
+      "OpenAI 撤回3项数学成果",
+      "200亿营收缺口引发争论",
+      "AI代理测试于诺基亚110",
+      "自托管生活仪表盘兴起"
+    ],
+    "ai-arxiv": [
+      "预测对齐泛化能力",
+      "认知谦逊基准上线",
+      "引用但未咨询的法律审计",
+      "Agent安全的OnTrack框架",
+      "探测器识别AI破坏行为",
+      "空间推理取得进展"
+    ],
+    "ai-community": [
+      "重试逻辑关乎AI鲁棒性",
+      "AI是‘肉体代理’用于测试",
+      "速度≠工程成熟度",
+      "Flash-Lite 实现零错误",
+      "RAG系统可靠性受质疑",
+      "本地模型增强隐私优势"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.295 released with stability fixes",
+      "OpenAI Codex updates: rust-v0.163.0-alpha.2",
+      "GitHub Copilot CLI v1.0.95-1 now live",
+      "Gemini CLI no release today",
+      "Pi tool gains 2 active discussions",
+      "Qwen Code sees no new release"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.9 stabilizes session handling",
+      "185 commits in OpenClaw v2026.9.9 release",
+      "SessionTranscriptWriterClaimReboundError fixed",
+      "Legacy workspace migration now resolved",
+      "Agent lifecycle issues addressed",
+      "Update recovery workflows improved"
+    ],
+    "ai-infra": [
+      "vLLM stable with 3 critical issues",
+      "SGLang shows high instability",
+      "llama.cpp releases 4 patches (b11514–b11507)",
+      "Ollama v0.40.2 fixes critical bugs",
+      "LiteLLM sees 5 recent PRs",
+      "Unsloth shifts to full-stack agent dev"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC hits 275k stars",
+      "rtk-ai/rtk cuts tokens by 90%",
+      "JuliusBrussee/caveman: 110k stars",
+      "anthropics/skills repo grows fast",
+      "addyoosmani/agent-skills trending",
+      "VoltAgent/awesome-openclaw-skills active"
+    ],
+    "ai-web": [
+      "Anthropic launches Cyber Mission",
+      "OSS Scanner finds 29k+ vulnerabilities",
+      "Genesis Mission gets $150M funding",
+      "Anthropic updates 2026 Usage Policy",
+      "OpenAI targets influence campaigns",
+      "Russia-linked disinformation revealed"
+    ],
+    "ai-hn": [
+      "Step 5 Preview: 1M-context MoE",
+      "Sub-1-bit LLM compression breakthrough",
+      "OpenAI withdraws 3 math results",
+      "$20B revenue shortfall sparks debate",
+      "AI agents on Nokia 110 tested",
+      "Self-hosted life dashboards rise"
+    ],
+    "ai-arxiv": [
+      "Predicting alignment generalization",
+      "Epistemic humility benchmark launched",
+      "Cited but not consulted legal audit",
+      "OnTrack framework for agent safety",
+      "Probes detect AI sabotage attempts",
+      "Spatial reasoning advances in AI"
+    ],
+    "ai-community": [
+      "Retry logic crucial for AI robustness",
+      "AI as 'meat proxies' for testing",
+      "Speed ≠ engineering maturity",
+      "Flash-Lite achieves zero mistakes",
+      "RAG systems face reliability scrutiny",
+      "Local models gain privacy appeal"
+    ]
+  }
+}
