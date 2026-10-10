@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.296 稳定版支持网关模式",
+      "OpenAI Codex Rust alpha v0.163.0 实时可用",
+      "Gemini CLI v0.65.0-nightly 版本发布",
+      "GitHub Copilot CLI v1.0.96-1 补丁上线",
+      "Qwen Code 增加双路径代理设计",
+      "OpenCode 今日合并10个PR"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内处理500个问题、500个PR",
+      "OpenClaw 2026.9.7 存在严重缺陷",
+      "PR #167902 修复macOS llama.cpp崩溃",
+      "PR #168071 新增GitHub资料验证",
+      "代理状态损坏修复中",
+      "暂无OpenClaw新版本——避免升级"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 稳定版，聚焦硬件修复",
+      "SGLang v0.5.16 支持AMD预填充并行",
+      "llama.cpp 夜间构建不稳定",
+      "Ollama v0.40 更新延期",
+      "LiteLLM 现支持100+ LLM服务商",
+      "Unsloth 提升跨平台微调性能"
+    ],
+    "ai-trending": [
+      "morluto/rea：47.5k星，逆向工程代理",
+      "alibaba/open-code-review：45.2k星，混合审查工具",
+      "BerriAI/litellm：86.4k星，最快AI网关",
+      "agent-skills趋势：模块化AI开发激增",
+      "rag与ai-agent话题搜索量飙升",
+      "router-for-me/CLIProxyAPI：54.6k星，统一API代理"
+    ],
+    "ai-web": [
+      "Anthropic推出1.5亿美元Claude Corps奖学金",
+      "Claude Science：《天空的缺失地图》发布",
+      "《无意模型行为》报告发布",
+      "Anthropic揭示真实边缘案例行为",
+      "OpenAI集中企业相关网址",
+      "OpenAI下一步：结构化工作流集成？"
+    ],
+    "ai-hn": [
+      "Anthropic AI误报费城凶杀案",
+      "OpenAI撤回3个数学结果—争议加剧",
+      "Mistral Large 4：多模态飞跃，HN喜爱",
+      "亚比特级LLM压缩：设备端AI突破",
+      "无需VAE训练文生图：优雅解决方案",
+      "Hacker News热议AI安全与创新"
+    ],
+    "ai-arxiv": [
+      "通过价值表征预测对齐",
+      "心理测量审计挑战AI安全评分",
+      "FAITH：安全强化学习突破",
+      "BrickBench：物理可行性基准",
+      "reViT：高效深度感知视觉建模",
+      "LeWAM：世界动作预测模型发布"
+    ],
+    "ai-community": [
+      "离线AI知晓最后霜冻日期—无需联网",
+      "AI代理自封为王：真实担忧",
+      "Hacktoberfest：AI工具赋能实体世界",
+      "提示注入漏洞暴露安全风险",
+      "缓存与路由优化主导讨论",
+      "AI变聪明了，软件没跟上—开发者抱怨"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.296 stable with gateway mode",
+      "OpenAI Codex Rust alpha v0.163.0 live",
+      "Gemini CLI v0.65.0-nightly released",
+      "GitHub Copilot CLI v1.0.96-1 patch out",
+      "Qwen Code gains dual-path agent design",
+      "OpenCode hits 10 PRs merged today"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "Critical bugs in OpenClaw 2026.9.7",
+      "PR #167902 fixes macOS llama.cpp crash",
+      "PR #168071 adds GitHub profile verify",
+      "Agent state corruption fixes underway",
+      "No new OpenClaw release—avoid upgrade"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 stable, focus on hardware fixes",
+      "SGLang v0.5.16 adds AMD prefill parallelism",
+      "llama.cpp nightly builds show instability",
+      "Ollama v0.40 update delayed",
+      "LiteLLM now supports 100+ LLM providers",
+      "Unsloth boosts cross-platform fine-tuning"
+    ],
+    "ai-trending": [
+      "morluto/rea: 47.5k stars, reverse-engineering agent",
+      "alibaba/open-code-review: 45.2k stars, hybrid review tool",
+      "BerriAI/litellm: 86.4k stars, fastest AI gateway",
+      "agent-skills trend: modular AI development surge",
+      "rag & ai-agent topics explode in search",
+      "router-for-me/CLIProxyAPI: 54.6k stars, unified API proxy"
+    ],
+    "ai-web": [
+      "Anthropic launches $150M Claude Corps fellowship",
+      "Claude Science: 'The Missing Map of the Sky' released",
+      "Investigating Unintended Model Actions report out",
+      "Anthropic reveals real-world edge-case behaviors",
+      "OpenAI clusters enterprise-focused URLs",
+      "OpenAI’s next move: structured workflow integration?"
+    ],
+    "ai-hn": [
+      "Anthropic AI falsely tipped Philly homicide",
+      "OpenAI pulls 3 math results—controversy grows",
+      "Mistral Large 4: multimodal leap, HN loves it",
+      "Sub-1-bit LLM compression: on-device AI breakthrough",
+      "Training text-to-image without VAE: elegant fix",
+      "Hacker News debates AI safety vs. innovation"
+    ],
+    "ai-arxiv": [
+      "Predicting alignment via value representations",
+      "Psychometric audit challenges AI safety scores",
+      "FAITH: safe reinforcement learning breakthrough",
+      "BrickBench: benchmark for physical realizability",
+      "reViT: efficient depth-aware vision modeling",
+      "LeWAM: world action prediction model released"
+    ],
+    "ai-community": [
+      "Offline AI knows last frost date—no internet",
+      "AI agents crowning themselves: real concern",
+      "Hacktoberfest: AI tools for physical reality",
+      "Prompt injection flaws expose security risks",
+      "Cache & routing optimizations dominate talk",
+      "AI got smarter, software didn’t—devs lament"
+    ]
+  }
+}
