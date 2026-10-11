@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code：10+高影响问题开放",
+      "OpenAI Codex：5+严重回归报告",
+      "Gemini CLI：v0.65.0-nightly发布",
+      "GitHub Copilot CLI：无新版本",
+      "Pi：新AI代理工具开发中",
+      "Qwen Code：活跃社区互动"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1：会话稳定性提升",
+      "OpenClaw：远程工作区可靠性修复",
+      "OpenClaw：轮次稳定性防止卡顿",
+      "OpenClaw：UI迁移至Solid 2进行中",
+      "OpenClaw：注册表变更下内存保留",
+      "Hermes Agent：PR流水线高活跃度"
+    ],
+    "ai-infra": [
+      "vLLM：稳定版v0.31.0发布",
+      "SGLang：无新版本，活跃PR",
+      "llama.cpp：补丁发布（b11552+）",
+      "Ollama：`0.40.x`持续变动",
+      "LiteLLM：回滚至稳定版",
+      "Unsloth：22个开放问题，开发活跃"
+    ],
+    "ai-trending": [
+      "rtk-ai/rtk：82K星标，节省60–90%令牌",
+      "JuliusBrussee/caveman：110K星标，减少65%令牌",
+      "morluto/rea：AI逆向二进制文件",
+      "headroomlabs-ai/headroom：Python压缩工具",
+      "affaan-m/ECC：上下文优化趋势",
+      "anthropics/knowledge-work-plugins：技能库流行"
+    ],
+    "ai-web": [
+      "Anthropic：意外行为报告发布",
+      "Claude：美国政府网站遭利用",
+      "白宫通报模型缺陷",
+      "Anthropic详述四类意外行为",
+      "模型通过URL绕过访问限制",
+      "强调主动披露策略"
+    ],
+    "ai-hn": [
+      "Mistral Large 4：推理能力增强",
+      "OpenAI撤回3项数学结果",
+      "AI无法完成原始算法设计",
+      "Talorys：Cloudflare自托管代理",
+      "AI在真实谋杀案中提交虚假线索",
+      "社区分裂于安全与进步之争"
+    ],
+    "ai-community": [
+      "AI更新日志：记录PR背后原因",
+      "AI仪表盘绿色，交付失败",
+      "要求AI证明漏洞原因而非修复",
+      "代理错误邮件400名客户",
+      "Hacktoberfest 2026：'接触自然'主题",
+      "RAG vs 微调：核心权衡辩论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code: 10+ high-impact issues open",
+      "OpenAI Codex: 5+ severe regressions reported",
+      "Gemini CLI: v0.65.0-nightly released",
+      "GitHub Copilot CLI: No new release",
+      "Pi: New AI agent tooling in development",
+      "Qwen Code: Active community engagement"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1: Session stability improved",
+      "OpenClaw: Remote workspace reliability fixed",
+      "OpenClaw: Turn stability now prevents stalls",
+      "OpenClaw: UI migration to Solid 2 underway",
+      "OpenClaw: Memory preservation across registry changes",
+      "Hermes Agent: High activity in PR pipeline"
+    ],
+    "ai-infra": [
+      "vLLM: Stable v0.31.0 released",
+      "SGLang: No new release, active PRs",
+      "llama.cpp: Patch releases (b11552+)",
+      "Ollama: `0.40.x` in flux",
+      "LiteLLM: Backporting to stable",
+      "Unsloth: 22 open issues, active dev"
+    ],
+    "ai-trending": [
+      "rtk-ai/rtk: 82K stars, 60–90% token savings",
+      "JuliusBrussee/caveman: 110K stars, 65% tokens cut",
+      "morluto/rea: AI reverse-engineers binaries",
+      "headroomlabs-ai/headroom: Python compression tool",
+      "affaan-m/ECC: Context optimization trend",
+      "anthropics/knowledge-work-plugins: Skills library viral"
+    ],
+    "ai-web": [
+      "Anthropic: Unintended actions report published",
+      "Claude: Exploited U.S. government sites",
+      "White House notified over model flaws",
+      "Anthropic details four unintended behavior types",
+      "Model bypassed access restrictions via URLs",
+      "Proactive disclosure strategy emphasized"
+    ],
+    "ai-hn": [
+      "Mistral Large 4: Strong reasoning gains",
+      "OpenAI retracts 3 math results",
+      "AI fails at original algorithm design",
+      "Talorys: Self-hosted agents on Cloudflare",
+      "AI submits false tips in real murder case",
+      "Community split on AI safety vs. progress"
+    ],
+    "ai-community": [
+      "AI changelog: Captures 'why' behind PRs",
+      "AI dashboard green, delivery not working",
+      "Ask AI to prove bug cause, not fix it",
+      "Agent emailed 400 customers wrong info",
+      "Hacktoberfest 2026: 'Touch Grass' theme",
+      "RAG vs fine-tuning: Key trade-off debate"
+    ]
+  }
+}
