@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 今日登上十大热门",
+      "Gemini CLI 发布 v0.65.0-nightly.20261012",
+      "OpenAI Codex 24小时内合并10个PR",
+      "GitHub Copilot CLI 无活动",
+      "Qwen Code 在CLI领域崭露头角",
+      "Pi CLI工具受社区关注上升"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.1 安全更新发布",
+      "OpenClaw 今日新增500个问题和PR",
+      "beta版修复关键更新锁死问题",
+      "Windows与Linux更新稳定性提升",
+      "过期租约恢复问题已解决",
+      "建议迁移以解决更新卡顿"
+    ],
+    "ai-infra": [
+      "vLLM 修复关键CUDA图错误",
+      "SGLang 验证SM120 GPU支持",
+      "llama.cpp 扩展OpenCL/Vulkan后端",
+      "Ollama 出现102个开放问题",
+      "LiteLLM 新增服务商集成",
+      "Unsloth 提升训练效率"
+    ],
+    "ai-trending": [
+      "AirLLM 70B 单4GB显卡运行",
+      "rtk 降低90% LLM分词消耗",
+      "OmniRoute 支持359个AI服务商",
+      "CLIProxyAPI 封装5+ AI接口",
+      "MCP 成为代理编排标准",
+      "RAG工具如ragflow引领上下文压缩"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 被赞高效",
+      "OpenAI数学AI突破引发争议",
+      "字节级建模论文受关注",
+      "OpenAI安全研究员离职引热议",
+      "Plimsoll与Talorys获开发者信任",
+      "AI侵蚀人类毅力引发反思"
+    ],
+    "ai-hf": [
+      "unsloth/Qwen3.8-27B-GGUF下载量领先",
+      "Qwen3.8-27B 下载量达680万",
+      "LTX-2.5 推动图文转视频趋势",
+      "GGUF模型人气飙升",
+      "Google embeddinggemma-2 保持稳定",
+      "DavidAU的非审查版Qwen下载量达200万"
+    ],
+    "ai-community": [
+      "TerraPulse：无屏路径代理上线",
+      "TabPFN 建议最佳触地草时间",
+      "Hacktoberfest AI挑战启动",
+      "开发流程被AI代理替代",
+      "Whistle提供轻量语音转文字",
+      "AI提示数字排毒与户外参与"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues today",
+      "Gemini CLI releases v0.65.0-nightly.20261012",
+      "OpenAI Codex merges 10 PRs in 24h",
+      "GitHub Copilot CLI sees no activity",
+      "Qwen Code gains traction in CLI space",
+      "Pi CLI tool shows rising community interest"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.1 released with safer updates",
+      "500 new issues and PRs in OpenClaw today",
+      "Critical update interlocks fixed in beta release",
+      "Windows and Linux update stability improved",
+      "Recovery from stale leases now resolved",
+      "Migration recommended for stuck updates"
+    ],
+    "ai-infra": [
+      "vLLM fixes critical CUDA graph bugs",
+      "SGLang validates SM120 GPU support",
+      "llama.cpp expands OpenCL/Vulkan backend",
+      "Ollama sees 102 open issues",
+      "LiteLLM adds new provider integrations",
+      "Unsloth boosts training efficiency"
+    ],
+    "ai-trending": [
+      "AirLLM 70B runs on single 4GB GPU",
+      "rtk cuts LLM token usage by 90%",
+      "OmniRoute supports 359 AI providers",
+      "CLIProxyAPI wraps 5+ AI APIs",
+      "MCP becomes standard for agent orchestration",
+      "RAG tools like ragflow lead in context compression"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 praised for efficiency",
+      "OpenAI's math AI breakthrough sparks debate",
+      "Byte-level modeling paper gains attention",
+      "OpenAI safety researcher firings ignite controversy",
+      "Plimsoll and Talorys gain developer trust",
+      "AI eroding human persistence stirs introspection"
+    ],
+    "ai-hf": [
+      "unsloth/Qwen3.8-27B-GGUF leads downloads",
+      "Qwen3.8-27B hits 6.8M downloads",
+      "LTX-2.5 drives image-to-video trend",
+      "GGUF models surge in popularity",
+      "Google embeddinggemma-2 stays steady",
+      "DavidAU's uncensored Qwen variant hits 2M downloads"
+    ],
+    "ai-community": [
+      "TerraPulse: screenless trail agent launched",
+      "TabPFN suggests best times to touch grass",
+      "Hacktoberfest AI challenge kicks off",
+      "Dev workflow replaced with AI agents",
+      "Whistle offers lightweight speech-to-text",
+      "AI prompts digital detox and outdoor engagement"
+    ]
+  }
+}
