@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 热点问题达10个",
+      "Gemini CLI 发布 v0.65.0-nightly",
+      "Copilot CLI 上线 v1.0.97",
+      "Pi 推出带新功能的 v1.2.0",
+      "OpenCode 24小时内合并10个PR",
+      "OpenAI Codex 关闭10个PR"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.2 修复更新恢复",
+      "v2026.10.2 支持稳定就地升级",
+      "OpenClaw 现支持Windows短路径",
+      "关键内存泄漏仍待解决",
+      "固件UI迁移正在进行中",
+      "状态管理重构进行中"
+    ],
+    "ai-infra": [
+      "vLLM：发布前存在破坏性变更",
+      "SGLang：飞行中出现严重崩溃",
+      "Ollama v0.40.4-rc0 存在高危缺陷",
+      "llama.cpp 遇CUDA/Metal回归问题",
+      "LiteLLM 修复成本均等化问题",
+      "Unsloth 发布 v0.1.906-beta"
+    ],
+    "ai-trending": [
+      "morluto/rea 在MCP获16.4万星标",
+      "n8n-io/n8n 在MCP受关注",
+      "MCP协议已进入超百仓库",
+      "本地优先AI代理主流化",
+      "context-mode 优化令牌使用",
+      "claude-mem 压缩上下文窗口"
+    ],
+    "ai-web": [
+      "小型AI模型或在物联网自复制",
+      "Claude 发现类CRISPR酶系统",
+      "新防御降低数据泄露99%",
+      "Anthropic 发布4篇AI研究",
+      "自复制研究引发争议",
+      "AI安全与能力边界变动"
+    ],
+    "ai-hn": [
+      "Muse Wonder：多模态代理飞跃",
+      "Meta Muse Wonder 激发社区热议",
+      "Janas 流式传输超内存大模型",
+      "分享AI数学突破引发争论",
+      "GLM-Legal 引发伦理担忧",
+      "QGIS 因信任问题禁用AI贡献"
+    ],
+    "ai-community": [
+      "Light don go：AI引导用户外移",
+      "用Flores 1986框架修复提示",
+      "一个`rm -f`禁用崩溃检测",
+      "Clear Hour：空气质量预报入Git",
+      "Dev.to：聚焦AI与人性化设计",
+      "Hacktoberfest 2026 倡导‘接触自然’"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 10 hot issues",
+      "Gemini CLI releases v0.65.0-nightly",
+      "Copilot CLI ships v1.0.97",
+      "Pi launches v1.2.0 with new features",
+      "OpenCode merges 10 PRs in 24h",
+      "OpenAI Codex closes 10 PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5-beta.2 fixes update recovery",
+      "v2026.10.2 enables stable in-place upgrades",
+      "OpenClaw now handles Windows short paths",
+      "Critical memory leaks still open",
+      "Solid UI migration underway in PRs",
+      "State management refactoring in progress"
+    ],
+    "ai-infra": [
+      "vLLM: breaking changes pending release",
+      "SGLang: critical crashes in flight",
+      "Ollama v0.40.4-rc0 has high-severity bugs",
+      "llama.cpp faces CUDA/Metal regressions",
+      "LiteLLM fixing cost parity issues",
+      "Unsloth launches v0.1.906-beta"
+    ],
+    "ai-trending": [
+      "morluto/rea hits 164K stars on MCP",
+      "n8n-io/n8n gains traction with MCP",
+      "MCP protocol now in 100+ repos",
+      "Local-first AI agents go mainstream",
+      "context-mode optimizes token use",
+      "claude-mem compresses context windows"
+    ],
+    "ai-web": [
+      "Small AI models may self-replicate on IoT",
+      "Claude discovers CRISPR-like enzyme system",
+      "New defenses reduce data leakage by 99%",
+      "Anthropic releases 4 AI research articles",
+      "Self-replication study sparks debate",
+      "AI safety and capability frontier shift"
+    ],
+    "ai-hn": [
+      "Muse Wonder: multimodal agent leap",
+      "Meta’s Muse Wonder excites HN community",
+      "Janas streams LLMs larger than RAM",
+      "Sharing AI math breakthroughs sparks debate",
+      "GLM-Legal raises ethical concerns",
+      "QGIS bans AI contributions over trust"
+    ],
+    "ai-community": [
+      "Light don go: AI nudges users outside",
+      "Fix prompts with Flores’ 1986 framework",
+      "One `rm -f` disabled crash detection",
+      "Clear Hour: air-quality forecast to Git",
+      "Dev.to: AI & human-centered design focus",
+      "Hacktoberfest 2026 urges 'Touch Grass'"
+    ]
+  }
+}
